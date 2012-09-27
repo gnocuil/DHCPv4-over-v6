@@ -1,0 +1,464 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_BYTES_FREE	omapip/buffer.h	63;"	d
+BYTES_IN_BUFFER	omapip/buffer.h	68;"	d
+DEFAULT_HASH_SIZE	omapip/hash.h	39;"	d
+DHCP_HMAC_MD5_NAME	omapip/isclib.h	106;"	d
+DHCP_MAXDNS_WIRE	omapip/isclib.h	104;"	d
+DHCP_MAXNS	omapip/isclib.h	105;"	d
+DHCP_RESULT_H	omapip/result.h	27;"	d
+DHCP_R_BADKEY	omapip/result.h	69;"	d
+DHCP_R_BADPARSE	omapip/result.h	53;"	d
+DHCP_R_BADSIG	omapip/result.h	68;"	d
+DHCP_R_BADTIME	omapip/result.h	70;"	d
+DHCP_R_CONNRESET	omapip/result.h	76;"	d
+DHCP_R_CROSSZONE	omapip/result.h	73;"	d
+DHCP_R_DESTADDRREQ	omapip/result.h	72;"	d
+DHCP_R_FORMERR	omapip/result.h	58;"	d
+DHCP_R_HOSTUNKNOWN	omapip/result.h	45;"	d
+DHCP_R_INCOMPLETE	omapip/result.h	57;"	d
+DHCP_R_INVALIDARG	omapip/result.h	48;"	d
+DHCP_R_INVALIDKEY	omapip/result.h	56;"	d
+DHCP_R_KEYCONFLICT	omapip/result.h	52;"	d
+DHCP_R_KEY_UNKNOWN	omapip/result.h	55;"	d
+DHCP_R_MULTIPLE	omapip/result.h	51;"	d
+DHCP_R_NOKEYS	omapip/result.h	54;"	d
+DHCP_R_NOROOTZONE	omapip/result.h	71;"	d
+DHCP_R_NOTAUTH	omapip/result.h	66;"	d
+DHCP_R_NOTIMPL	omapip/result.h	61;"	d
+DHCP_R_NOTYET	omapip/result.h	49;"	d
+DHCP_R_NOTZONE	omapip/result.h	67;"	d
+DHCP_R_NOT_EQUAL	omapip/result.h	75;"	d
+DHCP_R_NO_TSIG	omapip/result.h	74;"	d
+DHCP_R_NRESULTS	omapip/result.h	79;"	d
+DHCP_R_NXDOMAIN	omapip/result.h	60;"	d
+DHCP_R_NXRRSET	omapip/result.h	65;"	d
+DHCP_R_PROTOCOLERROR	omapip/result.h	47;"	d
+DHCP_R_REFUSED	omapip/result.h	62;"	d
+DHCP_R_SERVFAIL	omapip/result.h	59;"	d
+DHCP_R_UNCHANGED	omapip/result.h	50;"	d
+DHCP_R_UNKNOWNATTRIBUTE	omapip/result.h	77;"	d
+DHCP_R_VERSIONMISMATCH	omapip/result.h	46;"	d
+DHCP_R_YXDOMAIN	omapip/result.h	63;"	d
+DHCP_R_YXRRSET	omapip/result.h	64;"	d
+DMDOFFSET	omapip/alloc.h	42;"	d
+DMDOFFSET	omapip/alloc.h	56;"	d
+DMDSIZE	omapip/alloc.h	45;"	d
+DMDSIZE	omapip/alloc.h	57;"	d
+DMLFSIZE	omapip/alloc.h	43;"	d
+DMUFSIZE	omapip/alloc.h	44;"	d
+DST_CAN_SIGN	isc-dhcp/dst.h	98;"	d
+DST_EXTEND_FLAG	isc-dhcp/dst.h	100;"	d
+DST_EXT_FLAG	isc-dhcp/dst.h	125;"	d
+DST_FLAGS_SIZE	isc-dhcp/dst.h	122;"	d
+DST_FORCE_READ	isc-dhcp/dst.h	97;"	d
+DST_H	isc-dhcp/dst.h	2;"	d
+DST_KEY	isc-dhcp/dst.h	/^} DST_KEY;$/;"	t	typeref:struct:dst_key
+DST_KEY_ALG	isc-dhcp/dst.h	124;"	d
+DST_KEY_PROT	isc-dhcp/dst.h	123;"	d
+DST_KEY_START	isc-dhcp/dst.h	126;"	d
+DST_MAX_ALGS	isc-dhcp/dst.h	119;"	d
+DST_NO_AUTHEN	isc-dhcp/dst.h	99;"	d
+DST_PRIVATE	isc-dhcp/dst.h	102;"	d
+DST_PUBLIC	isc-dhcp/dst.h	103;"	d
+DST_RAND_DSS	isc-dhcp/dst.h	107;"	d
+DST_RAND_KEY	isc-dhcp/dst.h	106;"	d
+DST_RAND_SEMI	isc-dhcp/dst.h	104;"	d
+DST_RAND_STD	isc-dhcp/dst.h	105;"	d
+DST_STANDARD	isc-dhcp/dst.h	101;"	d
+HASH_FUNCTIONS	omapip/hash.h	95;"	d
+HASH_FUNCTIONS_DECL	omapip/hash.h	82;"	d
+ISCLIB_H	omapip/isclib.h	29;"	d
+ISC_R_BADKEY	omapip/result.h	107;"	d
+ISC_R_BADPARSE	omapip/result.h	91;"	d
+ISC_R_BADSIG	omapip/result.h	106;"	d
+ISC_R_BADTIME	omapip/result.h	108;"	d
+ISC_R_CONNRESET	omapip/result.h	114;"	d
+ISC_R_CROSSZONE	omapip/result.h	111;"	d
+ISC_R_DESTADDRREQ	omapip/result.h	110;"	d
+ISC_R_FORMERR	omapip/result.h	96;"	d
+ISC_R_HOSTUNKNOWN	omapip/result.h	83;"	d
+ISC_R_INCOMPLETE	omapip/result.h	95;"	d
+ISC_R_INVALIDARG	omapip/result.h	86;"	d
+ISC_R_INVALIDKEY	omapip/result.h	94;"	d
+ISC_R_KEYCONFLICT	omapip/result.h	90;"	d
+ISC_R_KEY_UNKNOWN	omapip/result.h	93;"	d
+ISC_R_MULTIPLE	omapip/result.h	89;"	d
+ISC_R_NOKEYS	omapip/result.h	92;"	d
+ISC_R_NOROOTZONE	omapip/result.h	109;"	d
+ISC_R_NOTAUTH	omapip/result.h	104;"	d
+ISC_R_NOTIMPL	omapip/result.h	99;"	d
+ISC_R_NOTYET	omapip/result.h	87;"	d
+ISC_R_NOTZONE	omapip/result.h	105;"	d
+ISC_R_NOT_EQUAL	omapip/result.h	113;"	d
+ISC_R_NO_TSIG	omapip/result.h	112;"	d
+ISC_R_NXDOMAIN	omapip/result.h	98;"	d
+ISC_R_NXRRSET	omapip/result.h	103;"	d
+ISC_R_PROTOCOLERROR	omapip/result.h	85;"	d
+ISC_R_REFUSED	omapip/result.h	100;"	d
+ISC_R_SERVFAIL	omapip/result.h	97;"	d
+ISC_R_UNCHANGED	omapip/result.h	88;"	d
+ISC_R_UNKNOWNATTRIBUTE	omapip/result.h	115;"	d
+ISC_R_VERSIONMISMATCH	omapip/result.h	84;"	d
+ISC_R_YXDOMAIN	omapip/result.h	101;"	d
+ISC_R_YXRRSET	omapip/result.h	102;"	d
+KEY_DH	isc-dhcp/dst.h	112;"	d
+KEY_DSA	isc-dhcp/dst.h	113;"	d
+KEY_EXPAND	isc-dhcp/dst.h	115;"	d
+KEY_HASH_SIZE	omapip/hash.h	43;"	d
+KEY_HMAC_MD5	isc-dhcp/dst.h	116;"	d
+KEY_HMAC_SHA1	isc-dhcp/dst.h	117;"	d
+KEY_PRIVATE	isc-dhcp/dst.h	114;"	d
+KEY_RSA	isc-dhcp/dst.h	111;"	d
+MAXWIRE	omapip/isclib.h	35;"	d
+MDL	omapip/omapip.h	571;"	d
+MISSING_KEY_OR_SIGNATURE	isc-dhcp/dst.h	139;"	d
+OMAPI_ARRAY_TYPE	omapip/omapip.h	203;"	d
+OMAPI_ARRAY_TYPE_DECL	omapip/omapip.h	238;"	d
+OMAPI_BUF_SIZE	omapip/buffer.h	54;"	d
+OMAPI_CONVERT_H	omapip/convert.h	36;"	d
+OMAPI_CREATE	omapip/omapip.h	161;"	d
+OMAPI_DATA_STRING_EMPTY_SIZE	omapip/omapip.h	89;"	d
+OMAPI_EXCL	omapip/omapip.h	163;"	d
+OMAPI_HANDLE_TABLE_SIZE	omapip/omapip_p.h	235;"	d
+OMAPI_HASH_H	omapip/hash.h	36;"	d
+OMAPI_NOTIFY_PROTOCOL	omapip/omapip.h	164;"	d
+OMAPI_OBJECT_ALLOC	omapip/omapip.h	166;"	d
+OMAPI_OBJECT_ALLOC_DECL	omapip/omapip.h	185;"	d
+OMAPI_OBJECT_PREAMBLE	omapip/omapip.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:auth_key
+OMAPI_OBJECT_PREAMBLE	omapip/omapip.h	126;"	d
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__anon14
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_connection_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_generic_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_io_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_listener_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_message_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_protocol_object
+OMAPI_OBJECT_PREAMBLE	omapip/omapip_p.h	/^	OMAPI_OBJECT_PREAMBLE;$/;"	m	struct:__omapi_waiter_object
+OMAPI_OP_DELETE	omapip/omapip_p.h	100;"	d
+OMAPI_OP_NOTIFY	omapip/omapip_p.h	98;"	d
+OMAPI_OP_OPEN	omapip/omapip_p.h	95;"	d
+OMAPI_OP_REFRESH	omapip/omapip_p.h	96;"	d
+OMAPI_OP_STATUS	omapip/omapip_p.h	99;"	d
+OMAPI_OP_UPDATE	omapip/omapip_p.h	97;"	d
+OMAPI_PROTOCOL_PORT	omapip/omapip.h	138;"	d
+OMAPI_PROTOCOL_VERSION	omapip/omapip_p.h	93;"	d
+OMAPI_TYPED_DATA_INT_LEN	omapip/omapip.h	79;"	d
+OMAPI_TYPED_DATA_NOBUFFER_LEN	omapip/omapip.h	60;"	d
+OMAPI_TYPED_DATA_OBJECT_LEN	omapip/omapip.h	65;"	d
+OMAPI_TYPED_DATA_REF_LEN	omapip/omapip.h	69;"	d
+OMAPI_UPDATE	omapip/omapip.h	162;"	d
+RAW_KEY_SIZE	isc-dhcp/dst.h	87;"	d
+RC_HISTORY_FLAGS	omapip/alloc.h	70;"	d
+RC_HISTORY_MAX	omapip/alloc.h	66;"	d
+RC_LEASE	omapip/alloc.h	61;"	d
+RC_MISC	omapip/alloc.h	62;"	d
+SIGN_FINAL_FAILURE	isc-dhcp/dst.h	135;"	d
+SIGN_F_NOKEY	isc-dhcp/dst.h	129;"	d
+SIGN_INIT_FAILURE	isc-dhcp/dst.h	133;"	d
+SIGN_UPDATE_FAILURE	isc-dhcp/dst.h	134;"	d
+SIG_MODE_ALL	isc-dhcp/dst.h	94;"	d
+SIG_MODE_ALL	omapip/omapip_p.h	80;"	d
+SIG_MODE_FINAL	isc-dhcp/dst.h	93;"	d
+SIG_MODE_FINAL	omapip/omapip_p.h	79;"	d
+SIG_MODE_INIT	isc-dhcp/dst.h	91;"	d
+SIG_MODE_INIT	omapip/omapip_p.h	77;"	d
+SIG_MODE_UPDATE	isc-dhcp/dst.h	92;"	d
+SIG_MODE_UPDATE	omapip/omapip_p.h	78;"	d
+TRACEFILE_MAGIC	omapip/trace.h	33;"	d
+TRACEFILE_VERSION	omapip/trace.h	34;"	d
+TRACE_INDEX_MAPPING_SIZE	omapip/trace.h	60;"	d
+UNKNOWN_KEYALG	isc-dhcp/dst.h	118;"	d
+UNSUPPORTED_KEYALG	isc-dhcp/dst.h	140;"	d
+VERIFY_FINAL_FAILURE	isc-dhcp/dst.h	138;"	d
+VERIFY_INIT_FAILURE	isc-dhcp/dst.h	136;"	d
+VERIFY_UPDATE_FAILURE	isc-dhcp/dst.h	137;"	d
+_OMAPIP_H_	omapip/omapip.h	36;"	d
+__OMAPIP_OMAPIP_P_H__	omapip/omapip_p.h	37;"	d
+__omapi_connection_object	omapip/omapip_p.h	/^typedef struct __omapi_connection_object {$/;"	s
+__omapi_generic_object	omapip/omapip_p.h	/^typedef struct __omapi_generic_object {$/;"	s
+__omapi_handle_table	omapip/omapip_p.h	/^typedef struct __omapi_handle_table {$/;"	s
+__omapi_io_object	omapip/omapip_p.h	/^typedef struct __omapi_io_object {$/;"	s
+__omapi_listener_object	omapip/omapip_p.h	/^typedef struct __omapi_listener_object {$/;"	s
+__omapi_message_object	omapip/omapip_p.h	/^typedef struct __omapi_message_object {$/;"	s
+__omapi_object	omapip/omapip.h	/^struct __omapi_object {$/;"	s
+__omapi_object_type_t	omapip/omapip.h	/^typedef struct __omapi_object_type_t {$/;"	s
+__omapi_protocol_object	omapip/omapip_p.h	/^typedef struct __omapi_protocol_object {$/;"	s
+__omapi_remote_auth	omapip/omapip_p.h	/^typedef struct __omapi_remote_auth {$/;"	s
+__omapi_waiter_object	omapip/omapip_p.h	/^typedef struct __omapi_waiter_object {$/;"	s
+_omapi_buffer	omapip/buffer.h	/^typedef struct _omapi_buffer {$/;"	s
+a	omapip/omapip_p.h	/^	omapi_object_t *a;$/;"	m	struct:__omapi_remote_auth
+actx	omapip/isclib.h	/^	isc_appctx_t	*actx;$/;"	m	struct:dhcp_context
+actx_started	omapip/isclib.h	/^	int              actx_started;$/;"	m	struct:dhcp_context
+addr	omapip/alloc.h	/^	void *addr;$/;"	m	struct:rc_history_entry
+address	omapip/omapip.h	/^	unsigned char address [16];$/;"	m	struct:__anon8
+address	omapip/omapip_p.h	/^	struct sockaddr_in address;$/;"	m	struct:__omapi_listener_object	typeref:struct:__omapi_listener_object::sockaddr_in
+address	omapip/trace.h	/^	u_int8_t address [16];$/;"	m	struct:__anon20
+addresses	omapip/omapip.h	/^	omapi_addr_t *addresses;$/;"	m	struct:__anon9
+addrlen	omapip/omapip.h	/^	unsigned addrlen;$/;"	m	struct:__anon8
+addrlen	omapip/trace.h	/^	u_int16_t addrlen;$/;"	m	struct:__anon20
+addrtype	omapip/omapip.h	/^	unsigned addrtype;$/;"	m	struct:__anon8
+addrtype	omapip/trace.h	/^	u_int16_t addrtype;$/;"	m	struct:__anon20
+algorithm	omapip/omapip.h	/^	char *algorithm;$/;"	m	struct:auth_key
+allocator	omapip/omapip.h	/^	isc_result_t (*allocator) (omapi_object_t **, const char *, int);$/;"	m	struct:__omapi_object_type_t
+auth_key	omapip/omapip.h	/^typedef struct auth_key {$/;"	s
+authenticator	omapip/omapip_p.h	/^	omapi_typed_data_t *authenticator;$/;"	m	struct:__omapi_message_object
+authid	omapip/omapip_p.h	/^	u_int32_t authid;	\/* Authenticator object ID. *\/$/;"	m	struct:__anon11
+authid	omapip/omapip_p.h	/^	u_int32_t authid;$/;"	m	struct:__omapi_message_object
+authlen	omapip/omapip_p.h	/^	u_int32_t authlen;	\/* Length of authenticator. *\/$/;"	m	struct:__anon11
+authlen	omapip/omapip_p.h	/^	u_int32_t authlen;$/;"	m	struct:__omapi_message_object
+baggage	omapip/trace.h	/^	void *baggage;$/;"	m	struct:trace_type
+buckets	omapip/hash.h	/^	struct hash_bucket *buckets [1];$/;"	m	struct:hash_table	typeref:struct:hash_table::hash_bucket
+buf	omapip/buffer.h	/^	char buf [OMAPI_BUF_SIZE];	\/* The actual buffer is included in$/;"	m	struct:_omapi_buffer
+buf	omapip/trace.h	/^	const char *buf;$/;"	m	struct:trace_iov
+buffer	omapip/omapip.h	/^		} buffer;$/;"	m	union:__anon2::__anon3	typeref:struct:__anon2::__anon3::__anon4
+bytes_needed	omapip/omapip_p.h	/^	u_int32_t bytes_needed;	\/* Bytes of input needed before wakeup. *\/$/;"	m	struct:__omapi_connection_object
+changed	omapip/omapip_p.h	/^	u_int8_t *changed;$/;"	m	struct:__omapi_generic_object
+children	omapip/omapip_p.h	/^	} children [OMAPI_HANDLE_TABLE_SIZE];$/;"	m	struct:__omapi_handle_table	typeref:union:__omapi_handle_table::__anon15
+closed	omapip/omapip_p.h	/^	isc_boolean_t closed; \/* ISC_TRUE = closed, do not use *\/$/;"	m	struct:__omapi_io_object
+cmp	omapip/hash.h	/^	hash_comparator_t cmp;$/;"	m	struct:hash_table
+connect_list	omapip/omapip_p.h	/^	omapi_addr_list_t *connect_list;	\/* List of addresses to which$/;"	m	struct:__omapi_connection_object
+count	omapip/omapip.h	/^	int count;$/;"	m	struct:__anon10
+count	omapip/omapip.h	/^	unsigned count;$/;"	m	struct:__anon9
+cptr	omapip/omapip_p.h	/^	int cptr;		\/* Current element we are connecting to. *\/$/;"	m	struct:__omapi_connection_object
+create	omapip/omapip.h	/^	isc_result_t (*create) (omapi_object_t **, omapi_object_t *);$/;"	m	struct:__omapi_object_type_t
+data	omapip/omapip.h	/^	char **data;$/;"	m	struct:__anon10
+default_auth	omapip/omapip_p.h	/^	omapi_remote_auth_t *default_auth; \/* Default authinfo to use. *\/$/;"	m	struct:__omapi_protocol_object
+deref	omapip/omapip.h	/^	omapi_array_deref_t deref;$/;"	m	struct:__anon10
+dereference	omapip/omapip.h	/^			isc_result_t (*dereference) (void *,$/;"	m	struct:__anon2::__anon3::__anon5
+dereferencer	omapip/hash.h	/^	hash_dereference dereferencer;$/;"	m	struct:hash_table
+destroy	omapip/omapip.h	/^	isc_result_t (*destroy) (omapi_object_t *, const char *, int);$/;"	m	struct:__omapi_object_type_t
+dhcp_context	omapip/isclib.h	/^typedef struct dhcp_context {$/;"	s
+dhcp_context_t	omapip/isclib.h	/^} dhcp_context_t;$/;"	t	typeref:struct:dhcp_context
+dk_alg	isc-dhcp/dst.h	/^	int	dk_alg;         \/* algorithm number from key record *\/$/;"	m	struct:dst_key
+dk_flags	isc-dhcp/dst.h	/^	unsigned dk_flags;     \/* and the flags of the public key *\/$/;"	m	struct:dst_key
+dk_id	isc-dhcp/dst.h	/^	unsigned dk_id;        \/* identifier of the key *\/$/;"	m	struct:dst_key
+dk_key_name	isc-dhcp/dst.h	/^	char	*dk_key_name;   \/* name of the key *\/$/;"	m	struct:dst_key
+dk_key_size	isc-dhcp/dst.h	/^	int	dk_key_size;    \/* this is the size of the key in bits *\/$/;"	m	struct:dst_key
+dk_proto	isc-dhcp/dst.h	/^	int	dk_proto;       \/* what protocols this key can be used for *\/$/;"	m	struct:dst_key
+dmalloc_preamble	omapip/alloc.h	/^struct dmalloc_preamble {$/;"	s
+dmalloc_reuse	omapip/omapip.h	569;"	d
+dnsclient	omapip/isclib.h	/^  	dns_client_t    *dnsclient;$/;"	m	struct:dhcp_context
+do_hash	omapip/hash.h	/^	unsigned (*do_hash)(const void *, unsigned, unsigned);$/;"	m	struct:hash_table
+dst_key	isc-dhcp/dst.h	/^typedef struct dst_key {$/;"	s
+fd	omapip/omapip_p.h	/^	isc_socket_t *fd;$/;"	m	struct:__omapi_io_object
+fd_set	omapip/omapip_p.h	48;"	d
+file	omapip/alloc.h	/^	const char *file;$/;"	m	struct:dmalloc_preamble
+file	omapip/alloc.h	/^	const char *file;$/;"	m	struct:rc_history_entry
+first	omapip/omapip_p.h	/^	omapi_handle_t first, limit;$/;"	m	struct:__omapi_handle_table
+foo	omapip/hash.h	/^	int foo;$/;"	m	struct:__anon16
+freer	omapip/omapip.h	/^	isc_result_t (*freer) (omapi_object_t *, const char *, int);$/;"	m	struct:__omapi_object_type_t
+generation	omapip/alloc.h	/^	unsigned long generation;$/;"	m	struct:dmalloc_preamble
+get_value	omapip/omapip.h	/^	isc_result_t (*get_value) (omapi_object_t *,$/;"	m	struct:__omapi_object_type_t
+h	omapip/omapip_p.h	/^	u_int32_t h;$/;"	m	struct:__omapi_message_object
+handle	omapip/omapip_p.h	/^	omapi_handle_t handle;	\/* Handle of object being operated on,$/;"	m	struct:__anon11
+hash	omapip/hash.h	/^	struct hash_table *hash;$/;"	m	struct:named_hash	typeref:struct:named_hash::hash_table
+hash_bucket	omapip/hash.h	/^struct hash_bucket {$/;"	s
+hash_comparator_t	omapip/hash.h	/^typedef int (*hash_comparator_t)(const void *, const void *, size_t);$/;"	t
+hash_count	omapip/hash.h	/^	unsigned hash_count;$/;"	m	struct:hash_table
+hash_dereference	omapip/hash.h	/^typedef int (*hash_dereference) (hashed_object_t **, const char *, int);$/;"	t
+hash_foreach_func	omapip/hash.h	/^typedef isc_result_t (*hash_foreach_func)(const void *, unsigned, void *);$/;"	t
+hash_reference	omapip/hash.h	/^typedef int (*hash_reference) (hashed_object_t **, hashed_object_t *,$/;"	t
+hash_table	omapip/hash.h	/^struct hash_table {$/;"	s
+hashed_object_t	omapip/hash.h	/^} hashed_object_t;$/;"	t	typeref:struct:__anon16
+have_packet	omapip/trace.h	/^	void (*have_packet) (trace_type_t *, unsigned, char *);$/;"	m	struct:trace_type
+head	omapip/buffer.h	/^	u_int16_t head, tail;		\/* Buffers are organized in a ring. *\/$/;"	m	struct:_omapi_buffer
+header_size	omapip/omapip_p.h	/^	u_int32_t header_size;		$/;"	m	struct:__omapi_protocol_object
+hlen	omapip/trace.h	/^	int32_t hlen;		\/* Length of this header. *\/$/;"	m	struct:__anon17
+id	omapip/omapip_p.h	/^	u_int32_t id;		\/* Transaction ID. *\/$/;"	m	struct:__anon11
+id	omapip/omapip_p.h	/^	u_int32_t id;$/;"	m	struct:__omapi_message_object
+id_object	omapip/omapip_p.h	/^	omapi_object_t *id_object;$/;"	m	struct:__omapi_message_object
+in_bytes	omapip/omapip_p.h	/^	u_int32_t in_bytes;	\/* Bytes of input already buffered. *\/$/;"	m	struct:__omapi_connection_object
+in_context	omapip/omapip_p.h	/^	void *in_context;	\/* Input hash context. *\/$/;"	m	struct:__omapi_connection_object
+in_key	omapip/omapip_p.h	/^	dst_key_t *in_key;	\/* Authenticator signing incoming$/;"	m	struct:__omapi_connection_object
+inbufs	omapip/omapip_p.h	/^	omapi_buffer_t *inbufs;$/;"	m	struct:__omapi_connection_object
+index	omapip/omapip_p.h	/^	int index;$/;"	m	struct:__omapi_listener_object
+index	omapip/omapip_p.h	/^	int32_t index;$/;"	m	struct:__omapi_connection_object
+index	omapip/trace.h	/^	int index;$/;"	m	struct:trace_type
+index	omapip/trace.h	/^	u_int32_t index;$/;"	m	struct:__anon19
+initialize	omapip/omapip.h	/^	isc_result_t (*initialize) (omapi_object_t *, const char *, int);$/;"	m	struct:__omapi_object_type_t
+insecure	omapip/omapip_p.h	/^	isc_boolean_t insecure;		\/* Set to allow unauthenticated$/;"	m	struct:__anon14
+insecure	omapip/omapip_p.h	/^	isc_boolean_t insecure;		\/* Set to allow unauthenticated$/;"	m	struct:__omapi_protocol_object
+integer	omapip/omapip.h	/^		int integer;$/;"	m	union:__anon2::__anon3
+key	omapip/omapip.h	/^	omapi_data_string_t *key;$/;"	m	struct:auth_key
+leafp	omapip/omapip_p.h	/^	int leafp;$/;"	m	struct:__omapi_handle_table
+len	omapip/hash.h	/^	unsigned len;$/;"	m	struct:hash_bucket
+len	omapip/omapip.h	/^			unsigned len;$/;"	m	struct:__anon2::__anon3::__anon4
+len	omapip/omapip.h	/^	unsigned len;$/;"	m	struct:__anon6
+len	omapip/trace.h	/^	unsigned len;$/;"	m	struct:trace_iov
+length	omapip/trace.h	/^	u_int32_t length;	\/* Length of the packet.  This includes$/;"	m	struct:__anon18
+limit	omapip/omapip_p.h	/^	omapi_handle_t first, limit;$/;"	m	struct:__omapi_handle_table
+line	omapip/alloc.h	/^	int line;$/;"	m	struct:dmalloc_preamble
+line	omapip/alloc.h	/^	int line;$/;"	m	struct:rc_history_entry
+listener	omapip/omapip_p.h	/^	omapi_listener_object_t *listener;	\/* Listener that accepted this$/;"	m	struct:__omapi_connection_object
+local_addr	omapip/omapip_p.h	/^	struct sockaddr_in local_addr;$/;"	m	struct:__omapi_connection_object	typeref:struct:__omapi_connection_object::sockaddr_in
+lookup	omapip/omapip.h	/^	isc_result_t (*lookup) (omapi_object_t **, omapi_object_t *,$/;"	m	struct:__omapi_object_type_t
+low_fence	omapip/alloc.h	/^	unsigned char low_fence [DMLFSIZE];$/;"	m	struct:dmalloc_preamble
+magic	omapip/trace.h	/^	u_int32_t magic;	\/* Magic number for trace file. *\/$/;"	m	struct:__anon17
+max	omapip/omapip.h	/^	int max;$/;"	m	struct:__anon10
+mctx	omapip/isclib.h	/^	isc_mem_t	*mctx;$/;"	m	struct:dhcp_context
+message	omapip/omapip_p.h	/^	omapi_message_object_t *message;	\/* Incoming message. *\/$/;"	m	struct:__omapi_protocol_object
+name	omapip/hash.h	/^	const char *name;$/;"	m	struct:named_hash
+name	omapip/hash.h	/^	const unsigned char *name;$/;"	m	struct:hash_bucket
+name	omapip/omapip.h	/^	char *name;$/;"	m	struct:auth_key
+name	omapip/omapip.h	/^	const char *name;$/;"	m	struct:__omapi_object_type_t
+name	omapip/omapip.h	/^	omapi_data_string_t *name;$/;"	m	struct:__anon7
+name	omapip/omapip_p.h	/^	omapi_data_string_t *name;	\/* Incoming name. *\/$/;"	m	struct:__omapi_protocol_object
+name	omapip/trace.h	/^	char *name;$/;"	m	struct:trace_type
+name	omapip/trace.h	/^	char name [1];$/;"	m	struct:__anon19
+named_hash	omapip/hash.h	/^struct named_hash {$/;"	s
+next	omapip/alloc.h	/^	struct dmalloc_preamble *prev, *next;$/;"	m	struct:dmalloc_preamble	typeref:struct:dmalloc_preamble::
+next	omapip/buffer.h	/^	struct _omapi_buffer *next;	\/* Buffers can be chained. *\/$/;"	m	struct:_omapi_buffer	typeref:struct:_omapi_buffer::_omapi_buffer
+next	omapip/hash.h	/^	struct hash_bucket *next;$/;"	m	struct:hash_bucket	typeref:struct:hash_bucket::hash_bucket
+next	omapip/hash.h	/^	struct named_hash *next;$/;"	m	struct:named_hash	typeref:struct:named_hash::named_hash
+next	omapip/omapip.h	/^	struct __omapi_object_type_t *next;$/;"	m	struct:__omapi_object_type_t	typeref:struct:__omapi_object_type_t::__omapi_object_type_t
+next	omapip/omapip_p.h	/^	omapi_handle_t next;$/;"	m	struct:__omapi_handle_table
+next	omapip/omapip_p.h	/^	struct __omapi_io_object *next;$/;"	m	struct:__omapi_io_object	typeref:struct:__omapi_io_object::__omapi_io_object
+next	omapip/omapip_p.h	/^	struct __omapi_message_object *next, *prev;$/;"	m	struct:__omapi_message_object	typeref:struct:__omapi_message_object::__omapi_message_object
+next	omapip/omapip_p.h	/^	struct __omapi_remote_auth *next;$/;"	m	struct:__omapi_remote_auth	typeref:struct:__omapi_remote_auth::__omapi_remote_auth
+next	omapip/omapip_p.h	/^	struct __omapi_waiter_object *next;$/;"	m	struct:__omapi_waiter_object	typeref:struct:__omapi_waiter_object::__omapi_waiter_object
+next	omapip/trace.h	/^	trace_type_t *next;$/;"	m	struct:trace_type
+next_xid	omapip/omapip_p.h	/^	u_int32_t next_xid;$/;"	m	struct:__omapi_protocol_object
+notify_object	omapip/omapip_p.h	/^	omapi_object_t *notify_object;$/;"	m	struct:__omapi_message_object
+nvalues	omapip/omapip_p.h	/^	int nvalues, va_max;$/;"	m	struct:__omapi_generic_object
+object	omapip/omapip.h	/^		omapi_object_t *object;$/;"	m	union:__anon2::__anon3
+object	omapip/omapip_p.h	/^		omapi_object_t *object;$/;"	m	union:__omapi_handle_table::__anon15
+object	omapip/omapip_p.h	/^	omapi_object_t *object;$/;"	m	struct:__omapi_message_object
+omapi_addr_list_t	omapip/omapip.h	/^} omapi_addr_list_t;$/;"	t	typeref:struct:__anon9
+omapi_addr_t	omapip/omapip.h	/^} omapi_addr_t;$/;"	t	typeref:struct:__anon8
+omapi_array_deref_t	omapip/omapip.h	/^typedef isc_result_t (*omapi_array_deref_t) (char **, const char *, int);$/;"	t
+omapi_array_foreach_begin	omapip/omapip.h	248;"	d
+omapi_array_foreach_end	omapip/omapip.h	262;"	d
+omapi_array_ref_t	omapip/omapip.h	/^typedef isc_result_t (*omapi_array_ref_t) (char **, char *, const char *, int);$/;"	t
+omapi_array_t	omapip/omapip.h	/^} omapi_array_t;$/;"	t	typeref:struct:__anon10
+omapi_auth_key_t	omapip/omapip.h	/^} omapi_auth_key_t;$/;"	t	typeref:struct:auth_key
+omapi_buffer_t	omapip/buffer.h	/^} omapi_buffer_t;	$/;"	t	typeref:struct:_omapi_buffer
+omapi_connection_closed	omapip/omapip_p.h	/^	omapi_connection_closed$/;"	e	enum:__anon12
+omapi_connection_connected	omapip/omapip_p.h	/^	omapi_connection_connected,$/;"	e	enum:__anon12
+omapi_connection_connecting	omapip/omapip_p.h	/^	omapi_connection_connecting,$/;"	e	enum:__anon12
+omapi_connection_disconnecting	omapip/omapip_p.h	/^	omapi_connection_disconnecting,$/;"	e	enum:__anon12
+omapi_connection_object_t	omapip/omapip_p.h	/^} omapi_connection_object_t;$/;"	t	typeref:struct:__omapi_connection_object
+omapi_connection_state_t	omapip/omapip_p.h	/^} omapi_connection_state_t;$/;"	t	typeref:enum:__anon12
+omapi_connection_unconnected	omapip/omapip_p.h	/^	omapi_connection_unconnected,$/;"	e	enum:__anon12
+omapi_data_string_t	omapip/omapip.h	/^} omapi_data_string_t;$/;"	t	typeref:struct:__anon6
+omapi_datatype_data	omapip/omapip.h	/^	omapi_datatype_data,$/;"	e	enum:__anon1
+omapi_datatype_int	omapip/omapip.h	/^	omapi_datatype_int,$/;"	e	enum:__anon1
+omapi_datatype_object	omapip/omapip.h	/^	omapi_datatype_object$/;"	e	enum:__anon1
+omapi_datatype_string	omapip/omapip.h	/^	omapi_datatype_string,$/;"	e	enum:__anon1
+omapi_datatype_t	omapip/omapip.h	/^} omapi_datatype_t;$/;"	t	typeref:enum:__anon1
+omapi_generic_object_t	omapip/omapip_p.h	/^} omapi_generic_object_t;$/;"	t	typeref:struct:__omapi_generic_object
+omapi_handle_t	omapip/omapip.h	/^typedef unsigned int omapi_handle_t;$/;"	t
+omapi_handle_table_t	omapip/omapip_p.h	/^} omapi_handle_table_t;$/;"	t	typeref:struct:__omapi_handle_table
+omapi_io_object_t	omapip/omapip_p.h	/^} omapi_io_object_t;$/;"	t	typeref:struct:__omapi_io_object
+omapi_listener_object_t	omapip/omapip_p.h	/^} omapi_listener_object_t;$/;"	t	typeref:struct:__omapi_listener_object
+omapi_message_object_t	omapip/omapip_p.h	/^} omapi_message_object_t;$/;"	t	typeref:struct:__omapi_message_object
+omapi_object_t	omapip/omapip.h	/^typedef struct __omapi_object omapi_object_t;$/;"	t	typeref:struct:__omapi_object
+omapi_object_type_t	omapip/omapip.h	/^} omapi_object_type_t;$/;"	t	typeref:struct:__omapi_object_type_t
+omapi_protocol_header_t	omapip/omapip_p.h	/^} omapi_protocol_header_t;$/;"	t	typeref:struct:__anon11
+omapi_protocol_header_wait	omapip/omapip_p.h	/^	omapi_protocol_header_wait,$/;"	e	enum:__anon13
+omapi_protocol_intro_wait	omapip/omapip_p.h	/^	omapi_protocol_intro_wait,$/;"	e	enum:__anon13
+omapi_protocol_listener_object_t	omapip/omapip_p.h	/^} omapi_protocol_listener_object_t;$/;"	t	typeref:struct:__anon14
+omapi_protocol_name_length_wait	omapip/omapip_p.h	/^	omapi_protocol_name_length_wait,$/;"	e	enum:__anon13
+omapi_protocol_name_wait	omapip/omapip_p.h	/^	omapi_protocol_name_wait,$/;"	e	enum:__anon13
+omapi_protocol_object_t	omapip/omapip_p.h	/^} omapi_protocol_object_t;$/;"	t	typeref:struct:__omapi_protocol_object
+omapi_protocol_signature_wait	omapip/omapip_p.h	/^	omapi_protocol_signature_wait,$/;"	e	enum:__anon13
+omapi_protocol_state_t	omapip/omapip_p.h	/^} omapi_protocol_state_t;$/;"	t	typeref:enum:__anon13
+omapi_protocol_value_length_wait	omapip/omapip_p.h	/^	omapi_protocol_value_length_wait$/;"	e	enum:__anon13
+omapi_protocol_value_wait	omapip/omapip_p.h	/^	omapi_protocol_value_wait,$/;"	e	enum:__anon13
+omapi_remote_auth_t	omapip/omapip_p.h	/^} omapi_remote_auth_t;$/;"	t	typeref:struct:__omapi_remote_auth
+omapi_typed_data_t	omapip/omapip.h	/^} omapi_typed_data_t;$/;"	t	typeref:struct:__anon2
+omapi_value_t	omapip/omapip.h	/^} omapi_value_t;$/;"	t	typeref:struct:__anon7
+omapi_waiter_object_t	omapip/omapip_p.h	/^} omapi_waiter_object_t;$/;"	t	typeref:struct:__omapi_waiter_object
+op	omapip/omapip_p.h	/^	u_int32_t op;		\/* Opcode. *\/$/;"	m	struct:__anon11
+op	omapip/omapip_p.h	/^	u_int32_t op;$/;"	m	struct:__omapi_message_object
+out_bytes	omapip/omapip_p.h	/^	u_int32_t out_bytes;	\/* Bytes of output in buffers. *\/$/;"	m	struct:__omapi_connection_object
+out_context	omapip/omapip_p.h	/^	void *out_context;	\/* Output hash context. *\/$/;"	m	struct:__omapi_connection_object
+out_key	omapip/omapip_p.h	/^	dst_key_t *out_key;	\/* Authenticator signing outgoing$/;"	m	struct:__omapi_connection_object
+outbufs	omapip/omapip_p.h	/^	omapi_buffer_t *outbufs;$/;"	m	struct:__omapi_connection_object
+pad	omapip/trace.h	/^	u_int32_t pad;		\/* Round this out to a quad boundary. *\/$/;"	m	struct:__anon18
+phlen	omapip/trace.h	/^	int32_t phlen;		\/* Length of packet headers. *\/$/;"	m	struct:__anon17
+port	omapip/omapip.h	/^	unsigned port;$/;"	m	struct:__anon8
+port	omapip/trace.h	/^	u_int16_t port;$/;"	m	struct:__anon20
+prev	omapip/alloc.h	/^	struct dmalloc_preamble *prev, *next;$/;"	m	struct:dmalloc_preamble	typeref:struct:dmalloc_preamble::dmalloc_preamble
+prev	omapip/omapip_p.h	/^	struct __omapi_message_object *next, *prev;$/;"	m	struct:__omapi_message_object	typeref:struct:__omapi_message_object::
+protocol_object	omapip/omapip_p.h	/^	struct __omapi_protocol_object *protocol_object;$/;"	m	struct:__omapi_message_object	typeref:struct:__omapi_message_object::__omapi_protocol_object
+protocol_version	omapip/omapip_p.h	/^	u_int32_t protocol_version;$/;"	m	struct:__omapi_protocol_object
+ptr	omapip/omapip.h	/^			void *ptr;$/;"	m	struct:__anon2::__anon3::__anon5
+rc_flag	omapip/omapip.h	/^	int rc_flag;$/;"	m	struct:__omapi_object_type_t
+rc_history_entry	omapip/alloc.h	/^struct rc_history_entry {$/;"	s
+rc_register	omapip/alloc.h	81;"	d
+rc_register	omapip/alloc.h	94;"	d
+rc_register_mdl	omapip/alloc.h	91;"	d
+rc_register_mdl	omapip/alloc.h	95;"	d
+reader	omapip/omapip_p.h	/^	isc_result_t (*reader) (omapi_object_t *);$/;"	m	struct:__omapi_io_object
+readfd	omapip/omapip_p.h	/^	int (*readfd) (omapi_object_t *);$/;"	m	struct:__omapi_io_object
+reading_message_values	omapip/omapip_p.h	/^	int reading_message_values;	\/* True if reading message-specific$/;"	m	struct:__omapi_protocol_object
+ready	omapip/omapip_p.h	/^	int ready;$/;"	m	struct:__omapi_waiter_object
+reaper	omapip/omapip_p.h	/^	isc_result_t (*reaper) (omapi_object_t *);$/;"	m	struct:__omapi_io_object
+ref	omapip/omapip.h	/^		} ref;$/;"	m	union:__anon2::__anon3	typeref:struct:__anon2::__anon3::__anon5
+ref	omapip/omapip.h	/^	omapi_array_ref_t ref;$/;"	m	struct:__anon10
+refcnt	omapip/alloc.h	/^	int refcnt;$/;"	m	struct:rc_history_entry
+refcnt	omapip/buffer.h	/^	u_int32_t refcnt;		\/* Buffers are reference counted. *\/$/;"	m	struct:_omapi_buffer
+refcnt	omapip/omapip.h	/^	int refcnt;$/;"	m	struct:__anon2
+refcnt	omapip/omapip.h	/^	int refcnt;$/;"	m	struct:__anon6
+refcnt	omapip/omapip.h	/^	int refcnt;$/;"	m	struct:__anon7
+refcnt	omapip/omapip.h	/^	int refcnt;$/;"	m	struct:__anon9
+reference	omapip/alloc.h	/^	void *reference;$/;"	m	struct:rc_history_entry
+reference	omapip/omapip.h	/^			isc_result_t (*reference) (void *,$/;"	m	struct:__anon2::__anon3::__anon5
+referencer	omapip/hash.h	/^	hash_reference referencer;$/;"	m	struct:hash_table
+remote_addr	omapip/omapip_p.h	/^	struct sockaddr_in remote_addr;$/;"	m	struct:__omapi_connection_object	typeref:struct:__omapi_connection_object::sockaddr_in
+remote_auth_list	omapip/omapip_p.h	/^	omapi_remote_auth_t *remote_auth_list;	\/* Authenticators active on$/;"	m	struct:__omapi_protocol_object
+remote_handle	omapip/omapip_p.h	/^	omapi_handle_t remote_handle;$/;"	m	struct:__omapi_remote_auth
+remove	omapip/omapip.h	/^	isc_result_t (*remove) (omapi_object_t *, omapi_object_t *);$/;"	m	struct:__omapi_object_type_t
+rid	omapip/omapip_p.h	/^	u_int32_t rid;	\/* ID of transaction to which this is a response. *\/$/;"	m	struct:__anon11
+rid	omapip/omapip_p.h	/^	u_int32_t rid;$/;"	m	struct:__omapi_message_object
+set_value	omapip/omapip.h	/^	isc_result_t (*set_value) (omapi_object_t *, omapi_object_t *,$/;"	m	struct:__omapi_object_type_t
+signal_handler	omapip/omapip.h	/^	isc_result_t (*signal_handler) (omapi_object_t *,$/;"	m	struct:__omapi_object_type_t
+size	omapip/alloc.h	/^	size_t size;$/;"	m	struct:dmalloc_preamble
+size	omapip/omapip.h	/^	size_t size;$/;"	m	struct:__omapi_object_type_t
+sizer	omapip/omapip.h	/^	isc_result_t (*sizer) (size_t);$/;"	m	struct:__omapi_object_type_t
+socket	omapip/omapip_p.h	/^	int socket;		\/* Connection socket. *\/$/;"	m	struct:__omapi_connection_object
+socket	omapip/omapip_p.h	/^	int socket;		\/* Connection socket. *\/$/;"	m	struct:__omapi_listener_object
+socketmgr	omapip/isclib.h	/^	isc_socketmgr_t *socketmgr;$/;"	m	struct:dhcp_context
+state	omapip/omapip_p.h	/^	omapi_connection_state_t state;$/;"	m	struct:__omapi_connection_object
+state	omapip/omapip_p.h	/^	omapi_protocol_state_t state;	\/* Input state. *\/$/;"	m	struct:__omapi_protocol_object
+stop_tracing	omapip/trace.h	/^	void (*stop_tracing) (trace_type_t *);$/;"	m	struct:trace_type
+stuff_values	omapip/omapip.h	/^	isc_result_t (*stuff_values) (omapi_object_t *,$/;"	m	struct:__omapi_object_type_t
+table	omapip/omapip_p.h	/^		struct __omapi_handle_table *table;$/;"	m	union:__omapi_handle_table::__anon15	typeref:struct:__omapi_handle_table::__anon15::__omapi_handle_table
+tail	omapip/buffer.h	/^	u_int16_t head, tail;		\/* Buffers are organized in a ring. *\/$/;"	m	struct:_omapi_buffer
+task	omapip/isclib.h	/^	isc_task_t	*task;$/;"	m	struct:dhcp_context
+taskmgr	omapip/isclib.h	/^	isc_taskmgr_t	*taskmgr;$/;"	m	struct:dhcp_context
+timermgr	omapip/isclib.h	/^	isc_timermgr_t	*timermgr;$/;"	m	struct:dhcp_context
+trace_addr_t	omapip/trace.h	/^} trace_addr_t;$/;"	t	typeref:struct:__anon20
+trace_index_mapping_t	omapip/trace.h	/^} trace_index_mapping_t;$/;"	t	typeref:struct:__anon19
+trace_iov	omapip/trace.h	/^typedef struct trace_iov {$/;"	s
+trace_iov_t	omapip/trace.h	/^} trace_iov_t;$/;"	t	typeref:struct:trace_iov
+trace_type	omapip/trace.h	/^struct trace_type {$/;"	s
+trace_type_t	omapip/trace.h	/^typedef struct trace_type trace_type_t;$/;"	t	typeref:struct:trace_type
+tracefile_header_t	omapip/trace.h	/^} tracefile_header_t;$/;"	t	typeref:struct:__anon17
+tracepacket_t	omapip/trace.h	/^} tracepacket_t;$/;"	t	typeref:struct:__anon18
+tsec_key	omapip/omapip.h	/^	dns_tsec_t *tsec_key;$/;"	m	struct:auth_key
+type	omapip/omapip.h	/^	omapi_datatype_t type;$/;"	m	struct:__anon2
+type_index	omapip/trace.h	/^	u_int32_t type_index;	\/* Index to the type of handler that this$/;"	m	struct:__anon18
+u	omapip/omapip.h	/^	} u;$/;"	m	struct:__anon2	typeref:union:__anon2::__anon3
+va_max	omapip/omapip_p.h	/^	int nvalues, va_max;$/;"	m	struct:__omapi_generic_object
+value	omapip/hash.h	/^	hashed_object_t *value;$/;"	m	struct:hash_bucket
+value	omapip/omapip.h	/^			unsigned char value [1];$/;"	m	struct:__anon2::__anon3::__anon4
+value	omapip/omapip.h	/^	omapi_typed_data_t *value;$/;"	m	struct:__anon7
+value	omapip/omapip.h	/^	unsigned char value [1];$/;"	m	struct:__anon6
+value	omapip/omapip_p.h	/^	omapi_typed_data_t *value;	\/* Incoming value. *\/$/;"	m	struct:__omapi_protocol_object
+values	omapip/omapip_p.h	/^	omapi_value_t **values;$/;"	m	struct:__omapi_generic_object
+verify_addr	omapip/omapip_p.h	/^	isc_result_t (*verify_addr) (omapi_object_t *, omapi_addr_t *);$/;"	m	struct:__omapi_listener_object
+verify_auth	omapip/omapip_p.h	/^	isc_result_t (*verify_auth) (omapi_object_t *, omapi_auth_key_t *);$/;"	m	struct:__anon14
+verify_auth	omapip/omapip_p.h	/^	isc_result_t (*verify_auth) (omapi_object_t *, omapi_auth_key_t *);$/;"	m	struct:__omapi_protocol_object
+verify_result	omapip/omapip_p.h	/^	isc_result_t verify_result;$/;"	m	struct:__omapi_protocol_object
+version	omapip/trace.h	/^	u_int32_t version;	\/* Version of file. *\/$/;"	m	struct:__anon17
+waitstatus	omapip/omapip_p.h	/^	isc_result_t waitstatus;$/;"	m	struct:__omapi_waiter_object
+when	omapip/trace.h	/^	u_int32_t when;		\/* When the packet was written. *\/$/;"	m	struct:__anon18
+writefd	omapip/omapip_p.h	/^	int (*writefd) (omapi_object_t *);$/;"	m	struct:__omapi_io_object
+writer	omapip/omapip_p.h	/^	isc_result_t (*writer) (omapi_object_t *);$/;"	m	struct:__omapi_io_object
