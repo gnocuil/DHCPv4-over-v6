@@ -494,7 +494,8 @@ typedef u_int8_t binding_state_t;
 /* An A+P structure, [pset]*/
 struct iaddr_pset{
 	struct iaddr ip_addr;//original ipv4 address
-	unsigned pset_index; //port-set index
+	u_int16_t pset_index; //port-set index
+	u_int16_t pset_mask;  //pset 
 };
 
 /* A dhcp lease declaration structure. */
@@ -2571,11 +2572,8 @@ extern int local_family;
 extern struct in_addr local_address;
 extern struct in6_addr local_address6;
 
-extern unsigned ratio1;		//[pset]
-
 extern u_int16_t local_port;
 extern u_int16_t remote_port;
-extern u_int16_t reserved_ports;//[pset]
 extern int (*dhcp_interface_setup_hook) (struct interface_info *,
 					 struct iaddr *);
 extern int (*dhcp_interface_discovery_hook) (struct interface_info *);

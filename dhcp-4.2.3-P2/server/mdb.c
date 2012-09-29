@@ -45,7 +45,7 @@ lease_ip_hash_t *lease_ip_addr_hash;
 lease_id_hash_t *lease_hw_addr_hash;
 lease_ip_hash_t *lease_ip_pset_hash;//[pset]
 
-unsigned ratio1 = 4;
+//unsigned ratio1 = 32; //pset
 /*
  * We allow users to specify any option as a host identifier.
  *
