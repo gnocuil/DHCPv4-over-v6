@@ -1,2 +1,2 @@
-binddir=/home/thuos/network/TC/dhcp-4.2.3-P2/bind
+binddir=/home/thuos/network/DHCP/DHCPv4-over-v6/dhcp-4.2.3-P2/bind
 GMAKE=make

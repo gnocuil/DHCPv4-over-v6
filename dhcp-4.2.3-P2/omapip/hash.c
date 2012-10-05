@@ -346,14 +346,12 @@ do_ip4_hash(const void *key, unsigned len, unsigned size)
 
 	return number % size;
 }
-
+/*
 static const char *
 piaddr222(const struct iaddr addr) {
 	static char
 		pbuf[sizeof("ffff:ffff:ffff:ffff:ffff:ffff:255.255.255.255")];
-			 /* "255.255.255.255" */
-
-	/* INSIST((addr.len == 0) || (addr.len == 4) || (addr.len == 16)); */
+//			  "255.255.255.255" 
 
 	if (addr.len == 0) {
 		return "<null address>";
@@ -367,17 +365,17 @@ piaddr222(const struct iaddr addr) {
 
 	log_fatal("piaddr():%s:%d: Invalid address length %d.", MDL,
 		  addr.len);
-	/* quell compiler warnings */
+//	 quell compiler warnings 
 	return NULL;
 }
-
+*/
 unsigned
 do_ip4_pset_hash(const void *key, unsigned len, unsigned size)//[pset] added by Liu Cong
 {
 	struct iaddr_pset* ip_pset = (struct iaddr_pset*) key;
 	u_int32_t number = do_ip4_hash(ip_pset->ip_addr.iabuf, len, size);
 	number = (number << 2) | ip_pset->pset_index;
-	printf("do_ip4_pset_hash! ip=%s port=%d number=%d\n", piaddr222 (ip_pset->ip_addr), ip_pset->pset_index, number);
+	//printf("do_ip4_pset_hash! ip=%s port=%d number=%d\n", piaddr222 (ip_pset->ip_addr), ip_pset->pset_index, number);
 	return number % size;
 }
 

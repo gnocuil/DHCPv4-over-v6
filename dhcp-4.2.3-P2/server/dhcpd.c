@@ -456,7 +456,7 @@ main(int argc, char **argv) {
 	}
 
 #ifdef DHCPv6
-        if (local_family == AF_INET6 && local_family == AF_MAX) {
+        if (local_family == AF_INET6 || local_family == AF_MAX) {
                 /* DHCPv6: override DHCPv4 lease and pid filenames */
 	        if (!no_dhcpd_db) {
                         if ((s = getenv ("PATH_DHCPD6_DB")))
@@ -567,7 +567,7 @@ main(int argc, char **argv) {
 			log_debug ("binding to environment-specified port %d",
 				   ntohs (local_port));
 		} else {
-			if (local_family == AF_INET && local_family == AF_MAX) {
+			if (local_family == AF_INET || local_family == AF_MAX) {
 				ent = getservbyname("dhcp", "udp");
 				if (ent == NULL) {
 					local_port = htons(67);
@@ -589,7 +589,7 @@ main(int argc, char **argv) {
 		}
 	}
   
-  	if (local_family == AF_INET && local_family == AF_MAX) {
+  	if (local_family == AF_INET || local_family == AF_MAX) {
 		remote_port = htons(ntohs(local_port) + 1);
 	} else {
 		/* INSIST(local_family == AF_INET6); */

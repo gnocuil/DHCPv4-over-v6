@@ -45,7 +45,7 @@ lease_ip_hash_t *lease_ip_addr_hash;
 lease_id_hash_t *lease_hw_addr_hash;
 lease_ip_hash_t *lease_ip_pset_hash;//[pset]
 
-//unsigned ratio1 = 32; //pset
+unsigned ratio1 = 4; //pset
 /*
  * We allow users to specify any option as a host identifier.
  *
@@ -799,7 +799,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 			   lowbuf, highbuf);
 	}
 #endif
-puts("loop0 begins");
+//puts("loop0 begins");
 	/* Fill out the lease structures with some minimal information. */
 	for (i = 0; i < max - min + 1; i++) {
 		struct lease *lp = (struct lease *)0;
@@ -826,7 +826,7 @@ puts("loop0 begins");
 		lp->next_binding_state = FTS_FREE;
 		lp->rewind_binding_state = FTS_FREE;
 		lp->flags = 0;
-printf("i=%d ip=%s\n", i, piaddr (lp -> ip_addr));
+//printf("i=%d ip=%s\n", i, piaddr (lp -> ip_addr));
 		/* Remember the lease in the IP address hash. */
 		if (find_lease_by_ip_addr (&lt, lp -> ip_addr, MDL)) {
 			if (lt -> pool) {
@@ -864,9 +864,9 @@ printf("i=%d ip=%s\n", i, piaddr (lp -> ip_addr));
 			   lowbuf, highbuf);
 	}	
 #endif
-puts("loop begins!");
+//puts("loop begins!");
 	/* Fill out the lease structures with some minimal information. */
-	for (i = 0; i < max - min + 1; i++) {printf("i=%d\n", i);
+	for (i = 0; i < max - min + 1; i++) {//printf("i=%d\n", i);
 	    for (j = 0; j < ratio1; j++){
 		struct lease *lp = (struct lease *)0;
 
@@ -926,7 +926,7 @@ puts("loop begins!");
 		lease_dereference (&lp, MDL);
 	    }
 	}
-puts("loop ends!");
+//puts("loop ends!");
 
 }
 
