@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+T_BIGBUF	t_api.c	94;"	d	file:
+T_BUFSIZ	t_api.c	93;"	d	file:
+T_DEFAULT_CONFIG	t_api.c	92;"	d	file:
+T_MAXENV	t_api.c	91;"	d	file:
+T_MAXTESTS	t_api.c	90;"	d	file:
+T_TCTOUT	t_api.c	96;"	d	file:
+T_buf	t_api.c	/^static char		T_buf[T_BIGBUF];$/;"	v	file:
+T_config	t_api.c	/^static const char *	T_config;$/;"	v	file:
+T_debug	t_api.c	/^int			T_debug;$/;"	v
+T_dir	t_api.c	/^static char *		T_dir;$/;"	v	file:
+T_env	t_api.c	/^static char *		T_env[T_MAXENV + 1];$/;"	v	file:
+T_int	t_api.c	/^static int	T_int;$/;"	v	file:
+T_pid	t_api.c	/^pid_t			T_pid;$/;"	v
+T_timeout	t_api.c	/^int			T_timeout;$/;"	v
+T_tvec	t_api.c	/^static char		T_tvec[T_MAXTESTS \/ 8];$/;"	v	file:
+Usage	t_api.c	/^static const char *Usage =$/;"	v	file:
+bootp	t_api_dhcp.c	/^bootp(struct packet *packet) {$/;"	f
+check_collection	t_api_dhcp.c	/^check_collection(struct packet *p, struct lease *l, struct collection *c) {$/;"	f
+classify	t_api_dhcp.c	/^classify (struct packet *p, struct class *c) {$/;"	f
+dc_method	t_api.c	/^	unsigned int	dc_method;$/;"	m	struct:dc_method_map	file:
+dc_method_map	t_api.c	/^struct dc_method_map {$/;"	s	file:
+dc_method_map	t_api.c	/^} dc_method_map[] = {$/;"	v	typeref:struct:dc_method_map
+dhcp	t_api_dhcp.c	/^dhcp(struct packet *packet) {$/;"	f
+dhcp_set_control_state	t_api_dhcp.c	/^dhcp_set_control_state(control_object_state_t old, control_object_state_t new) {$/;"	f
+dhcpv6	t_api_dhcp.c	/^dhcpv6(struct packet *packet) {$/;"	f
+dns_errormap	t_api.c	/^struct dns_errormap {$/;"	s	file:
+dns_errormap	t_api.c	/^} dns_errormap[] = {$/;"	v	typeref:struct:dns_errormap
+find_class	t_api_dhcp.c	/^find_class(struct class **class, const char *c1, const char *c2, int i) {$/;"	f
+isc_commandline_argument	t_api.c	59;"	d	file:
+isc_commandline_option	t_api.c	60;"	d	file:
+isc_commandline_parse	t_api.c	58;"	d	file:
+main	t_api.c	/^main(int argc, char **argv) {$/;"	f
+parse_allow_deny	t_api_dhcp.c	/^parse_allow_deny(struct option_cache **oc, struct parse *p, int i) {$/;"	f
+printhelp	t_api.c	/^printhelp(void) {$/;"	f	file:
+printusage	t_api.c	/^printusage(void) {$/;"	f	file:
+result	t_api.c	/^	isc_result_t	result;$/;"	m	struct:dns_errormap	file:
+t_assert	t_api.c	/^t_assert(const char *component, int anum, int class, const char *what, ...) {$/;"	f
+t_bustline	t_api.c	/^t_bustline(char *line, char **toks) {$/;"	f
+t_dc_method_fromtext	t_api.c	/^t_dc_method_fromtext(char *name) {$/;"	f
+t_dns_result_fromtext	t_api.c	/^t_dns_result_fromtext(char *name) {$/;"	f
+t_dumpconf	t_api.c	/^t_dumpconf(const char *path) {$/;"	f	file:
+t_eval	t_api.c	/^t_eval(const char *filename, int (*func)(char **), int nargs) {$/;"	f
+t_fgetbs	t_api.c	/^t_fgetbs(FILE *fp) {$/;"	f
+t_getdate	t_api.c	/^t_getdate(char *buf, size_t buflen) {$/;"	f	file:
+t_getenv	t_api.c	/^t_getenv(const char *name) {$/;"	f
+t_info	t_api.c	/^t_info(const char *format, ...) {$/;"	f
+t_initconf	t_api.c	/^t_initconf(const char *path) {$/;"	f	file:
+t_putinfo	t_api.c	/^t_putinfo(const char *key, const char *info) {$/;"	f	file:
+t_result	t_api.c	/^t_result(int result) {$/;"	f
+t_sighandler	t_api.c	/^t_sighandler(int sig) {$/;"	f	file:
+text	t_api.c	/^	const char 	*text;$/;"	m	struct:dc_method_map	file:
+text	t_api.c	/^	const char *text;$/;"	m	struct:dns_errormap	file:

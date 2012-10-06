@@ -1,0 +1,3120 @@
+binding to user-specified port 67
+Internet Systems Consortium DHCP Server 4.2.3-P2
+Copyright 2004-2012 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+unable to create icmp socket: Operation not permitted
+dhcpd.conf line 108: [pset]lease 10.0.0.10 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.10 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.10 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.10 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.11 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.11 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.11 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.11 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.12 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.12 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.12 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.12 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.13 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.13 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.13 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.13 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.14 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.14 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.14 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.14 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.15 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.15 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.15 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.15 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.16 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.16 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.16 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.16 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.17 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.17 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.17 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.17 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.18 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.18 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.18 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.18 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.19 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.19 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.19 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.19 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.20 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.20 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.20 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.20 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.26 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.26 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.26 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.26 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.27 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.27 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.27 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.27 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.28 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.28 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.28 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.28 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.29 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.29 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.29 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.29 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.30 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.30 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.30 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.30 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.40 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.40 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.40 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.40 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.41 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.41 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.41 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.41 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.42 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.42 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.42 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.42 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.43 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.43 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.43 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.43 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.44 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.44 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.44 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.44 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.45 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.45 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.45 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.45 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.46 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.46 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.46 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.46 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.47 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.47 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.47 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.47 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.48 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.48 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.48 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.48 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.49 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.49 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.49 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.49 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.50 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.50 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.50 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.50 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.51 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.51 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.51 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.51 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.52 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.52 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.52 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.52 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.53 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.53 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.53 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.53 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.54 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.54 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.54 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.54 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.55 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.55 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.55 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.55 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.56 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.56 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.56 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.56 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.57 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.57 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.57 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.57 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.58 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.58 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.58 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.58 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.59 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.59 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.59 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.59 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.0.60 is declared twice! The pindex is 0!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.1.60 is declared twice! The pindex is 1!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.2.60 is declared twice! The pindex is 2!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 108: [pset]lease 10.0.3.60 is declared twice! The pindex is 3!
+    range 10.17.224.10 10.17.224.250;
+                                     ^
+dhcpd.conf line 112: [pset]lease 10.0.0.10 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.10 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.10 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.10 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.11 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.11 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.11 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.11 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.12 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.12 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.12 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.12 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.13 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.13 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.13 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.13 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.14 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.14 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.14 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.14 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.15 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.15 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.15 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.15 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.16 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.16 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.16 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.16 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.17 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.17 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.17 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.17 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.18 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.18 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.18 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.18 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.19 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.19 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.19 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.19 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.20 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.20 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.20 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.20 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.21 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.21 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.21 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.21 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.22 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.22 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.22 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.22 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.23 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.23 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.23 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.23 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.24 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.24 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.24 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.24 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.25 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.25 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.25 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.25 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.26 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.26 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.26 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.26 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.27 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.27 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.27 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.27 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.28 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.28 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.28 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.28 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.29 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.29 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.29 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.29 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.30 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.30 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.30 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.30 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.31 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.31 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.31 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.31 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.32 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.32 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.32 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.32 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.33 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.33 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.33 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.33 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.34 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.34 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.34 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.34 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.35 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.35 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.35 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.35 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.36 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.36 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.36 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.36 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.37 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.37 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.37 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.37 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.38 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.38 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.38 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.38 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.39 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.39 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.39 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.39 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.40 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.40 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.40 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.40 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.41 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.41 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.41 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.41 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.42 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.42 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.42 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.42 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.43 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.43 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.43 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.43 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.44 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.44 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.44 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.44 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.45 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.45 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.45 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.45 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.46 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.46 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.46 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.46 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.47 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.47 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.47 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.47 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.48 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.48 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.48 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.48 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.49 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.49 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.49 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.49 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.50 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.50 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.50 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.50 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.51 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.51 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.51 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.51 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.52 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.52 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.52 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.52 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.53 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.53 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.53 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.53 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.54 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.54 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.54 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.54 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.55 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.55 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.55 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.55 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.56 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.56 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.56 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.56 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.57 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.57 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.57 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.57 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.58 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.58 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.58 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.58 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.59 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.59 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.59 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.59 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.60 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.60 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.60 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.60 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.61 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.61 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.61 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.61 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.62 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.62 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.62 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.62 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.63 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.63 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.63 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.63 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.64 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.64 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.64 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.64 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.65 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.65 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.65 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.65 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.66 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.66 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.66 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.66 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.67 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.67 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.67 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.67 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.68 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.68 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.68 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.68 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.69 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.69 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.69 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.69 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.70 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.70 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.70 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.70 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.71 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.71 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.71 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.71 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.72 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.72 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.72 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.72 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.73 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.73 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.73 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.73 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.74 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.74 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.74 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.74 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.75 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.75 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.75 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.75 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.76 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.76 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.76 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.76 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.77 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.77 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.77 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.77 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.78 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.78 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.78 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.78 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.79 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.79 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.79 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.79 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.80 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.80 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.80 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.80 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.81 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.81 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.81 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.81 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.82 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.82 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.82 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.82 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.83 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.83 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.83 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.83 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.84 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.84 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.84 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.84 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.85 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.85 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.85 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.85 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.86 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.86 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.86 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.86 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.87 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.87 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.87 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.87 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.88 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.88 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.88 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.88 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.89 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.89 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.89 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.89 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.90 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.90 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.90 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.90 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.91 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.91 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.91 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.91 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.92 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.92 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.92 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.92 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.93 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.93 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.93 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.93 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.94 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.94 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.94 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.94 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.95 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.95 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.95 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.95 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.96 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.96 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.96 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.96 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.97 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.97 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.97 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.97 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.98 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.98 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.98 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.98 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.99 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.99 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.99 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.99 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.100 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.100 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.100 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.100 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.101 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.101 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.101 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.101 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.102 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.102 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.102 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.102 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.103 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.103 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.103 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.103 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.104 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.104 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.104 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.104 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.105 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.105 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.105 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.105 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.106 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.106 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.106 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.106 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.107 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.107 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.107 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.107 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.108 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.108 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.108 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.108 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.109 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.109 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.109 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.109 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.110 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.110 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.110 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.110 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.111 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.111 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.111 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.111 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.112 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.112 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.112 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.112 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.113 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.113 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.113 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.113 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.114 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.114 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.114 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.114 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.115 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.115 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.115 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.115 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.116 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.116 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.116 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.116 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.117 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.117 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.117 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.117 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.118 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.118 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.118 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.118 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.119 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.119 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.119 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.119 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.120 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.120 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.120 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.120 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.121 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.121 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.121 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.121 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.122 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.122 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.122 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.122 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.123 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.123 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.123 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.123 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.124 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.124 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.124 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.124 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.125 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.125 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.125 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.125 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.126 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.126 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.126 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.126 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.127 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.127 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.127 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.127 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.128 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.128 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.128 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.128 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.129 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.129 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.129 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.129 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.130 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.130 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.130 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.130 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.131 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.131 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.131 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.131 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.132 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.132 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.132 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.132 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.133 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.133 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.133 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.133 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.134 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.134 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.134 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.134 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.135 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.135 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.135 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.135 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.136 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.136 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.136 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.136 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.137 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.137 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.137 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.137 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.138 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.138 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.138 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.138 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.139 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.139 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.139 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.139 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.140 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.140 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.140 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.140 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.141 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.141 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.141 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.141 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.142 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.142 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.142 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.142 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.143 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.143 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.143 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.143 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.144 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.144 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.144 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.144 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.145 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.145 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.145 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.145 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.146 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.146 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.146 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.146 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.147 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.147 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.147 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.147 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.148 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.148 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.148 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.148 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.149 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.149 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.149 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.149 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.150 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.150 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.150 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.150 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.151 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.151 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.151 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.151 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.152 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.152 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.152 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.152 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.153 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.153 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.153 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.153 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.154 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.154 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.154 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.154 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.155 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.155 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.155 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.155 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.156 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.156 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.156 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.156 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.157 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.157 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.157 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.157 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.158 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.158 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.158 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.158 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.159 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.159 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.159 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.159 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.160 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.160 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.160 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.160 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.161 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.161 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.161 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.161 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.162 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.162 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.162 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.162 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.163 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.163 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.163 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.163 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.164 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.164 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.164 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.164 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.165 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.165 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.165 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.165 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.166 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.166 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.166 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.166 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.167 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.167 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.167 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.167 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.168 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.168 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.168 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.168 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.169 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.169 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.169 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.169 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.170 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.170 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.170 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.170 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.171 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.171 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.171 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.171 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.172 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.172 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.172 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.172 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.173 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.173 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.173 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.173 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.174 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.174 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.174 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.174 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.175 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.175 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.175 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.175 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.176 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.176 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.176 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.176 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.177 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.177 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.177 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.177 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.178 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.178 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.178 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.178 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.179 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.179 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.179 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.179 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.180 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.180 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.180 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.180 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.181 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.181 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.181 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.181 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.182 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.182 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.182 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.182 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.183 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.183 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.183 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.183 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.184 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.184 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.184 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.184 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.185 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.185 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.185 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.185 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.186 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.186 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.186 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.186 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.187 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.187 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.187 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.187 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.188 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.188 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.188 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.188 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.189 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.189 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.189 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.189 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.190 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.190 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.190 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.190 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.191 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.191 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.191 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.191 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.192 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.192 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.192 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.192 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.193 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.193 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.193 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.193 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.194 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.194 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.194 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.194 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.195 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.195 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.195 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.195 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.196 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.196 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.196 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.196 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.197 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.197 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.197 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.197 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.198 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.198 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.198 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.198 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.199 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.199 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.199 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.199 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.200 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.200 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.200 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.200 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.201 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.201 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.201 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.201 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.202 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.202 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.202 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.202 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.203 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.203 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.203 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.203 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.204 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.204 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.204 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.204 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.205 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.205 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.205 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.205 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.206 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.206 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.206 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.206 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.207 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.207 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.207 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.207 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.208 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.208 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.208 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.208 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.209 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.209 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.209 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.209 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.210 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.210 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.210 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.210 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.211 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.211 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.211 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.211 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.212 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.212 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.212 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.212 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.213 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.213 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.213 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.213 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.214 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.214 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.214 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.214 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.215 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.215 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.215 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.215 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.216 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.216 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.216 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.216 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.217 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.217 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.217 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.217 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.218 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.218 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.218 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.218 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.219 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.219 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.219 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.219 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.220 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.220 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.220 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.220 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.221 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.221 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.221 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.221 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.222 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.222 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.222 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.222 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.223 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.223 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.223 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.223 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.224 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.224 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.224 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.224 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.225 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.225 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.225 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.225 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.226 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.226 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.226 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.226 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.227 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.227 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.227 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.227 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.228 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.228 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.228 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.228 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.229 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.229 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.229 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.229 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.0.230 is declared twice! The pindex is 0!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.1.230 is declared twice! The pindex is 1!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.2.230 is declared twice! The pindex is 2!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+dhcpd.conf line 112: [pset]lease 10.0.3.230 is declared twice! The pindex is 3!
+    range 10.0.29.10 10.0.29.230;
+                                 ^
+Configuration file errors encountered -- exiting
+
+If you did not get this software from ftp.isc.org, please
+get the latest from ftp.isc.org and install that before
+requesting help.
+
+If you did get this software from ftp.isc.org and have not
+yet read the README, please read it before requesting help.
+If you intend to request help from the dhcp-server@isc.org
+mailing list, please read the section on the README about
+submitting bug reports and requests for help.
+
+Please do not under any circumstances send requests for
+help directly to the authors of this software - please
+send them to the appropriate mailing list as described in
+the README file.
+
+exiting.
