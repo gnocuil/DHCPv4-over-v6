@@ -367,15 +367,26 @@ piaddr222(const struct iaddr addr) {
 		  addr.len);
 //	 quell compiler warnings 
 	return NULL;
+}*/
+
+int mask_bits_pset(u_int16_t mask)//[pset] added by Liu Cong
+{
+	int result = 16;
+	while (mask && (mask & 1) == 0) {
+		--result;
+		mask >>= 1;
+	}
+	return result;
 }
-*/
+
 unsigned
 do_ip4_pset_hash(const void *key, unsigned len, unsigned size)//[pset] added by Liu Cong
 {
 	struct iaddr_pset* ip_pset = (struct iaddr_pset*) key;
 	u_int32_t number = do_ip4_hash(ip_pset->ip_addr.iabuf, len, size);
-	number = (number << 2) | ip_pset->pset_index;
-	//printf("do_ip4_pset_hash! ip=%s port=%d number=%d\n", piaddr222 (ip_pset->ip_addr), ip_pset->pset_index, number);
+	int bits = mask_bits_pset(ip_pset->pset_mask);
+	number = (number << bits) | (ip_pset->pset_index >> (16 - bits));
+	//printf("do_ip4_pset_hash! ip=%s port=%x mask=%x number=%d\n", piaddr222 (ip_pset->ip_addr), ip_pset->pset_index, ip_pset->pset_mask, number);
 	return number % size;
 }
 

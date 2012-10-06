@@ -3277,6 +3277,7 @@ int find_lease_by_ip_addr (struct lease **, struct iaddr,
 			   const char *, int);
 int find_lease_by_ip_pset (struct lease **, struct iaddr_pset,
                            const char *, int); 		//[pset] modified by Liu Cong
+int mask_bits_pset(u_int16_t);//[pset] added by Liu Cong
 void uid_hash_add (struct lease *);
 void uid_hash_delete (struct lease *);
 void hw_hash_add (struct lease *);
