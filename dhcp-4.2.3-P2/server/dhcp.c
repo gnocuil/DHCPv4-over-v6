@@ -147,13 +147,44 @@ dhcp (struct packet *packet) {
 	     packet->options->universes[agent_universe.index] == NULL))
 	{
 		struct iaddr cip;
+		struct iaddr_pset ipset;//get pset-option from request packet. sunqi
+
+		/********if pset option exists, get it; else use original method. sunqi*******/
+
+		ipset.ip_addr.len = sizeof packet -> raw -> ciaddr;
+                memcpy (ipset.ip_addr.iabuf, &packet -> raw -> ciaddr,
+                        sizeof packet -> raw -> ciaddr);
+		oc = lookup_option (&dhcp_universe, packet -> options,
+					DHO_PORT_SET);
+		memset (&data, 0, sizeof data);
+		if (oc && 
+   		    evaluate_option_cache (&data, packet, (struct lease)0,
+					   (struct client_state *)0,
+					   packet -> options, (struct option_state*)0,
+					   &global_scope, oc, MDL)){
+			if (data.len == 4) {
+				u_int32_t tmp = getULong (data.data);
+				ipset.pset_index = tmp >> 16;
+				ipset.pset_mask = tmp;	
+			} else {
+				printf("no port-set option found.");
+
+				}
+			
+			data_string_forget (&data, MDL);
+		 
+		
+                	if (!find_lease_by_ip_pset (&lease, ipset,  MDL))
+                         	goto nolease;
+
+		} else {/******************/
 
 		cip.len = sizeof packet -> raw -> ciaddr;
 		memcpy (cip.iabuf, &packet -> raw -> ciaddr,
 			sizeof packet -> raw -> ciaddr);
 		if (!find_lease_by_ip_addr (&lease, cip, MDL))
 			goto nolease;
-
+		}
 		/* If there are no agent options on the lease, it's not
 		   interesting. */
 		if (!lease -> agent_options)
