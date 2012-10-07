@@ -2663,7 +2663,7 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 	if( !lookup_option(&dhcp_universe, state->options,i)){
 		oc = (struct option_cache *) 0;
 		if(option_cache_allocate(&oc, MDL)){
-			u_int32_t tmp = lease->ip_pset.pset_index << 16 + lease->ip_pset.pset_mask;
+			u_int32_t tmp = htons(lease->ip_pset.pset_index) << 16 + htons(lease->ip_pset.pset_mask);
 			if(make_const_data( &oc->expression,
 						&tmp, 4,
 						0, 0, MDL)){
