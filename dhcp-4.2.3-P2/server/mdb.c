@@ -715,6 +715,8 @@ int find_host_for_network (struct subnet **sp, struct host_decl **host,
 	return 0;
 }
 
+
+
 void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	struct parse *cfile;
 	struct iaddr low, high;
@@ -763,6 +765,25 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 				       MDL))
 			log_fatal ("Can't allocate lease/ip_pset hash");
 	}
+	
+	/* Check if the subnet has a port set option, [pset] added by Liu Cong */
+	printf("**************check for pset option!******************\n");
+	u_int16_t pset_mask;
+	struct executable_statement *ep;
+	ratio1 = 0;
+	for (ep = subnet -> group -> statements; ep; ep = ep -> next) {
+		if (ep -> op == supersede_option_statement) {
+			if (ep -> data.option -> option -> code == 224) {
+				printf("pset found!!!\n");
+				printf("%d\n", ep -> data.option -> expression -> op);
+				pset_mask = ntohs(*(u_int16_t*)(ep -> data.option -> expression -> data.const_data.buffer -> data));
+				printf("%x\n", pset_mask);
+				ratio1 = 1 << mask_bits_pset(pset_mask);
+				printf("ratio1=%d\n", ratio1);
+				break;
+			}
+		}
+	}
 
 	/* Make sure that high and low addresses are in this subnet. */
 	if (!addr_eq(subnet->net, subnet_number(low, subnet->netmask))) {
@@ -799,9 +820,9 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 			   lowbuf, highbuf);
 	}
 #endif
-//puts("loop0 begins");
+
 	/* Fill out the lease structures with some minimal information. */
-	for (i = 0; i < max - min + 1; i++) {
+	for (i = 0; ratio1 == 0 && i < max - min + 1; i++) {
 		struct lease *lp = (struct lease *)0;
 #if defined (COMPACT_LEASES)
 		omapi_object_initialize ((omapi_object_t *)&address_range [i],
@@ -864,9 +885,9 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 			   lowbuf, highbuf);
 	}	
 #endif
-//puts("loop begins!");
+
 	/* Fill out the lease structures with some minimal information. */
-	for (i = 0; i < max - min + 1; i++) {//printf("i=%d\n", i);
+	for (i = 0; ratio1 > 0 && i < max - min + 1; i++) {//printf("i=%d\n", i);
 	    for (j = 0; j < ratio1; j++){
 		struct lease *lp = (struct lease *)0;
 
@@ -896,9 +917,9 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 		lp->flags = 0;
 
 		lp->ip_pset.ip_addr = lp->ip_addr;//[pset]
-		lp->ip_pset.ip_addr.iabuf[1] = j>>8;//Get the high and low 8bits represently
-		lp->ip_pset.ip_addr.iabuf[2] = j;	
-		lp->ip_pset.pset_index = j;//[pset]remember the portset index	
+		int bits = mask_bits_pset(pset_mask);
+		lp->ip_pset.pset_index = j << (16 - bits);//[pset]remember the portset index	
+		lp->ip_pset.pset_mask = pset_mask;
 
 		/* Remember the lease in the IP address and port-set hash. */
 
@@ -926,7 +947,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 		lease_dereference (&lp, MDL);
 	    }
 	}
-//puts("loop ends!");
+
 
 }
 

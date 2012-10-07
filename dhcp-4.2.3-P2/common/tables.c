@@ -211,7 +211,7 @@ static struct option dhcp_options[] = {
 	{ "vivco", "Evendor-class.",		&dhcp_universe, 124, 1 },
 	{ "vivso", "Evendor.",			&dhcp_universe, 125, 1 },
 /* pset option, newly defined. */
-	{ "port-set", "SA", 			&dhcp_universe, 198, 1 },
+	{ "port-set", "S", 			&dhcp_universe, 224, 1 },//[pset] modified by Liu Cong
 
 #if 0
 	/* Referenced by RFC 4578.
