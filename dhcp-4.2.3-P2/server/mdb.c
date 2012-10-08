@@ -773,7 +773,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	ratio1 = 0;
 	for (ep = subnet -> group -> statements; ep; ep = ep -> next) {
 		if (ep -> op == supersede_option_statement) {
-			if (ep -> data.option -> option -> code == 224) {
+			if (ep -> data.option -> option -> code == DHO_PORT_SET) {
 				printf("pset found!!!\n");
 				printf("%d\n", ep -> data.option -> expression -> op);
 				pset_mask = ntohs(*(u_int16_t*)(ep -> data.option -> expression -> data.const_data.buffer -> data));

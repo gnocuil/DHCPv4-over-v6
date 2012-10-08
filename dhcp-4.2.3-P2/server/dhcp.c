@@ -148,7 +148,7 @@ dhcp (struct packet *packet) {
 	{
 		struct iaddr cip;
 		struct iaddr_pset ipset;//get pset-option from request packet. sunqi
-
+		printf("*************************dhcp.c,line 151***************\n");
 		/********if pset option exists, get it; else use original method. sunqi*******/
 
 		ipset.ip_addr.len = sizeof packet -> raw -> ciaddr;
@@ -158,7 +158,7 @@ dhcp (struct packet *packet) {
 					DHO_PORT_SET);
 		memset (&data, 0, sizeof data);
 		if (oc && 
-   		    evaluate_option_cache (&data, packet, (struct lease)0,
+   		    evaluate_option_cache (&data, packet, (struct lease*)0,
 					   (struct client_state *)0,
 					   packet -> options, (struct option_state*)0,
 					   &global_scope, oc, MDL)){
@@ -2694,9 +2694,9 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 	if( !lookup_option(&dhcp_universe, state->options,i)){
 		oc = (struct option_cache *) 0;
 		if(option_cache_allocate(&oc, MDL)){
-			u_int32_t tmp = htons(lease->ip_pset.pset_index) << 16 + htons(lease->ip_pset.pset_mask);
+			u_int32_t tmp = htons((lease->ip_pset.pset_index) << 16) + htons(lease->ip_pset.pset_mask);
 			if(make_const_data( &oc->expression,
-						&tmp, 4,
+						(const unsigned char *)&tmp, 4,
 						0, 0, MDL)){
 				option_code_hash_lookup( &oc->option,
 					dhcp_universe.code_hash,
