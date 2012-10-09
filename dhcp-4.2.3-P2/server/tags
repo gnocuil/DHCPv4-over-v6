@@ -3,15 +3,48 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ABANDONED_LEASES	failover.c	5574;"	d	file:
-ABANDONED_LEASES	mdb.c	1825;"	d	file:
+ABANDONED_LEASES	mdb.c	1934;"	d	file:
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run aclocal-1.10$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ACTIVE_LEASES	failover.c	5572;"	d	file:
-ACTIVE_LEASES	mdb.c	1823;"	d	file:
+ACTIVE_LEASES	mdb.c	1932;"	d	file:
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run tar$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I.. -DLOCALSTATEDIR='"\/var"'$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run automake-1.10$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
 BACKUP_LEASES	failover.c	5575;"	d	file:
-BACKUP_LEASES	mdb.c	1826;"	d	file:
+BACKUP_LEASES	mdb.c	1935;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g  -Wall -Werror -fno-strict-aliasing -I${top_srcdir}\/bind\/include$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/includes\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	Makefile	/^DATA = $(dist_sysconf_DATA)$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)\/includes$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(dist_sysconf_DATA) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(dhcpd_SOURCES)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
 EXPIRED_LEASES	failover.c	5573;"	d	file:
-EXPIRED_LEASES	mdb.c	1824;"	d	file:
+EXPIRED_LEASES	mdb.c	1933;"	d	file:
+EXTRA_DIST	Makefile	/^EXTRA_DIST = $(man_MANS)$/;"	m
 FMA	failover.c	4322;"	d	file:
 FMA	failover.c	4372;"	d	file:
 FMA	failover.c	4429;"	d	file:
@@ -24,227 +57,314 @@ FMA	failover.c	4840;"	d	file:
 FMA	failover.c	4886;"	d	file:
 FMA	failover.c	4932;"	d	file:
 FREE_LEASES	failover.c	5571;"	d	file:
-FREE_LEASES	mdb.c	1822;"	d	file:
+FREE_LEASES	mdb.c	1931;"	d	file:
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LDAP_CFLAGS	Makefile	/^LDAP_CFLAGS = $/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/missing --run makeinfo$/;"	m
+MANS	Makefile	/^MANS = $(man_MANS)$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	Makefile	/^NROFF = nroff$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
 OMAPI_OBJECT_ALLOC	failover.c	/^OMAPI_OBJECT_ALLOC (dhcp_failover_state, dhcp_failover_state_t,$/;"	f
+PACKAGE	Makefile	/^PACKAGE = dhcp$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = dhcp-users@isc.org$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = DHCP$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = DHCP 4.2.3-P2$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = dhcp$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = @PACKAGE_URL@$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 4.2.3-P2$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(sbin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
 RESERVED_LEASES	failover.c	5576;"	d	file:
-RESERVED_LEASES	mdb.c	1827;"	d	file:
-SS_NOSYNC	mdb.c	117;"	d	file:
-SS_QFOLLOW	mdb.c	118;"	d	file:
-_do_lookup_dhcp_enum_option	ldap.c	/^_do_lookup_dhcp_enum_option (struct option_state *options, int option_name)$/;"	f	file:
-_do_lookup_dhcp_int_option	ldap.c	/^_do_lookup_dhcp_int_option (struct option_state *options, int option_name)$/;"	f	file:
-_do_lookup_dhcp_string_option	ldap.c	/^_do_lookup_dhcp_string_option (struct option_state *options, int option_name)$/;"	f	file:
+RESERVED_LEASES	mdb.c	1936;"	d	file:
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = $(dhcpd_SOURCES)$/;"	m
+SS_NOSYNC	mdb.c	119;"	d	file:
+SS_QFOLLOW	mdb.c	120;"	d	file:
+STRIP	Makefile	/^STRIP = $/;"	m
+TUNNELMESSAGE	ioctl.h	10;"	d
+TUNNEL_DEL_ALL_MAPPING	ioctl.h	15;"	d
+TUNNEL_DEL_MAPPING	ioctl.h	17;"	d
+TUNNEL_DEVICE_NAME	ioctl.h	8;"	d
+TUNNEL_GET_BINDING	ioctl.h	18;"	d
+TUNNEL_MAC_MAPPING_INFO	ioctl.h	14;"	d
+TUNNEL_MAC_MAPPING_NUM	ioctl.h	13;"	d
+TUNNEL_MAPPING_INFO	ioctl.h	12;"	d
+TUNNEL_MAPPING_NUM	ioctl.h	11;"	d
+TUNNEL_SET_BINDING	ioctl.h	19;"	d
+TUNNEL_SET_MAPPING	ioctl.h	16;"	d
+VERSION	Makefile	/^VERSION = 4.2.3-P2$/;"	m
+__PUBLIC4OVER6_IOCTL_H__	ioctl.h	2;"	d
+_do_lookup_dhcp_enum_option	ldap.c	/^_do_lookup_dhcp_enum_option (struct option_state *options, int option_name)$/;"	f	file:	signature:(struct option_state *options, int option_name)
+_do_lookup_dhcp_int_option	ldap.c	/^_do_lookup_dhcp_int_option (struct option_state *options, int option_name)$/;"	f	file:	signature:(struct option_state *options, int option_name)
+_do_lookup_dhcp_string_option	ldap.c	/^_do_lookup_dhcp_string_option (struct option_state *options, int option_name)$/;"	f	file:	signature:(struct option_state *options, int option_name)
 abandon_lease	mdb.c	/^void abandon_lease (lease, message)$/;"	f
+abs_builddir	Makefile	/^abs_builddir = \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/server$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/server$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_prefix_program	Makefile	/^ac_prefix_program = $/;"	m
 ack_lease	dhcp.c	/^void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)$/;"	f
 ackqueue_head	dhcp.c	/^struct leasequeue *ackqueue_head, *ackqueue_tail;$/;"	v	typeref:struct:leasequeue
 ackqueue_tail	dhcp.c	/^struct leasequeue *ackqueue_head, *ackqueue_tail;$/;"	v	typeref:struct:
-add_ipv6_pool	mdb6.c	/^add_ipv6_pool(struct ipv6_pool *pool) {$/;"	f
-add_ipv6_pool_to_subnet	confpars.c	/^add_ipv6_pool_to_subnet(struct subnet *subnet, u_int16_t type,$/;"	f	file:
-add_lease6	mdb6.c	/^add_lease6(struct ipv6_pool *pool, struct iasubopt *lease,$/;"	f
-add_to_config_stack	ldap.c	/^add_to_config_stack (LDAPMessage * res, LDAPMessage * ent)$/;"	f	file:
-address_is_owned	dhcpv6.c	/^address_is_owned(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:
+add_ipv6_pool	mdb6.c	/^add_ipv6_pool(struct ipv6_pool *pool) {$/;"	f	signature:(struct ipv6_pool *pool)
+add_ipv6_pool_to_subnet	confpars.c	/^add_ipv6_pool_to_subnet(struct subnet *subnet, u_int16_t type,$/;"	f	file:	signature:(struct subnet *subnet, u_int16_t type, struct iaddr *lo_addr, int bits, int units)
+add_lease6	mdb6.c	/^add_lease6(struct ipv6_pool *pool, struct iasubopt *lease,$/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt *lease, time_t valid_lifetime_end_time)
+add_to_config_stack	ldap.c	/^add_to_config_stack (LDAPMessage * res, LDAPMessage * ent)$/;"	f	file:	signature:(LDAPMessage * res, LDAPMessage * ent)
+address_is_owned	dhcpv6.c	/^address_is_owned(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+address_is_owned	dhcpv6.c	/^static isc_boolean_t address_is_owned(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddr *addr)
 agent_options	stables.c	/^static struct option agent_options[] = {$/;"	v	typeref:struct:option	file:
 agent_universe	stables.c	/^struct universe agent_universe;$/;"	v	typeref:struct:universe
-allocate_lease	dhcp.c	/^int allocate_lease (struct lease **lp, struct packet *packet,$/;"	f
+allocate_lease	dhcp.c	/^int allocate_lease (struct lease **lp, struct packet *packet,$/;"	f	signature:(struct lease **lp, struct packet *packet, struct pool *pool, int *peer_has_leases)
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(sbindir)" "$(DESTDIR)$(man5dir)" \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = `echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_dhcpd_OBJECTS	Makefile	/^am_dhcpd_OBJECTS = dhcpd-dhcpd.$(OBJEXT) dhcpd-dhcp.$(OBJEXT) \\$/;"	m
 arr	dhcpd.c	/^static const char arr [] = "All rights reserved.";$/;"	v	file:
 bill_class	class.c	/^int bill_class (lease, class)$/;"	f
-binding_scope_get_value	omapi.c	/^isc_result_t binding_scope_get_value (omapi_value_t **value,$/;"	f
-binding_scope_set_value	omapi.c	/^isc_result_t binding_scope_set_value (struct binding_scope *scope, int createp,$/;"	f
-binding_scope_stuff_values	omapi.c	/^isc_result_t binding_scope_stuff_values (omapi_object_t *c,$/;"	f
+binding_scope_get_value	omapi.c	/^isc_result_t binding_scope_get_value (omapi_value_t **value,$/;"	f	signature:(omapi_value_t **value, struct binding_scope *scope, omapi_data_string_t *name)
+binding_scope_set_value	omapi.c	/^isc_result_t binding_scope_set_value (struct binding_scope *scope, int createp,$/;"	f	signature:(struct binding_scope *scope, int createp, omapi_data_string_t *name, omapi_typed_data_t *value)
+binding_scope_stuff_values	omapi.c	/^isc_result_t binding_scope_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, struct binding_scope *scope)
 binding_state_names	stables.c	/^const char *binding_state_names [] = {$/;"	v
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
 bootp	bootp.c	/^void bootp (packet)$/;"	f
-buf	dhcpleasequery.c	/^	} buf;$/;"	m	struct:lq6_state	typeref:union:lq6_state::reply_buffer	file:
-buf	dhcpv6.c	/^	} buf;$/;"	m	struct:reply_state	typeref:union:reply_state::reply_buffer	file:
-build_address6	mdb6.c	/^build_address6(struct in6_addr *addr, $/;"	f	file:
-build_dhcpv6_reply	dhcpv6.c	/^build_dhcpv6_reply(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-build_prefix6	mdb6.c	/^build_prefix6(struct in6_addr *pref, $/;"	f	file:
-build_temporary6	mdb6.c	/^build_temporary6(struct in6_addr *addr, $/;"	f	file:
-change_host_uid	mdb.c	/^change_host_uid(struct host_decl *host, const char *uid, int len) {$/;"	f
-change_leases	mdb6.c	/^change_leases(struct ia_xx *ia, $/;"	f	file:
+buf	dhcpleasequery.c	/^	} buf;$/;"	m	struct:lq6_state	typeref:union:lq6_state::reply_buffer	file:	access:public
+buf	dhcpv6.c	/^	} buf;$/;"	m	struct:reply_state	typeref:union:reply_state::reply_buffer	file:	access:public
+build_address6	mdb6.c	/^build_address6(struct in6_addr *addr, $/;"	f	file:	signature:(struct in6_addr *addr, const struct in6_addr *net_start_addr, int net_bits, const struct data_string *input)
+build_alias	Makefile	/^build_alias = $/;"	m
+build_dhcpv6_reply	dhcpv6.c	/^build_dhcpv6_reply(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+build_dhcpv6_reply	dhcpv6.c	/^static void build_dhcpv6_reply(struct data_string *, struct packet *);$/;"	p	file:	signature:(struct data_string *, struct packet *)
+build_prefix6	mdb6.c	/^build_prefix6(struct in6_addr *pref, $/;"	f	file:	signature:(struct in6_addr *pref, const struct in6_addr *net_start_pref, int pool_bits, int pref_bits, const struct data_string *input)
+build_temporary6	mdb6.c	/^build_temporary6(struct in6_addr *addr, $/;"	f	file:	signature:(struct in6_addr *addr, const struct in6_addr *net_start_addr, int net_bits, const struct data_string *input)
+builddir	Makefile	/^builddir = .$/;"	m
+byte_order	Makefile	/^byte_order = LITTLE_ENDIAN$/;"	m
+change_host_uid	mdb.c	/^change_host_uid(struct host_decl *host, const char *uid, int len) {$/;"	f	signature:(struct host_decl *host, const char *uid, int len)
+change_leases	mdb6.c	/^change_leases(struct ia_xx *ia, $/;"	f	file:	signature:(struct ia_xx *ia, isc_result_t (*change_func)(struct ipv6_pool *, struct iasubopt *))
 check_collection	class.c	/^int check_collection (packet, lease, collection)$/;"	f
-check_statement_end	ldap.c	/^check_statement_end (const char *statement)$/;"	f	file:
-class_lookup	omapi.c	/^static isc_result_t class_lookup (omapi_object_t **lp,$/;"	f	file:
-class_set_value	omapi.c	/^class_set_value (omapi_object_t *h,$/;"	f	file:
-class_signal_handler	omapi.c	/^class_signal_handler(omapi_object_t *h,$/;"	f	file:
+check_statement_end	ldap.c	/^check_statement_end (const char *statement)$/;"	f	file:	signature:(const char *statement)
+class_lookup	omapi.c	/^static isc_result_t class_lookup (omapi_object_t **,$/;"	p	file:	signature:(omapi_object_t **, omapi_object_t *, omapi_object_t *, omapi_object_type_t *)
+class_lookup	omapi.c	/^static isc_result_t class_lookup (omapi_object_t **lp,$/;"	f	file:	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref, omapi_object_type_t *typewanted)
+class_set_value	omapi.c	/^class_set_value (omapi_object_t *h,$/;"	f	file:	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+class_signal_handler	omapi.c	/^class_signal_handler(omapi_object_t *h,$/;"	f	file:	signature:(omapi_object_t *h, const char *name, va_list ap)
 classification_setup	class.c	/^void classification_setup ()$/;"	f
 classify	class.c	/^void classify (packet, class)$/;"	f
 classify_client	class.c	/^void classify_client (packet)$/;"	f
-cleanup_old_expired	mdb6.c	/^cleanup_old_expired(struct ipv6_pool *pool) {$/;"	f	file:
-client_id	dhcpleasequery.c	/^	struct data_string client_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:
-client_id	dhcpv6.c	/^	struct data_string client_id;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:
-client_lease_preferred	mdb.c	/^client_lease_preferred(struct lease *cand, struct lease *lease)$/;"	f	file:
-client_prefer	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:
-client_resources	dhcpv6.c	/^	unsigned client_resources;$/;"	m	struct:reply_state	file:
-client_valid	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:
+cleanup_old_expired	mdb6.c	/^cleanup_old_expired(struct ipv6_pool *pool) {$/;"	f	file:	signature:(struct ipv6_pool *pool)
+client_id	dhcpleasequery.c	/^	struct data_string client_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
+client_id	dhcpv6.c	/^	struct data_string client_id;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:	access:public
+client_lease_preferred	mdb.c	/^client_lease_preferred(struct lease *cand, struct lease *lease)$/;"	f	file:	signature:(struct lease *cand, struct lease *lease)
+client_prefer	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:	access:public
+client_resources	dhcpv6.c	/^	unsigned client_resources;$/;"	m	struct:reply_state	file:	access:public
+client_valid	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:	access:public
 collections	class.c	/^struct collection *collections = &default_collection;$/;"	v	typeref:struct:collection
 commit_leases	db.c	/^int commit_leases ()$/;"	f
-commit_leases_ackout	dhcp.c	/^commit_leases_ackout(void *foo)$/;"	f	file:
-commit_leases_timeout	db.c	/^void commit_leases_timeout (void *foo)$/;"	f
-common_subnet_parsing	confpars.c	/^common_subnet_parsing(struct parse *cfile, $/;"	f	file:
-conf_file_subparse	confpars.c	/^isc_result_t conf_file_subparse (struct parse *cfile, struct group *group,$/;"	f
-conflict_binding_state_transition_check	failover.c	/^conflict_binding_state_transition_check (struct lease *lease,$/;"	f
-copy_server_duid	dhcpv6.c	/^copy_server_duid(struct data_string *ds, const char *file, int line) {$/;"	f
+commit_leases_ackout	dhcp.c	/^commit_leases_ackout(void *foo)$/;"	f	file:	signature:(void *foo)
+commit_leases_ackout	dhcp.c	/^static void commit_leases_ackout(void *foo);$/;"	p	file:	signature:(void *foo)
+commit_leases_timeout	db.c	/^void commit_leases_timeout (void *foo)$/;"	f	signature:(void *foo)
+common_subnet_parsing	confpars.c	/^common_subnet_parsing(struct parse *cfile, $/;"	f	file:	signature:(struct parse *cfile, struct shared_network *share, struct subnet *subnet)
+conf_file_subparse	confpars.c	/^isc_result_t conf_file_subparse (struct parse *cfile, struct group *group,$/;"	f	signature:(struct parse *cfile, struct group *group, int group_type)
+conflict_binding_state_transition_check	failover.c	/^conflict_binding_state_transition_check (struct lease *lease,$/;"	f	signature:(struct lease *lease, dhcp_failover_state_t *state, binding_state_t binding_state, u_int32_t tsfp)
+copy_server_duid	dhcpv6.c	/^copy_server_duid(struct data_string *ds, const char *file, int line) {$/;"	f	signature:(struct data_string *ds, const char *file, int line)
 copyright	dhcpd.c	/^static const char copyright[] =$/;"	v	file:
 count	db.c	/^static int count = 0;$/;"	v	file:
 counting	db.c	/^static int counting = 0;$/;"	v	file:
-create_lease6	mdb6.c	/^create_lease6(struct ipv6_pool *pool, struct iasubopt **addr, $/;"	f
-create_prefix6	mdb6.c	/^create_prefix6(struct ipv6_pool *pool, struct iasubopt **pref, $/;"	f
-cursor	dhcpleasequery.c	/^	unsigned cursor;$/;"	m	struct:lq6_state	file:
-cursor	dhcpv6.c	/^	unsigned cursor;$/;"	m	struct:reply_state	file:
-data	dhcpleasequery.c	/^		unsigned char data[65536];$/;"	m	union:lq6_state::reply_buffer	file:
-data	dhcpv6.c	/^		unsigned char data[65536];$/;"	m	union:reply_state::reply_buffer	file:
-data_string_append	ddns.c	/^static void data_string_append (struct data_string *ds1,$/;"	f	file:
+create_lease6	mdb6.c	/^create_lease6(struct ipv6_pool *pool, struct iasubopt **addr, $/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt **addr, unsigned int *attempts, const struct data_string *uid, time_t soft_lifetime_end_time)
+create_prefix6	mdb6.c	/^create_prefix6(struct ipv6_pool *pool, struct iasubopt **pref, $/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt **pref, unsigned int *attempts, const struct data_string *uid, time_t soft_lifetime_end_time)
+cursor	dhcpleasequery.c	/^	unsigned cursor;$/;"	m	struct:lq6_state	file:	access:public
+cursor	dhcpv6.c	/^	unsigned cursor;$/;"	m	struct:reply_state	file:	access:public
+data	dhcpleasequery.c	/^		unsigned char data[65536];$/;"	m	union:lq6_state::reply_buffer	file:	access:public
+data	dhcpv6.c	/^		unsigned char data[65536];$/;"	m	union:reply_state::reply_buffer	file:	access:public
+data_string_append	ddns.c	/^static void data_string_append (struct data_string *ds1,$/;"	f	file:	signature:(struct data_string *ds1, struct data_string *ds2)
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
 db_file	db.c	/^FILE *db_file;$/;"	v
 db_printable	db.c	/^int db_printable (s)$/;"	f
 db_printable_len	db.c	/^int db_printable_len (s, len)$/;"	f
 db_startup	db.c	/^void db_startup (testp)$/;"	f
-ddns_fwd_srv_add1	ddns.c	/^ddns_fwd_srv_add1(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_fwd_srv_add2	ddns.c	/^ddns_fwd_srv_add2(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_fwd_srv_connector	ddns.c	/^ddns_fwd_srv_connector(struct lease          *lease,$/;"	f	file:
-ddns_fwd_srv_rem1	ddns.c	/^ddns_fwd_srv_rem1(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_fwd_srv_rem2	ddns.c	/^ddns_fwd_srv_rem2(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_ptr_add	ddns.c	/^ddns_ptr_add(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_ptr_remove	ddns.c	/^ddns_ptr_remove(dhcp_ddns_cb_t *ddns_cb,$/;"	f
-ddns_removals	ddns.c	/^ddns_removals(struct lease    *lease,$/;"	f
+ddns_fwd_srv_add1	ddns.c	/^ddns_fwd_srv_add1(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_fwd_srv_add2	ddns.c	/^ddns_fwd_srv_add2(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_fwd_srv_connector	ddns.c	/^ddns_fwd_srv_connector(struct lease          *lease,$/;"	f	file:	signature:(struct lease *lease, struct iasubopt *lease6, struct binding_scope **inscope, dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_fwd_srv_connector	ddns.c	/^static void ddns_fwd_srv_connector(struct lease          *lease,$/;"	p	file:	signature:(struct lease *lease, struct iasubopt *lease6, struct binding_scope **inscope, dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_fwd_srv_rem1	ddns.c	/^ddns_fwd_srv_rem1(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_fwd_srv_rem2	ddns.c	/^ddns_fwd_srv_rem2(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_ptr_add	ddns.c	/^ddns_ptr_add(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_ptr_remove	ddns.c	/^ddns_ptr_remove(dhcp_ddns_cb_t *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, isc_result_t eresult)
+ddns_removals	ddns.c	/^ddns_removals(struct lease    *lease,$/;"	f	signature:(struct lease *lease, struct iasubopt *lease6, dhcp_ddns_cb_t *add_ddns_cb, isc_boolean_t active)
 ddns_styles	stables.c	/^struct enumeration ddns_styles = {$/;"	v	typeref:struct:enumeration
 ddns_styles_values	stables.c	/^struct enumeration_value ddns_styles_values [] = {$/;"	v	typeref:struct:enumeration_value
-ddns_update_lease_ptr	ddns.c	/^ddns_update_lease_ptr(struct lease    *lease,$/;"	f
-ddns_update_lease_text	ddns.c	/^ddns_update_lease_text(dhcp_ddns_cb_t        *ddns_cb,$/;"	f
+ddns_update_lease_ptr	ddns.c	/^ddns_update_lease_ptr(struct lease    *lease,$/;"	f	signature:(struct lease *lease, struct iasubopt *lease6, dhcp_ddns_cb_t *ddns_cb, dhcp_ddns_cb_t *ddns_cb_set, const char * file, int line)
+ddns_update_lease_text	ddns.c	/^ddns_update_lease_text(dhcp_ddns_cb_t        *ddns_cb,$/;"	f	signature:(dhcp_ddns_cb_t *ddns_cb, struct binding_scope **inscope)
 ddns_update_style	dhcpd.c	/^int ddns_update_style;$/;"	v
-ddns_updates	ddns.c	/^ddns_updates(struct packet *packet, struct lease *lease, struct lease *old,$/;"	f
-decline_lease6	mdb6.c	/^decline_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f
-decline_leases	mdb6.c	/^decline_leases(struct ia_xx *ia) {$/;"	f
+ddns_updates	ddns.c	/^ddns_updates(struct packet *packet, struct lease *lease, struct lease *old,$/;"	f	signature:(struct packet *packet, struct lease *lease, struct lease *old, struct iasubopt *lease6, struct iasubopt *old6, struct option_state *options)
+decline_lease6	mdb6.c	/^decline_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt *lease)
+decline_leases	mdb6.c	/^decline_leases(struct ia_xx *ia) {$/;"	f	signature:(struct ia_xx *ia)
 default_classification_rules	class.c	/^struct executable_statement *default_classification_rules;$/;"	v	typeref:struct:executable_statement
 default_collection	class.c	/^struct collection default_collection = {$/;"	v	typeref:struct:collection
-delayed_ack_enqueue	dhcp.c	/^delayed_ack_enqueue(struct lease *lease)$/;"	f
+delayed_ack_enqueue	dhcp.c	/^delayed_ack_enqueue(struct lease *lease)$/;"	f	signature:(struct lease *lease)
 delete_class	mdb.c	/^isc_result_t delete_class (cp, commit)$/;"	f
 delete_host	mdb.c	/^isc_result_t delete_host (hd, commit)$/;"	f
-dereference_hash_entry	mdb6.c	/^dereference_hash_entry(const void *name, unsigned len, void *value) {$/;"	f	file:
-dereference_heap_entry	mdb6.c	/^dereference_heap_entry(void *value, void *dummy) {$/;"	f	file:
-dhcp	dhcp.c	/^dhcp (struct packet *packet) {$/;"	f
-dhcp_class_create	omapi.c	/^isc_result_t dhcp_class_create (omapi_object_t **lp,$/;"	f
-dhcp_class_destroy	omapi.c	/^isc_result_t dhcp_class_destroy (omapi_object_t *h, const char *file, int line)$/;"	f
-dhcp_class_get_value	omapi.c	/^isc_result_t dhcp_class_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f
-dhcp_class_lookup	omapi.c	/^isc_result_t dhcp_class_lookup (omapi_object_t **lp,$/;"	f
-dhcp_class_remove	omapi.c	/^isc_result_t dhcp_class_remove (omapi_object_t *lp,$/;"	f
-dhcp_class_set_value	omapi.c	/^isc_result_t dhcp_class_set_value  (omapi_object_t *h,$/;"	f
-dhcp_class_signal_handler	omapi.c	/^isc_result_t dhcp_class_signal_handler (omapi_object_t *h,$/;"	f
-dhcp_class_stuff_values	omapi.c	/^isc_result_t dhcp_class_stuff_values (omapi_object_t *c,$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+dereference_hash_entry	mdb6.c	/^dereference_hash_entry(const void *name, unsigned len, void *value) {$/;"	f	file:	signature:(const void *name, unsigned len, void *value)
+dereference_heap_entry	mdb6.c	/^dereference_heap_entry(void *value, void *dummy) {$/;"	f	file:	signature:(void *value, void *dummy)
+dhcp	dhcp.c	/^dhcp (struct packet *packet) {$/;"	f	signature:(struct packet *packet)
+dhcp_class_create	omapi.c	/^isc_result_t dhcp_class_create (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id)
+dhcp_class_destroy	omapi.c	/^isc_result_t dhcp_class_destroy (omapi_object_t *h, const char *file, int line)$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_class_get_value	omapi.c	/^isc_result_t dhcp_class_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_class_lookup	omapi.c	/^isc_result_t dhcp_class_lookup (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_class_remove	omapi.c	/^isc_result_t dhcp_class_remove (omapi_object_t *lp,$/;"	f	signature:(omapi_object_t *lp, omapi_object_t *id)
+dhcp_class_set_value	omapi.c	/^isc_result_t dhcp_class_set_value  (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_class_signal_handler	omapi.c	/^isc_result_t dhcp_class_signal_handler (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_class_stuff_values	omapi.c	/^isc_result_t dhcp_class_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
 dhcp_control_object	mdb.c	/^dhcp_control_object_t *dhcp_control_object;$/;"	v
 dhcp_db_objects_setup	omapi.c	/^void dhcp_db_objects_setup ()$/;"	f
-dhcp_failover_ack_queue_remove	failover.c	/^void dhcp_failover_ack_queue_remove (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_auto_partner_down	failover.c	/^dhcp_failover_auto_partner_down(void *vs)$/;"	f
-dhcp_failover_generate_update_queue	failover.c	/^isc_result_t dhcp_failover_generate_update_queue (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_keepalive	failover.c	/^void dhcp_failover_keepalive (void *vs)$/;"	f
-dhcp_failover_link_destroy	failover.c	/^isc_result_t dhcp_failover_link_destroy (omapi_object_t *h,$/;"	f
-dhcp_failover_link_get_value	failover.c	/^isc_result_t dhcp_failover_link_get_value (omapi_object_t *h,$/;"	f
-dhcp_failover_link_initiate	failover.c	/^isc_result_t dhcp_failover_link_initiate (omapi_object_t *h)$/;"	f
-dhcp_failover_link_set_value	failover.c	/^isc_result_t dhcp_failover_link_set_value (omapi_object_t *h,$/;"	f
-dhcp_failover_link_signal	failover.c	/^isc_result_t dhcp_failover_link_signal (omapi_object_t *h,$/;"	f
-dhcp_failover_link_startup_timeout	failover.c	/^void dhcp_failover_link_startup_timeout (void *vl)$/;"	f
-dhcp_failover_link_stuff_values	failover.c	/^isc_result_t dhcp_failover_link_stuff_values (omapi_object_t *c,$/;"	f
-dhcp_failover_listen	failover.c	/^isc_result_t dhcp_failover_listen (omapi_object_t *h)$/;"	f
-dhcp_failover_listener_destroy	failover.c	/^isc_result_t dhcp_failover_listener_destroy (omapi_object_t *h,$/;"	f
-dhcp_failover_listener_get_value	failover.c	/^isc_result_t dhcp_failover_listener_get_value (omapi_object_t *h,$/;"	f
-dhcp_failover_listener_restart	failover.c	/^void dhcp_failover_listener_restart (void *vs)$/;"	f
-dhcp_failover_listener_set_value	failover.c	/^isc_result_t dhcp_failover_listener_set_value (omapi_object_t *h,$/;"	f
-dhcp_failover_listener_signal	failover.c	/^isc_result_t dhcp_failover_listener_signal (omapi_object_t *o,$/;"	f
-dhcp_failover_listener_stuff	failover.c	/^isc_result_t dhcp_failover_listener_stuff (omapi_object_t *c,$/;"	f
-dhcp_failover_make_option	failover.c	/^failover_option_t *dhcp_failover_make_option (unsigned code,$/;"	f
-dhcp_failover_message_name	failover.c	/^const char *dhcp_failover_message_name (unsigned type)$/;"	f
-dhcp_failover_option_name	failover.c	/^const char *dhcp_failover_option_name (unsigned type)$/;"	f
-dhcp_failover_option_printf	failover.c	/^failover_option_t *dhcp_failover_option_printf (unsigned code,$/;"	f
-dhcp_failover_peer_state_changed	failover.c	/^isc_result_t dhcp_failover_peer_state_changed (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_pool_balance	failover.c	/^dhcp_failover_pool_balance(dhcp_failover_state_t *state)$/;"	f	file:
-dhcp_failover_pool_check	failover.c	/^dhcp_failover_pool_check(struct pool *pool)$/;"	f
-dhcp_failover_pool_dobalance	failover.c	/^dhcp_failover_pool_dobalance(dhcp_failover_state_t *state,$/;"	f	file:
-dhcp_failover_pool_rebalance	failover.c	/^dhcp_failover_pool_rebalance(void *failover_state)$/;"	f
-dhcp_failover_pool_reqbalance	failover.c	/^dhcp_failover_pool_reqbalance(dhcp_failover_state_t *state)$/;"	f	file:
-dhcp_failover_process_bind_ack	failover.c	/^isc_result_t dhcp_failover_process_bind_ack (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_process_bind_update	failover.c	/^isc_result_t dhcp_failover_process_bind_update (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_process_update_done	failover.c	/^dhcp_failover_process_update_done (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_process_update_request	failover.c	/^dhcp_failover_process_update_request (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_process_update_request_all	failover.c	/^dhcp_failover_process_update_request_all (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_put_message	failover.c	/^isc_result_t dhcp_failover_put_message (dhcp_failover_link_t *link,$/;"	f
-dhcp_failover_queue_ack	failover.c	/^int dhcp_failover_queue_ack (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_queue_update	failover.c	/^int dhcp_failover_queue_update (struct lease *lease, int immediate)$/;"	f
-dhcp_failover_reconnect	failover.c	/^void dhcp_failover_reconnect (void *vs)$/;"	f
-dhcp_failover_recover_done	failover.c	/^void dhcp_failover_recover_done (void *sp)$/;"	f
-dhcp_failover_register	failover.c	/^isc_result_t dhcp_failover_register (omapi_object_t *h)$/;"	f
-dhcp_failover_reject_reason_print	failover.c	/^const char *dhcp_failover_reject_reason_print (int reason)$/;"	f
-dhcp_failover_send_acks	failover.c	/^int dhcp_failover_send_acks (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_send_bind_ack	failover.c	/^isc_result_t dhcp_failover_send_bind_ack (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_send_bind_update	failover.c	/^isc_result_t dhcp_failover_send_bind_update (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_send_connect	failover.c	/^isc_result_t dhcp_failover_send_connect (omapi_object_t *l)$/;"	f
-dhcp_failover_send_connectack	failover.c	/^isc_result_t dhcp_failover_send_connectack (omapi_object_t *l,$/;"	f
-dhcp_failover_send_contact	failover.c	/^void dhcp_failover_send_contact (void *vstate)$/;"	f
-dhcp_failover_send_disconnect	failover.c	/^isc_result_t dhcp_failover_send_disconnect (omapi_object_t *l,$/;"	f
-dhcp_failover_send_poolreq	failover.c	/^isc_result_t dhcp_failover_send_poolreq (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_send_poolresp	failover.c	/^isc_result_t dhcp_failover_send_poolresp (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_send_state	failover.c	/^isc_result_t dhcp_failover_send_state (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_send_update_done	failover.c	/^isc_result_t dhcp_failover_send_update_done (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_send_update_request	failover.c	/^isc_result_t dhcp_failover_send_update_request (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_send_update_request_all	failover.c	/^isc_result_t dhcp_failover_send_update_request_all (dhcp_failover_state_t$/;"	f
-dhcp_failover_send_updates	failover.c	/^isc_result_t dhcp_failover_send_updates (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_set_service_state	failover.c	/^isc_result_t dhcp_failover_set_service_state (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_set_state	failover.c	/^isc_result_t dhcp_failover_set_state (dhcp_failover_state_t *state,$/;"	f
+dhcp_failover_ack_queue_remove	failover.c	/^void dhcp_failover_ack_queue_remove (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, struct lease *lease)
+dhcp_failover_auto_partner_down	failover.c	/^dhcp_failover_auto_partner_down(void *vs)$/;"	f	signature:(void *vs)
+dhcp_failover_generate_update_queue	failover.c	/^isc_result_t dhcp_failover_generate_update_queue (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, int everythingp)
+dhcp_failover_keepalive	failover.c	/^void dhcp_failover_keepalive (void *vs)$/;"	f	signature:(void *vs)
+dhcp_failover_link_destroy	failover.c	/^isc_result_t dhcp_failover_link_destroy (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_failover_link_get_value	failover.c	/^isc_result_t dhcp_failover_link_get_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_failover_link_initiate	failover.c	/^isc_result_t dhcp_failover_link_initiate (omapi_object_t *h)$/;"	f	signature:(omapi_object_t *h)
+dhcp_failover_link_set_value	failover.c	/^isc_result_t dhcp_failover_link_set_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_failover_link_signal	failover.c	/^isc_result_t dhcp_failover_link_signal (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_failover_link_startup_timeout	failover.c	/^void dhcp_failover_link_startup_timeout (void *vl)$/;"	f	signature:(void *vl)
+dhcp_failover_link_stuff_values	failover.c	/^isc_result_t dhcp_failover_link_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *l)
+dhcp_failover_listen	failover.c	/^isc_result_t dhcp_failover_listen (omapi_object_t *h)$/;"	f	signature:(omapi_object_t *h)
+dhcp_failover_listener_destroy	failover.c	/^isc_result_t dhcp_failover_listener_destroy (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_failover_listener_get_value	failover.c	/^isc_result_t dhcp_failover_listener_get_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_failover_listener_restart	failover.c	/^void dhcp_failover_listener_restart (void *vs)$/;"	f	signature:(void *vs)
+dhcp_failover_listener_set_value	failover.c	/^isc_result_t dhcp_failover_listener_set_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_failover_listener_signal	failover.c	/^isc_result_t dhcp_failover_listener_signal (omapi_object_t *o,$/;"	f	signature:(omapi_object_t *o, const char *name, va_list ap)
+dhcp_failover_listener_stuff	failover.c	/^isc_result_t dhcp_failover_listener_stuff (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *p)
+dhcp_failover_make_option	failover.c	/^failover_option_t *dhcp_failover_make_option (unsigned code,$/;"	f	signature:(unsigned code, char *obuf, unsigned *obufix, unsigned obufmax, ...)
+dhcp_failover_message_name	failover.c	/^const char *dhcp_failover_message_name (unsigned type)$/;"	f	signature:(unsigned type)
+dhcp_failover_option_name	failover.c	/^const char *dhcp_failover_option_name (unsigned type)$/;"	f	signature:(unsigned type)
+dhcp_failover_option_printf	failover.c	/^failover_option_t *dhcp_failover_option_printf (unsigned code,$/;"	f	signature:(unsigned code, char *obuf, unsigned *obufix, unsigned obufmax, const char *fmt, ...)
+dhcp_failover_peer_state_changed	failover.c	/^isc_result_t dhcp_failover_peer_state_changed (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_pool_balance	failover.c	/^dhcp_failover_pool_balance(dhcp_failover_state_t *state)$/;"	f	file:	signature:(dhcp_failover_state_t *state)
+dhcp_failover_pool_balance	failover.c	/^static void dhcp_failover_pool_balance(dhcp_failover_state_t *state);$/;"	p	file:	signature:(dhcp_failover_state_t *state)
+dhcp_failover_pool_check	failover.c	/^dhcp_failover_pool_check(struct pool *pool)$/;"	f	signature:(struct pool *pool)
+dhcp_failover_pool_dobalance	failover.c	/^dhcp_failover_pool_dobalance(dhcp_failover_state_t *state,$/;"	f	file:	signature:(dhcp_failover_state_t *state, isc_boolean_t *sendreq)
+dhcp_failover_pool_dobalance	failover.c	/^static int dhcp_failover_pool_dobalance(dhcp_failover_state_t *state,$/;"	p	file:	signature:(dhcp_failover_state_t *state, isc_boolean_t *sendreq)
+dhcp_failover_pool_rebalance	failover.c	/^dhcp_failover_pool_rebalance(void *failover_state)$/;"	f	signature:(void *failover_state)
+dhcp_failover_pool_reqbalance	failover.c	/^dhcp_failover_pool_reqbalance(dhcp_failover_state_t *state)$/;"	f	file:	signature:(dhcp_failover_state_t *state)
+dhcp_failover_pool_reqbalance	failover.c	/^static void dhcp_failover_pool_reqbalance(dhcp_failover_state_t *state);$/;"	p	file:	signature:(dhcp_failover_state_t *state)
+dhcp_failover_process_bind_ack	failover.c	/^isc_result_t dhcp_failover_process_bind_ack (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_process_bind_update	failover.c	/^isc_result_t dhcp_failover_process_bind_update (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_process_update_done	failover.c	/^dhcp_failover_process_update_done (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_process_update_request	failover.c	/^dhcp_failover_process_update_request (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_process_update_request_all	failover.c	/^dhcp_failover_process_update_request_all (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_put_message	failover.c	/^isc_result_t dhcp_failover_put_message (dhcp_failover_link_t *link,$/;"	f	signature:(dhcp_failover_link_t *link, omapi_object_t *connection, int msg_type, u_int32_t xid, ...)
+dhcp_failover_queue_ack	failover.c	/^int dhcp_failover_queue_ack (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg)
+dhcp_failover_queue_update	failover.c	/^int dhcp_failover_queue_update (struct lease *lease, int immediate)$/;"	f	signature:(struct lease *lease, int immediate)
+dhcp_failover_reconnect	failover.c	/^void dhcp_failover_reconnect (void *vs)$/;"	f	signature:(void *vs)
+dhcp_failover_recover_done	failover.c	/^void dhcp_failover_recover_done (void *sp)$/;"	f	signature:(void *sp)
+dhcp_failover_register	failover.c	/^isc_result_t dhcp_failover_register (omapi_object_t *h)$/;"	f	signature:(omapi_object_t *h)
+dhcp_failover_reject_reason_print	failover.c	/^const char *dhcp_failover_reject_reason_print (int reason)$/;"	f	signature:(int reason)
+dhcp_failover_send_acks	failover.c	/^int dhcp_failover_send_acks (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_bind_ack	failover.c	/^isc_result_t dhcp_failover_send_bind_ack (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, failover_message_t *msg, int reason, const char *message)
+dhcp_failover_send_bind_update	failover.c	/^isc_result_t dhcp_failover_send_bind_update (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, struct lease *lease)
+dhcp_failover_send_connect	failover.c	/^isc_result_t dhcp_failover_send_connect (omapi_object_t *l)$/;"	f	signature:(omapi_object_t *l)
+dhcp_failover_send_connectack	failover.c	/^isc_result_t dhcp_failover_send_connectack (omapi_object_t *l,$/;"	f	signature:(omapi_object_t *l, dhcp_failover_state_t *state, int reason, const char *errmsg)
+dhcp_failover_send_contact	failover.c	/^void dhcp_failover_send_contact (void *vstate)$/;"	f	signature:(void *vstate)
+dhcp_failover_send_disconnect	failover.c	/^isc_result_t dhcp_failover_send_disconnect (omapi_object_t *l,$/;"	f	signature:(omapi_object_t *l, int reason, const char *message)
+dhcp_failover_send_poolreq	failover.c	/^isc_result_t dhcp_failover_send_poolreq (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_poolresp	failover.c	/^isc_result_t dhcp_failover_send_poolresp (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, int leases)
+dhcp_failover_send_state	failover.c	/^isc_result_t dhcp_failover_send_state (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_update_done	failover.c	/^isc_result_t dhcp_failover_send_update_done (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_update_request	failover.c	/^isc_result_t dhcp_failover_send_update_request (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_update_request_all	failover.c	/^isc_result_t dhcp_failover_send_update_request_all (dhcp_failover_state_t$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_send_updates	failover.c	/^isc_result_t dhcp_failover_send_updates (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_set_service_state	failover.c	/^isc_result_t dhcp_failover_set_service_state (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_set_state	failover.c	/^isc_result_t dhcp_failover_set_state (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, enum failover_state new_state)
 dhcp_failover_startup	failover.c	/^void dhcp_failover_startup ()$/;"	f
-dhcp_failover_startup_timeout	failover.c	/^void dhcp_failover_startup_timeout (void *vs)$/;"	f
-dhcp_failover_state_create	failover.c	/^isc_result_t dhcp_failover_state_create (omapi_object_t **sp,$/;"	f
-dhcp_failover_state_destroy	failover.c	/^isc_result_t dhcp_failover_state_destroy (omapi_object_t *h,$/;"	f
-dhcp_failover_state_get_value	failover.c	/^isc_result_t dhcp_failover_state_get_value (omapi_object_t *h,$/;"	f
-dhcp_failover_state_lookup	failover.c	/^isc_result_t dhcp_failover_state_lookup (omapi_object_t **sp,$/;"	f
-dhcp_failover_state_match	failover.c	/^int dhcp_failover_state_match (dhcp_failover_state_t *state,$/;"	f
+dhcp_failover_startup_timeout	failover.c	/^void dhcp_failover_startup_timeout (void *vs)$/;"	f	signature:(void *vs)
+dhcp_failover_state_create	failover.c	/^isc_result_t dhcp_failover_state_create (omapi_object_t **sp,$/;"	f	signature:(omapi_object_t **sp, omapi_object_t *id)
+dhcp_failover_state_destroy	failover.c	/^isc_result_t dhcp_failover_state_destroy (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_failover_state_get_value	failover.c	/^isc_result_t dhcp_failover_state_get_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_failover_state_lookup	failover.c	/^isc_result_t dhcp_failover_state_lookup (omapi_object_t **sp,$/;"	f	signature:(omapi_object_t **sp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_failover_state_match	failover.c	/^int dhcp_failover_state_match (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, u_int8_t *addr, unsigned addrlen)
 dhcp_failover_state_match_by_name	failover.c	/^dhcp_failover_state_match_by_name(state, name)$/;"	f
-dhcp_failover_state_name_print	failover.c	/^const char *dhcp_failover_state_name_print (enum failover_state state)$/;"	f
-dhcp_failover_state_pool_check	failover.c	/^int dhcp_failover_state_pool_check (dhcp_failover_state_t *state)$/;"	f
-dhcp_failover_state_remove	failover.c	/^isc_result_t dhcp_failover_state_remove (omapi_object_t *sp,$/;"	f
-dhcp_failover_state_set_value	failover.c	/^isc_result_t dhcp_failover_state_set_value (omapi_object_t *h,$/;"	f
-dhcp_failover_state_signal	failover.c	/^isc_result_t dhcp_failover_state_signal (omapi_object_t *o,$/;"	f
-dhcp_failover_state_stuff	failover.c	/^isc_result_t dhcp_failover_state_stuff (omapi_object_t *c,$/;"	f
-dhcp_failover_state_transition	failover.c	/^isc_result_t dhcp_failover_state_transition (dhcp_failover_state_t *state,$/;"	f
-dhcp_failover_timeout	failover.c	/^void dhcp_failover_timeout (void *vstate)$/;"	f
-dhcp_failover_toack_queue_timeout	failover.c	/^void dhcp_failover_toack_queue_timeout (void *vs)$/;"	f
+dhcp_failover_state_name_print	failover.c	/^const char *dhcp_failover_state_name_print (enum failover_state state)$/;"	f	signature:(enum failover_state state)
+dhcp_failover_state_pool_check	failover.c	/^int dhcp_failover_state_pool_check (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
+dhcp_failover_state_remove	failover.c	/^isc_result_t dhcp_failover_state_remove (omapi_object_t *sp,$/;"	f	signature:(omapi_object_t *sp, omapi_object_t *id)
+dhcp_failover_state_set_value	failover.c	/^isc_result_t dhcp_failover_state_set_value (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_failover_state_signal	failover.c	/^isc_result_t dhcp_failover_state_signal (omapi_object_t *o,$/;"	f	signature:(omapi_object_t *o, const char *name, va_list ap)
+dhcp_failover_state_stuff	failover.c	/^isc_result_t dhcp_failover_state_stuff (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
+dhcp_failover_state_transition	failover.c	/^isc_result_t dhcp_failover_state_transition (dhcp_failover_state_t *state,$/;"	f	signature:(dhcp_failover_state_t *state, const char *name)
+dhcp_failover_timeout	failover.c	/^void dhcp_failover_timeout (void *vstate)$/;"	f	signature:(void *vstate)
+dhcp_failover_toack_queue_timeout	failover.c	/^void dhcp_failover_toack_queue_timeout (void *vs)$/;"	f	signature:(void *vs)
 dhcp_failover_write_all_states	failover.c	/^int dhcp_failover_write_all_states ()$/;"	f
 dhcp_flink_state_names	stables.c	/^const char *dhcp_flink_state_names [] = {$/;"	v
-dhcp_host_create	omapi.c	/^isc_result_t dhcp_host_create (omapi_object_t **lp,$/;"	f
-dhcp_host_destroy	omapi.c	/^isc_result_t dhcp_host_destroy (omapi_object_t *h, const char *file, int line)$/;"	f
-dhcp_host_get_value	omapi.c	/^isc_result_t dhcp_host_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f
-dhcp_host_lookup	omapi.c	/^isc_result_t dhcp_host_lookup (omapi_object_t **lp,$/;"	f
-dhcp_host_remove	omapi.c	/^isc_result_t dhcp_host_remove (omapi_object_t *lp,$/;"	f
-dhcp_host_set_value	omapi.c	/^isc_result_t dhcp_host_set_value  (omapi_object_t *h,$/;"	f
-dhcp_host_signal_handler	omapi.c	/^isc_result_t dhcp_host_signal_handler (omapi_object_t *h,$/;"	f
-dhcp_host_stuff_values	omapi.c	/^isc_result_t dhcp_host_stuff_values (omapi_object_t *c,$/;"	f
-dhcp_io_shutdown	dhcpd.c	/^isc_result_t dhcp_io_shutdown (omapi_object_t *obj, void *foo)$/;"	f
-dhcp_io_shutdown_countdown	dhcpd.c	/^static isc_result_t dhcp_io_shutdown_countdown (void *vlp)$/;"	f	file:
-dhcp_lease_create	omapi.c	/^isc_result_t dhcp_lease_create (omapi_object_t **lp,$/;"	f
-dhcp_lease_destroy	omapi.c	/^isc_result_t dhcp_lease_destroy (omapi_object_t *h, const char *file, int line)$/;"	f
-dhcp_lease_free	salloc.c	/^isc_result_t dhcp_lease_free (omapi_object_t *lo,$/;"	f
-dhcp_lease_get	salloc.c	/^isc_result_t dhcp_lease_get (omapi_object_t **lp,$/;"	f
-dhcp_lease_get_value	omapi.c	/^isc_result_t dhcp_lease_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f
-dhcp_lease_lookup	omapi.c	/^isc_result_t dhcp_lease_lookup (omapi_object_t **lp,$/;"	f
-dhcp_lease_remove	omapi.c	/^isc_result_t dhcp_lease_remove (omapi_object_t *lp,$/;"	f
-dhcp_lease_set_value	omapi.c	/^isc_result_t dhcp_lease_set_value  (omapi_object_t *h,$/;"	f
-dhcp_lease_signal_handler	omapi.c	/^isc_result_t dhcp_lease_signal_handler (omapi_object_t *h,$/;"	f
-dhcp_lease_stuff_values	omapi.c	/^isc_result_t dhcp_lease_stuff_values (omapi_object_t *c,$/;"	f
+dhcp_host_create	omapi.c	/^isc_result_t dhcp_host_create (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id)
+dhcp_host_destroy	omapi.c	/^isc_result_t dhcp_host_destroy (omapi_object_t *h, const char *file, int line)$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_host_get_value	omapi.c	/^isc_result_t dhcp_host_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_host_lookup	omapi.c	/^isc_result_t dhcp_host_lookup (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_host_remove	omapi.c	/^isc_result_t dhcp_host_remove (omapi_object_t *lp,$/;"	f	signature:(omapi_object_t *lp, omapi_object_t *id)
+dhcp_host_set_value	omapi.c	/^isc_result_t dhcp_host_set_value  (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_host_signal_handler	omapi.c	/^isc_result_t dhcp_host_signal_handler (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_host_stuff_values	omapi.c	/^isc_result_t dhcp_host_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
+dhcp_io_shutdown	dhcpd.c	/^isc_result_t dhcp_io_shutdown (omapi_object_t *obj, void *foo)$/;"	f	signature:(omapi_object_t *obj, void *foo)
+dhcp_io_shutdown_countdown	dhcpd.c	/^static isc_result_t dhcp_io_shutdown_countdown (void *vlp)$/;"	f	file:	signature:(void *vlp)
+dhcp_lease_create	omapi.c	/^isc_result_t dhcp_lease_create (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id)
+dhcp_lease_destroy	omapi.c	/^isc_result_t dhcp_lease_destroy (omapi_object_t *h, const char *file, int line)$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_lease_free	salloc.c	/^isc_result_t dhcp_lease_free (omapi_object_t *lo,$/;"	f	signature:(omapi_object_t *lo, const char *file, int line)
+dhcp_lease_get	salloc.c	/^isc_result_t dhcp_lease_get (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, const char *file, int line)
+dhcp_lease_get_value	omapi.c	/^isc_result_t dhcp_lease_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_lease_lookup	omapi.c	/^isc_result_t dhcp_lease_lookup (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_lease_remove	omapi.c	/^isc_result_t dhcp_lease_remove (omapi_object_t *lp,$/;"	f	signature:(omapi_object_t *lp, omapi_object_t *id)
+dhcp_lease_set_value	omapi.c	/^isc_result_t dhcp_lease_set_value  (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_lease_signal_handler	omapi.c	/^isc_result_t dhcp_lease_signal_handler (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_lease_stuff_values	omapi.c	/^isc_result_t dhcp_lease_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
 dhcp_max_agent_option_packet_length	dhcpd.c	/^int dhcp_max_agent_option_packet_length = DHCP_MTU_MAX;$/;"	v
 dhcp_message	dhcp.c	/^static char dhcp_message [256];$/;"	v	file:
-dhcp_pool_create	omapi.c	/^isc_result_t dhcp_pool_create (omapi_object_t **lp,$/;"	f
-dhcp_pool_destroy	omapi.c	/^isc_result_t dhcp_pool_destroy (omapi_object_t *h, const char *file, int line)$/;"	f
-dhcp_pool_get_value	omapi.c	/^isc_result_t dhcp_pool_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f
-dhcp_pool_lookup	omapi.c	/^isc_result_t dhcp_pool_lookup (omapi_object_t **lp,$/;"	f
-dhcp_pool_remove	omapi.c	/^isc_result_t dhcp_pool_remove (omapi_object_t *lp,$/;"	f
-dhcp_pool_set_value	omapi.c	/^isc_result_t dhcp_pool_set_value  (omapi_object_t *h,$/;"	f
-dhcp_pool_signal_handler	omapi.c	/^isc_result_t dhcp_pool_signal_handler (omapi_object_t *h,$/;"	f
-dhcp_pool_stuff_values	omapi.c	/^isc_result_t dhcp_pool_stuff_values (omapi_object_t *c,$/;"	f
+dhcp_pool_create	omapi.c	/^isc_result_t dhcp_pool_create (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id)
+dhcp_pool_destroy	omapi.c	/^isc_result_t dhcp_pool_destroy (omapi_object_t *h, const char *file, int line)$/;"	f	signature:(omapi_object_t *h, const char *file, int line)
+dhcp_pool_get_value	omapi.c	/^isc_result_t dhcp_pool_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_pool_lookup	omapi.c	/^isc_result_t dhcp_pool_lookup (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_pool_remove	omapi.c	/^isc_result_t dhcp_pool_remove (omapi_object_t *lp,$/;"	f	signature:(omapi_object_t *lp, omapi_object_t *id)
+dhcp_pool_set_value	omapi.c	/^isc_result_t dhcp_pool_set_value  (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_pool_signal_handler	omapi.c	/^isc_result_t dhcp_pool_signal_handler (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_pool_stuff_values	omapi.c	/^isc_result_t dhcp_pool_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
 dhcp_reply	dhcp.c	/^void dhcp_reply (lease)$/;"	f
-dhcp_set_control_state	dhcpd.c	/^isc_result_t dhcp_set_control_state (control_object_state_t oldstate,$/;"	f
-dhcp_subclass_create	omapi.c	/^isc_result_t dhcp_subclass_create (omapi_object_t **lp,$/;"	f
-dhcp_subclass_get_value	omapi.c	/^isc_result_t dhcp_subclass_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f
-dhcp_subclass_lookup	omapi.c	/^isc_result_t dhcp_subclass_lookup (omapi_object_t **lp,$/;"	f
-dhcp_subclass_remove	omapi.c	/^isc_result_t dhcp_subclass_remove (omapi_object_t *lp,$/;"	f
-dhcp_subclass_set_value	omapi.c	/^isc_result_t dhcp_subclass_set_value  (omapi_object_t *h,$/;"	f
-dhcp_subclass_signal_handler	omapi.c	/^isc_result_t dhcp_subclass_signal_handler (omapi_object_t *h,$/;"	f
-dhcp_subclass_stuff_values	omapi.c	/^isc_result_t dhcp_subclass_stuff_values (omapi_object_t *c,$/;"	f
+dhcp_set_control_state	dhcpd.c	/^isc_result_t dhcp_set_control_state (control_object_state_t oldstate,$/;"	f	signature:(control_object_state_t oldstate, control_object_state_t newstate)
+dhcp_subclass_create	omapi.c	/^isc_result_t dhcp_subclass_create (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id)
+dhcp_subclass_get_value	omapi.c	/^isc_result_t dhcp_subclass_get_value (omapi_object_t *h, omapi_object_t *id,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_value_t **value)
+dhcp_subclass_lookup	omapi.c	/^isc_result_t dhcp_subclass_lookup (omapi_object_t **lp,$/;"	f	signature:(omapi_object_t **lp, omapi_object_t *id, omapi_object_t *ref)
+dhcp_subclass_remove	omapi.c	/^isc_result_t dhcp_subclass_remove (omapi_object_t *lp,$/;"	f	signature:(omapi_object_t *lp, omapi_object_t *id)
+dhcp_subclass_set_value	omapi.c	/^isc_result_t dhcp_subclass_set_value  (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, omapi_object_t *id, omapi_data_string_t *name, omapi_typed_data_t *value)
+dhcp_subclass_signal_handler	omapi.c	/^isc_result_t dhcp_subclass_signal_handler (omapi_object_t *h,$/;"	f	signature:(omapi_object_t *h, const char *name, va_list ap)
+dhcp_subclass_stuff_values	omapi.c	/^isc_result_t dhcp_subclass_stuff_values (omapi_object_t *c,$/;"	f	signature:(omapi_object_t *c, omapi_object_t *id, omapi_object_t *h)
 dhcp_type_class	omapi.c	/^omapi_object_type_t *dhcp_type_class;$/;"	v
 dhcp_type_failover_link	omapi.c	/^omapi_object_type_t *dhcp_type_failover_link;$/;"	v
 dhcp_type_failover_listener	omapi.c	/^omapi_object_type_t *dhcp_type_failover_listener;$/;"	v
@@ -256,134 +376,181 @@ dhcp_type_name_max	dhcp.c	/^const int dhcp_type_name_max = ((sizeof dhcp_type_na
 dhcp_type_names	dhcp.c	/^static const char *dhcp_type_names [] = { $/;"	v	file:
 dhcp_type_pool	omapi.c	/^omapi_object_type_t *dhcp_type_pool;$/;"	v
 dhcp_type_subclass	omapi.c	/^omapi_object_type_t *dhcp_type_subclass;$/;"	v
-dhcpd_interface_setup_hook	dhcpd.c	/^int dhcpd_interface_setup_hook (struct interface_info *ip, struct iaddr *ia)$/;"	f
+dhcpd_CFLAGS	Makefile	/^dhcpd_CFLAGS = $(LDAP_CFLAGS)$/;"	m
+dhcpd_DEPENDENCIES	Makefile	/^dhcpd_DEPENDENCIES = ..\/common\/libdhcp.a ..\/omapip\/libomapi.a \\$/;"	m
+dhcpd_LDADD	Makefile	/^dhcpd_LDADD = ..\/common\/libdhcp.a ..\/omapip\/libomapi.a \\$/;"	m
+dhcpd_LINK	Makefile	/^dhcpd_LINK = $(CCLD) $(dhcpd_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) \\$/;"	m
+dhcpd_OBJECTS	Makefile	/^dhcpd_OBJECTS = $(am_dhcpd_OBJECTS)$/;"	m
+dhcpd_SOURCES	Makefile	/^dhcpd_SOURCES = dhcpd.c dhcp.c bootp.c confpars.c db.c class.c failover.c \\$/;"	m
+dhcpd_interface_setup_hook	dhcpd.c	/^int dhcpd_interface_setup_hook (struct interface_info *ip, struct iaddr *ia)$/;"	f	signature:(struct interface_info *ip, struct iaddr *ia)
 dhcpdecline	dhcp.c	/^void dhcpdecline (packet, ms_nulltp)$/;"	f
 dhcpdiscover	dhcp.c	/^void dhcpdiscover (packet, ms_nulltp)$/;"	f
 dhcpinform	dhcp.c	/^void dhcpinform (packet, ms_nulltp)$/;"	f
-dhcpleasequery	dhcpleasequery.c	/^dhcpleasequery(struct packet *packet, int ms_nulltp) {$/;"	f
+dhcpleasequery	dhcpleasequery.c	/^dhcpleasequery(struct packet *packet, int ms_nulltp) {$/;"	f	signature:(struct packet *packet, int ms_nulltp)
 dhcprelease	dhcp.c	/^void dhcprelease (packet, ms_nulltp)$/;"	f
 dhcprequest	dhcp.c	/^void dhcprequest (packet, ms_nulltp, ip_lease)$/;"	f
-dhcpv6	dhcpv6.c	/^dhcpv6(struct packet *packet) {$/;"	f
+dhcpv6	dhcpv6.c	/^dhcpv6(struct packet *packet) {$/;"	f	signature:(struct packet *packet)
 dhcpv6_class_once	confpars.c	/^static unsigned char dhcpv6_class_once = 1;$/;"	v	file:
-dhcpv6_confirm	dhcpv6.c	/^dhcpv6_confirm(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:
-dhcpv6_decline	dhcpv6.c	/^dhcpv6_decline(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-dhcpv6_discard	dhcpv6.c	/^dhcpv6_discard(struct packet *packet) {$/;"	f	file:
-dhcpv6_information_request	dhcpv6.c	/^dhcpv6_information_request(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-dhcpv6_leasequery	dhcpleasequery.c	/^dhcpv6_leasequery(struct data_string *reply_ret, struct packet *packet) {$/;"	f
-dhcpv6_rebind	dhcpv6.c	/^dhcpv6_rebind(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-dhcpv6_relay_forw	dhcpv6.c	/^dhcpv6_relay_forw(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:
-dhcpv6_release	dhcpv6.c	/^dhcpv6_release(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-dhcpv6_renew	dhcpv6.c	/^dhcpv6_renew(struct data_string *reply, struct packet *packet) {$/;"	f	file:
-dhcpv6_request	dhcpv6.c	/^dhcpv6_request(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:
-dhcpv6_solicit	dhcpv6.c	/^dhcpv6_solicit(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:
+dhcpv6_confirm	dhcpv6.c	/^dhcpv6_confirm(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet)
+dhcpv6_decline	dhcpv6.c	/^dhcpv6_decline(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+dhcpv6_discard	dhcpv6.c	/^dhcpv6_discard(struct packet *packet) {$/;"	f	file:	signature:(struct packet *packet)
+dhcpv6_information_request	dhcpv6.c	/^dhcpv6_information_request(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+dhcpv6_leasequery	dhcpleasequery.c	/^dhcpv6_leasequery(struct data_string *reply_ret, struct packet *packet) {$/;"	f	signature:(struct data_string *reply_ret, struct packet *packet)
+dhcpv6_rebind	dhcpv6.c	/^dhcpv6_rebind(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+dhcpv6_relay_forw	dhcpv6.c	/^dhcpv6_relay_forw(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet)
+dhcpv6_release	dhcpv6.c	/^dhcpv6_release(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+dhcpv6_renew	dhcpv6.c	/^dhcpv6_renew(struct data_string *reply, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply, struct packet *packet)
+dhcpv6_request	dhcpv6.c	/^dhcpv6_request(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet)
+dhcpv6_solicit	dhcpv6.c	/^dhcpv6_solicit(struct data_string *reply_ret, struct packet *packet) {$/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet)
 dissociate_lease	mdb.c	/^void dissociate_lease (lease)$/;"	f
-dn	ldap.c	/^    char *dn;$/;"	m	struct:ldap_dn_node	file:
+dist_sysconfDATA_INSTALL	Makefile	/^dist_sysconfDATA_INSTALL = $(INSTALL_DATA)$/;"	m
+dist_sysconf_DATA	Makefile	/^dist_sysconf_DATA = dhcpd.conf$/;"	m
+dn	ldap.c	/^    char *dn;$/;"	m	struct:ldap_dn_node	file:	access:public
 do_a_failover_option	failover.c	/^static isc_result_t do_a_failover_option (c, link)$/;"	f	file:
-duid_time	dhcpv6.c	/^duid_time(time_t when) {$/;"	f	file:
+do_a_failover_option	failover.c	/^static isc_result_t do_a_failover_option (omapi_object_t *,$/;"	p	file:	signature:(omapi_object_t *, dhcp_failover_link_t *)
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+duid_time	dhcpv6.c	/^duid_time(time_t when) {$/;"	f	file:	signature:(time_t when)
 dump_subnets	mdb.c	/^void dump_subnets ()$/;"	f
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+ecitem	ioctl.h	/^struct ecitem$/;"	s
+ecitem::in_pkts	ioctl.h	/^   long long in_pkts,inbound_bytes;$/;"	m	struct:ecitem	access:public
+ecitem::inbound_bytes	ioctl.h	/^   long long in_pkts,inbound_bytes;$/;"	m	struct:ecitem	access:public
+ecitem::local6	ioctl.h	/^   struct in6_addr remote6,local6;$/;"	m	struct:ecitem	typeref:struct:ecitem::	access:public
+ecitem::next	ioctl.h	/^   struct ecitem *next; $/;"	m	struct:ecitem	typeref:struct:ecitem::ecitem	access:public
+ecitem::out_pkts	ioctl.h	/^   long long out_pkts,outbound_bytes;$/;"	m	struct:ecitem	access:public
+ecitem::outbound_bytes	ioctl.h	/^   long long out_pkts,outbound_bytes;$/;"	m	struct:ecitem	access:public
+ecitem::remote	ioctl.h	/^   struct in_addr remote;$/;"	m	struct:ecitem	typeref:struct:ecitem::in_addr	access:public
+ecitem::remote6	ioctl.h	/^   struct in6_addr remote6,local6;$/;"	m	struct:ecitem	typeref:struct:ecitem::in6_addr	access:public
+ecitem::seconds	ioctl.h	/^   int seconds;\/\/lease time limit$/;"	m	struct:ecitem	access:public
+ecitem::start_time	ioctl.h	/^   struct timeval start_time;$/;"	m	struct:ecitem	typeref:struct:ecitem::timeval	access:public
+ecitem::tag	ioctl.h	/^   int tag;\/\/if tag==1,then this is manual,if tag==2,then this is auto.$/;"	m	struct:ecitem	access:public
 enter_class	mdb.c	/^isc_result_t enter_class(cd, dynamicp, commit)$/;"	f
 enter_failover_peer	failover.c	/^isc_result_t enter_failover_peer (peer)$/;"	f
 enter_host	mdb.c	/^isc_result_t enter_host (hd, dynamicp, commit)$/;"	f
 enter_lease	mdb.c	/^void enter_lease (lease)$/;"	f
 enter_shared_network	mdb.c	/^void enter_shared_network (share)$/;"	f
 enter_subnet	mdb.c	/^void enter_subnet (subnet)$/;"	f
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
 expire_all_pools	mdb.c	/^void expire_all_pools ()$/;"	f
-expire_lease6	mdb6.c	/^expire_lease6(struct iasubopt **leasep, struct ipv6_pool *pool, time_t now) {$/;"	f
-failover_lease_is_better	failover.c	/^failover_lease_is_better(dhcp_failover_state_t *state, struct lease *lease,$/;"	f	file:
+expire_lease6	mdb6.c	/^expire_lease6(struct iasubopt **leasep, struct ipv6_pool *pool, time_t now) {$/;"	f	signature:(struct iasubopt **leasep, struct ipv6_pool *pool, time_t now)
+failover_lease_is_better	failover.c	/^failover_lease_is_better(dhcp_failover_state_t *state, struct lease *lease,$/;"	f	file:	signature:(dhcp_failover_state_t *state, struct lease *lease, failover_message_t *msg)
 failover_listeners	failover.c	/^dhcp_failover_listener_t *failover_listeners;$/;"	v
-failover_message_dereference	failover.c	/^static isc_result_t failover_message_dereference (failover_message_t **mp,$/;"	f	file:
-failover_message_reference	failover.c	/^static isc_result_t failover_message_reference (failover_message_t **mp,$/;"	f	file:
-failover_print	failover.c	/^void failover_print (char *obuf,$/;"	f
+failover_message_dereference	failover.c	/^static isc_result_t failover_message_dereference (failover_message_t **,$/;"	p	file:	signature:(failover_message_t **, const char *file, int line)
+failover_message_dereference	failover.c	/^static isc_result_t failover_message_dereference (failover_message_t **mp,$/;"	f	file:	signature:(failover_message_t **mp, const char *file, int line)
+failover_message_reference	failover.c	/^static isc_result_t failover_message_reference (failover_message_t **,$/;"	p	file:	signature:(failover_message_t **, failover_message_t *, const char *file, int line)
+failover_message_reference	failover.c	/^static isc_result_t failover_message_reference (failover_message_t **mp,$/;"	f	file:	signature:(failover_message_t **mp, failover_message_t *m, const char *file, int line)
+failover_print	failover.c	/^void failover_print (char *obuf,$/;"	f	signature:(char *obuf, unsigned *obufix, unsigned obufmax, const char *s)
 failover_states	failover.c	/^dhcp_failover_state_t *failover_states;$/;"	v
-find_class	class.c	/^isc_result_t find_class (struct class **class, const char *name,$/;"	f
-find_client_address	dhcpv6.c	/^find_client_address(struct reply_state *reply) {$/;"	f	file:
-find_client_prefix	dhcpv6.c	/^find_client_prefix(struct reply_state *reply) {$/;"	f	file:
-find_client_temporaries	dhcpv6.c	/^find_client_temporaries(struct reply_state *reply) {$/;"	f	file:
+find_class	class.c	/^isc_result_t find_class (struct class **class, const char *name,$/;"	f	signature:(struct class **class, const char *name, const char *file, int line)
+find_client_address	dhcpv6.c	/^find_client_address(struct reply_state *reply) {$/;"	f	file:	signature:(struct reply_state *reply)
+find_client_address	dhcpv6.c	/^static isc_result_t find_client_address(struct reply_state *reply);$/;"	p	file:	signature:(struct reply_state *reply)
+find_client_prefix	dhcpv6.c	/^find_client_prefix(struct reply_state *reply) {$/;"	f	file:	signature:(struct reply_state *reply)
+find_client_prefix	dhcpv6.c	/^static isc_result_t find_client_prefix(struct reply_state *reply);$/;"	p	file:	signature:(struct reply_state *reply)
+find_client_temporaries	dhcpv6.c	/^find_client_temporaries(struct reply_state *reply) {$/;"	f	file:	signature:(struct reply_state *reply)
+find_client_temporaries	dhcpv6.c	/^static isc_result_t find_client_temporaries(struct reply_state *reply);$/;"	p	file:	signature:(struct reply_state *reply)
 find_failover_peer	failover.c	/^isc_result_t find_failover_peer (peer, name, file, line)$/;"	f
-find_grouped_subnet	mdb.c	/^int find_grouped_subnet (struct subnet **sp,$/;"	f
-find_haddr_in_ldap	ldap.c	/^find_haddr_in_ldap (struct host_decl **hp, int htype, unsigned hlen,$/;"	f
-find_host_for_network	mdb.c	/^int find_host_for_network (struct subnet **sp, struct host_decl **host,$/;"	f
-find_host_id_info	mdb.c	/^find_host_id_info(unsigned int option_code) {$/;"	f	file:
-find_hosts_by_duid_chaddr	dhcpv6.c	/^find_hosts_by_duid_chaddr(struct host_decl **host,$/;"	f	file:
-find_hosts_by_haddr	mdb.c	/^int find_hosts_by_haddr (struct host_decl **hp, int htype,$/;"	f
-find_hosts_by_option	mdb.c	/^find_hosts_by_option(struct host_decl **hp, $/;"	f
-find_hosts_by_uid	mdb.c	/^int find_hosts_by_uid (struct host_decl **hp,$/;"	f
-find_ipv6_pool	mdb6.c	/^find_ipv6_pool(struct ipv6_pool **pool, u_int16_t type,$/;"	f
-find_lease	dhcp.c	/^int find_lease (struct lease **lp,$/;"	f
-find_lease_by_hw_addr	mdb.c	/^int find_lease_by_hw_addr (struct lease **lp,$/;"	f
-find_lease_by_ip_addr	mdb.c	/^int find_lease_by_ip_addr (struct lease **lp, struct iaddr addr,$/;"	f
-find_lease_by_uid	mdb.c	/^int find_lease_by_uid (struct lease **lp, const unsigned char *uid,$/;"	f
-find_min_site_code	dhcp.c	/^find_min_site_code(struct universe *u)$/;"	f	file:
-find_subclass_in_ldap	ldap.c	/^find_subclass_in_ldap (struct class *class, struct class **newclass, $/;"	f
-find_subnet	mdb.c	/^int find_subnet (struct subnet **sp,$/;"	f
-find_uid_statement	mdb.c	/^static int find_uid_statement (struct executable_statement *esp,$/;"	f	file:
-fixed	dhcpv6.c	/^	struct data_string fixed;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:
-fixed_matches_shared	dhcpv6.c	/^fixed_matches_shared(struct host_decl *host, struct shared_network *shared) {$/;"	f	file:
-flush_ackqueue	dhcp.c	/^flush_ackqueue(void *foo) $/;"	f
+find_grouped_subnet	mdb.c	/^int find_grouped_subnet (struct subnet **sp,$/;"	f	signature:(struct subnet **sp, struct shared_network *share, struct iaddr addr, const char *file, int line)
+find_haddr_in_ldap	ldap.c	/^find_haddr_in_ldap (struct host_decl **hp, int htype, unsigned hlen,$/;"	f	signature:(struct host_decl **hp, int htype, unsigned hlen, const unsigned char *haddr, const char *file, int line)
+find_host_for_network	mdb.c	/^int find_host_for_network (struct subnet **sp, struct host_decl **host,$/;"	f	signature:(struct subnet **sp, struct host_decl **host, struct iaddr *addr, struct shared_network *share)
+find_host_id_info	mdb.c	/^find_host_id_info(unsigned int option_code) {$/;"	f	file:	signature:(unsigned int option_code)
+find_hosts_by_duid_chaddr	dhcpv6.c	/^find_hosts_by_duid_chaddr(struct host_decl **host,$/;"	f	file:	signature:(struct host_decl **host, const struct data_string *client_id)
+find_hosts_by_duid_chaddr	dhcpv6.c	/^static int find_hosts_by_duid_chaddr(struct host_decl **host,$/;"	p	file:	signature:(struct host_decl **host, const struct data_string *client_id)
+find_hosts_by_haddr	mdb.c	/^int find_hosts_by_haddr (struct host_decl **hp, int htype,$/;"	f	signature:(struct host_decl **hp, int htype, const unsigned char *haddr, unsigned hlen, const char *file, int line)
+find_hosts_by_option	mdb.c	/^find_hosts_by_option(struct host_decl **hp, $/;"	f	signature:(struct host_decl **hp, struct packet *packet, struct option_state *opt_state, const char *file, int line)
+find_hosts_by_uid	mdb.c	/^int find_hosts_by_uid (struct host_decl **hp,$/;"	f	signature:(struct host_decl **hp, const unsigned char *data, unsigned len, const char *file, int line)
+find_ipv6_pool	mdb6.c	/^find_ipv6_pool(struct ipv6_pool **pool, u_int16_t type,$/;"	f	signature:(struct ipv6_pool **pool, u_int16_t type, const struct in6_addr *addr)
+find_lease	dhcp.c	/^int find_lease (struct lease **lp,$/;"	f	signature:(struct lease **lp, struct packet *packet, struct shared_network *share, int *ours, int *peer_has_leases, struct lease *ip_lease_in, const char *file, int line)
+find_lease_by_hw_addr	mdb.c	/^int find_lease_by_hw_addr (struct lease **lp,$/;"	f	signature:(struct lease **lp, const unsigned char *hwaddr, unsigned hwlen, const char *file, int line)
+find_lease_by_ip_addr	mdb.c	/^int find_lease_by_ip_addr (struct lease **lp, struct iaddr addr,$/;"	f	signature:(struct lease **lp, struct iaddr addr, const char *file, int line)
+find_lease_by_ip_pset	mdb.c	/^int find_lease_by_ip_pset (struct lease **lp, struct iaddr_pset pset,$/;"	f	signature:(struct lease **lp, struct iaddr_pset pset, const char *file, int line)
+find_lease_by_uid	mdb.c	/^int find_lease_by_uid (struct lease **lp, const unsigned char *uid,$/;"	f	signature:(struct lease **lp, const unsigned char *uid, unsigned len, const char *file, int line)
+find_min_site_code	dhcp.c	/^find_min_site_code(struct universe *u)$/;"	f	file:	signature:(struct universe *u)
+find_min_site_code	dhcp.c	/^static int find_min_site_code(struct universe *);$/;"	p	file:	signature:(struct universe *)
+find_subclass_in_ldap	ldap.c	/^find_subclass_in_ldap (struct class *class, struct class **newclass, $/;"	f	signature:(struct class *class, struct class **newclass, struct data_string *data)
+find_subnet	mdb.c	/^int find_subnet (struct subnet **sp,$/;"	f	signature:(struct subnet **sp, struct iaddr addr, const char *file, int line)
+find_uid_statement	mdb.c	/^static int find_uid_statement (struct executable_statement *esp,$/;"	f	file:	signature:(struct executable_statement *esp, void *vp, int condp)
+fixed	dhcpv6.c	/^	struct data_string fixed;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:	access:public
+fixed_matches_shared	dhcpv6.c	/^fixed_matches_shared(struct host_decl *host, struct shared_network *shared) {$/;"	f	file:	signature:(struct host_decl *host, struct shared_network *shared)
+fixed_matches_shared	dhcpv6.c	/^static isc_boolean_t fixed_matches_shared(struct host_decl *host,$/;"	p	file:	signature:(struct host_decl *host, struct shared_network *shared)
+flush_ackqueue	dhcp.c	/^flush_ackqueue(void *foo) $/;"	f	signature:(void *foo)
 free_ackqueue	dhcp.c	/^static struct leasequeue *free_ackqueue;$/;"	v	typeref:struct:leasequeue	file:
-free_everything	mdb.c	/^void free_everything(void)$/;"	f
+free_everything	mdb.c	/^void free_everything(void)$/;"	f	signature:(void)
 free_lease_state	salloc.c	/^void free_lease_state (ptr, file, line)$/;"	f
 free_lease_states	salloc.c	/^struct lease_state *free_lease_states;$/;"	v	typeref:struct:lease_state
 free_leases	salloc.c	/^struct lease *free_leases;$/;"	v	typeref:struct:lease
 free_permit	salloc.c	/^void free_permit (permit, file, line)$/;"	f
-free_stack_entry	ldap.c	/^free_stack_entry (struct ldap_config_stack *item)$/;"	f	file:
+free_stack_entry	ldap.c	/^free_stack_entry (struct ldap_config_stack *item)$/;"	f	file:	signature:(struct ldap_config_stack *item)
 ft_options	stables.c	/^struct failover_option_info ft_options [] =$/;"	v	typeref:struct:failover_option_info
 ft_sizes	stables.c	/^int ft_sizes [] = {$/;"	v
 fto_allowed	stables.c	/^u_int32_t fto_allowed [] = {$/;"	v
-generate_new_server_duid	dhcpv6.c	/^generate_new_server_duid(void) {$/;"	f
-get_associated_ips	dhcpleasequery.c	/^get_associated_ips(const struct lease *lease,$/;"	f	file:
-get_client_id	dhcpv6.c	/^get_client_id(struct packet *packet, struct data_string *client_id) {$/;"	f
-get_encapsulated_IA_state	dhcpv6.c	/^get_encapsulated_IA_state(struct option_state **enc_opt_state,$/;"	f	file:
-get_lq_query	dhcpleasequery.c	/^get_lq_query(struct lq6_state *lq)$/;"	f	file:
-get_newest_lease	dhcpleasequery.c	/^get_newest_lease(struct lease **retval,$/;"	f
-get_server_source_address	dhcp.c	/^get_server_source_address(struct in_addr *from,$/;"	f
-getfqhostname	ldap.c	/^getfqhostname(char *fqhost, size_t size)$/;"	f	file:
+generate_new_server_duid	dhcpv6.c	/^generate_new_server_duid(void) {$/;"	f	signature:(void)
+get_associated_ips	dhcpleasequery.c	/^get_associated_ips(const struct lease *lease,$/;"	f	file:	signature:(const struct lease *lease, struct lease *(*next)(const struct lease *), const struct lease *newest, u_int32_t *associated_ips, unsigned int associated_ips_size)
+get_client_id	dhcpv6.c	/^get_client_id(struct packet *packet, struct data_string *client_id) {$/;"	f	signature:(struct packet *packet, struct data_string *client_id)
+get_encapsulated_IA_state	dhcpv6.c	/^get_encapsulated_IA_state(struct option_state **enc_opt_state,$/;"	f	file:	signature:(struct option_state **enc_opt_state, struct data_string *enc_opt_data, struct packet *packet, struct option_cache *oc, int offset)
+get_encapsulated_IA_state	dhcpv6.c	/^static int get_encapsulated_IA_state(struct option_state **enc_opt_state,$/;"	p	file:	signature:(struct option_state **enc_opt_state, struct data_string *enc_opt_data, struct packet *packet, struct option_cache *oc, int offset)
+get_lq_query	dhcpleasequery.c	/^get_lq_query(struct lq6_state *lq)$/;"	f	file:	signature:(struct lq6_state *lq)
+get_newest_lease	dhcpleasequery.c	/^get_newest_lease(struct lease **retval,$/;"	f	signature:(struct lease **retval, struct lease *lease, struct lease *(*next)(const struct lease *))
+get_server_source_address	dhcp.c	/^get_server_source_address(struct in_addr *from,$/;"	f	signature:(struct in_addr *from, struct option_state *options, struct packet *packet)
+getfqhostname	ldap.c	/^getfqhostname(char *fqhost, size_t size)$/;"	f	file:	signature:(char *fqhost, size_t size)
 global_host_once	confpars.c	/^static unsigned char global_host_once = 1;$/;"	v	file:
-group	dhcpd.c	521;"	d	file:
-group	dhcpd.c	531;"	d	file:
+group	dhcpd.c	544;"	d	file:
+group	dhcpd.c	554;"	d	file:
 group	dhcpd.c	56;"	d	file:
 group	dhcpd.c	58;"	d	file:
-group_writer	db.c	/^int group_writer (struct group_object *group)$/;"	f
+group_writer	db.c	/^int group_writer (struct group_object *group)$/;"	f	signature:(struct group_object *group)
 have_billing_classes	class.c	/^int have_billing_classes;$/;"	v
-host	dhcpv6.c	/^	struct host_decl *host;$/;"	m	struct:reply_state	typeref:struct:reply_state::host_decl	file:
+host	dhcpv6.c	/^	struct host_decl *host;$/;"	m	struct:reply_state	typeref:struct:reply_state::host_decl	file:	access:public
+host_alias	Makefile	/^host_alias = $/;"	m
 host_hw_addr_hash	mdb.c	/^host_hash_t *host_hw_addr_hash;$/;"	v
 host_id_info	mdb.c	/^static host_id_info_t *host_id_info = NULL;$/;"	v	file:
 host_id_info	mdb.c	/^typedef struct host_id_info {$/;"	s	file:
+host_id_info::next	mdb.c	/^	struct host_id_info *next;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::host_id_info	file:	access:public
+host_id_info::option	mdb.c	/^	struct option *option;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::option	file:	access:public
+host_id_info::values_hash	mdb.c	/^	host_hash_t *values_hash;$/;"	m	struct:host_id_info	file:	access:public
 host_id_info_t	mdb.c	/^} host_id_info_t;$/;"	t	typeref:struct:host_id_info	file:
 host_name_hash	mdb.c	/^host_hash_t *host_name_hash;$/;"	v
 host_uid_hash	mdb.c	/^host_hash_t *host_uid_hash;$/;"	v
-hw_hash_add	mdb.c	/^hw_hash_add(struct lease *lease)$/;"	f
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+hw_hash_add	mdb.c	/^hw_hash_add(struct lease *lease)$/;"	f	signature:(struct lease *lease)
 hw_hash_delete	mdb.c	/^void hw_hash_delete (lease)$/;"	f
-ia	dhcpv6.c	/^	struct ia_xx *ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:
-ia_add_iasubopt	mdb6.c	/^ia_add_iasubopt(struct ia_xx *ia, struct iasubopt *iasubopt, $/;"	f
-ia_allocate	mdb6.c	/^ia_allocate(struct ia_xx **ia, u_int32_t iaid, $/;"	f
-ia_count	dhcpv6.c	/^	unsigned ia_count;$/;"	m	struct:reply_state	file:
-ia_dereference	mdb6.c	/^ia_dereference(struct ia_xx **ia, const char *file, int line) {$/;"	f
-ia_equal	mdb6.c	/^ia_equal(const struct ia_xx *a, const struct ia_xx *b) $/;"	f
-ia_make_key	mdb6.c	/^ia_make_key(struct data_string *key, u_int32_t iaid,$/;"	f
+ia	dhcpv6.c	/^	struct ia_xx *ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:	access:public
+ia_add_iasubopt	mdb6.c	/^ia_add_iasubopt(struct ia_xx *ia, struct iasubopt *iasubopt, $/;"	f	signature:(struct ia_xx *ia, struct iasubopt *iasubopt, const char *file, int line)
+ia_allocate	mdb6.c	/^ia_allocate(struct ia_xx **ia, u_int32_t iaid, $/;"	f	signature:(struct ia_xx **ia, u_int32_t iaid, const char *duid, unsigned int duid_len, const char *file, int line)
+ia_count	dhcpv6.c	/^	unsigned ia_count;$/;"	m	struct:reply_state	file:	access:public
+ia_dereference	mdb6.c	/^ia_dereference(struct ia_xx **ia, const char *file, int line) {$/;"	f	signature:(struct ia_xx **ia, const char *file, int line)
+ia_equal	mdb6.c	/^ia_equal(const struct ia_xx *a, const struct ia_xx *b) $/;"	f	signature:(const struct ia_xx *a, const struct ia_xx *b)
+ia_make_key	mdb6.c	/^ia_make_key(struct data_string *key, u_int32_t iaid,$/;"	f	signature:(struct data_string *key, u_int32_t iaid, const char *duid, unsigned int duid_len, const char *file, int line)
 ia_na_active	mdb6.c	/^ia_hash_t *ia_na_active;$/;"	v
-ia_na_match_decline	dhcpv6.c	/^ia_na_match_decline(const struct data_string *client_id,$/;"	f	file:
-ia_na_match_release	dhcpv6.c	/^ia_na_match_release(const struct data_string *client_id,$/;"	f	file:
-ia_na_nomatch_decline	dhcpv6.c	/^ia_na_nomatch_decline(const struct data_string *client_id,$/;"	f	file:
-ia_na_nomatch_release	dhcpv6.c	/^ia_na_nomatch_release(const struct data_string *client_id,$/;"	f	file:
+ia_na_match_decline	dhcpv6.c	/^ia_na_match_decline(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iaaddr, struct iasubopt *lease)
+ia_na_match_release	dhcpv6.c	/^ia_na_match_release(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iaaddr, struct iasubopt *lease)
+ia_na_nomatch_decline	dhcpv6.c	/^ia_na_nomatch_decline(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iaaddr, u_int32_t *ia_na_id, struct packet *packet, char *reply_data, int *reply_ofs, int reply_len)
+ia_na_nomatch_release	dhcpv6.c	/^ia_na_nomatch_release(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iaaddr, u_int32_t *ia_na_id, struct packet *packet, char *reply_data, int *reply_ofs, int reply_len)
 ia_pd_active	mdb6.c	/^ia_hash_t *ia_pd_active;$/;"	v
-ia_pd_match_release	dhcpv6.c	/^ia_pd_match_release(const struct data_string *client_id,$/;"	f	file:
-ia_pd_nomatch_release	dhcpv6.c	/^ia_pd_nomatch_release(const struct data_string *client_id,$/;"	f	file:
-ia_reference	mdb6.c	/^ia_reference(struct ia_xx **ia, struct ia_xx *src,$/;"	f
-ia_remove_all_lease	mdb6.c	/^ia_remove_all_lease(struct ia_xx *ia, const char *file, int line) {$/;"	f
-ia_remove_iasubopt	mdb6.c	/^ia_remove_iasubopt(struct ia_xx *ia, struct iasubopt *iasubopt,$/;"	f
+ia_pd_match_release	dhcpv6.c	/^ia_pd_match_release(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iapref, struct iasubopt *prefix)
+ia_pd_nomatch_release	dhcpv6.c	/^ia_pd_nomatch_release(const struct data_string *client_id,$/;"	f	file:	signature:(const struct data_string *client_id, const struct data_string *iapref, u_int32_t *ia_pd_id, struct packet *packet, char *reply_data, int *reply_ofs, int reply_len)
+ia_reference	mdb6.c	/^ia_reference(struct ia_xx **ia, struct ia_xx *src,$/;"	f	signature:(struct ia_xx **ia, struct ia_xx *src, const char *file, int line)
+ia_remove_all_lease	mdb6.c	/^ia_remove_all_lease(struct ia_xx *ia, const char *file, int line) {$/;"	f	signature:(struct ia_xx *ia, const char *file, int line)
+ia_remove_iasubopt	mdb6.c	/^ia_remove_iasubopt(struct ia_xx *ia, struct iasubopt *iasubopt,$/;"	f	signature:(struct ia_xx *ia, struct iasubopt *iasubopt, const char *file, int line)
 ia_ta_active	mdb6.c	/^ia_hash_t *ia_ta_active;$/;"	v
-iasubopt_allocate	mdb6.c	/^iasubopt_allocate(struct iasubopt **iasubopt, const char *file, int line) {$/;"	f
-iasubopt_dereference	mdb6.c	/^iasubopt_dereference(struct iasubopt **iasubopt, const char *file, int line) {$/;"	f
-iasubopt_reference	mdb6.c	/^iasubopt_reference(struct iasubopt **iasubopt, struct iasubopt *src,$/;"	f
+iasubopt_allocate	mdb6.c	/^iasubopt_allocate(struct iasubopt **iasubopt, const char *file, int line) {$/;"	f	signature:(struct iasubopt **iasubopt, const char *file, int line)
+iasubopt_dereference	mdb6.c	/^iasubopt_dereference(struct iasubopt **iasubopt, const char *file, int line) {$/;"	f	signature:(struct iasubopt **iasubopt, const char *file, int line)
+iasubopt_reference	mdb6.c	/^iasubopt_reference(struct iasubopt **iasubopt, struct iasubopt *src,$/;"	f	signature:(struct iasubopt **iasubopt, struct iasubopt *src, const char *file, int line)
+in_pkts	ioctl.h	/^   long long in_pkts,inbound_bytes;$/;"	m	struct:ecitem	access:public
+inbound_bytes	ioctl.h	/^   long long in_pkts,inbound_bytes;$/;"	m	struct:ecitem	access:public
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
 initialize_server_option_spaces	stables.c	/^void initialize_server_option_spaces()$/;"	f
-ipv6_in_pool	mdb6.c	/^ipv6_in_pool(const struct in6_addr *addr, const struct ipv6_pool *pool) {$/;"	f
-ipv6_network_portion	mdb6.c	/^ipv6_network_portion(struct in6_addr *result, $/;"	f	file:
-ipv6_pool_allocate	mdb6.c	/^ipv6_pool_allocate(struct ipv6_pool **pool, u_int16_t type,$/;"	f
-ipv6_pool_dereference	mdb6.c	/^ipv6_pool_dereference(struct ipv6_pool **pool, const char *file, int line) {$/;"	f
-ipv6_pool_reference	mdb6.c	/^ipv6_pool_reference(struct ipv6_pool **pool, struct ipv6_pool *src,$/;"	f
-iterate_over_ia_na	dhcpv6.c	/^iterate_over_ia_na(struct data_string *reply_ret, $/;"	f	file:
-iterate_over_ia_pd	dhcpv6.c	/^iterate_over_ia_pd(struct data_string *reply_ret, $/;"	f	file:
+install_sh	Makefile	/^install_sh = $(SHELL) \/home\/thuos\/network\/DHCP\/DHCPv4-over-v6\/dhcp-4.2.3-P2\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+ipv6_in_pool	mdb6.c	/^ipv6_in_pool(const struct in6_addr *addr, const struct ipv6_pool *pool) {$/;"	f	signature:(const struct in6_addr *addr, const struct ipv6_pool *pool)
+ipv6_network_portion	mdb6.c	/^ipv6_network_portion(struct in6_addr *result, $/;"	f	file:	signature:(struct in6_addr *result, const struct in6_addr *addr, int bits)
+ipv6_pool_allocate	mdb6.c	/^ipv6_pool_allocate(struct ipv6_pool **pool, u_int16_t type,$/;"	f	signature:(struct ipv6_pool **pool, u_int16_t type, const struct in6_addr *start_addr, int bits, int units, const char *file, int line)
+ipv6_pool_dereference	mdb6.c	/^ipv6_pool_dereference(struct ipv6_pool **pool, const char *file, int line) {$/;"	f	signature:(struct ipv6_pool **pool, const char *file, int line)
+ipv6_pool_reference	mdb6.c	/^ipv6_pool_reference(struct ipv6_pool **pool, struct ipv6_pool *src,$/;"	f	signature:(struct ipv6_pool **pool, struct ipv6_pool *src, const char *file, int line)
+iterate_over_ia_na	dhcpv6.c	/^iterate_over_ia_na(struct data_string *reply_ret, $/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet, const struct data_string *client_id, const struct data_string *server_id, const char *packet_type, void (*ia_na_match)(), void (*ia_na_nomatch)())
+iterate_over_ia_pd	dhcpv6.c	/^iterate_over_ia_pd(struct data_string *reply_ret, $/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet, const struct data_string *client_id, const struct data_string *server_id, const char *packet_type, void (*ia_pd_match)(), void (*ia_pd_nomatch)())
 ld	ldap.c	/^static LDAP * ld = NULL;$/;"	v	file:
 ldap_base_dn	ldap.c	/^            *ldap_base_dn = NULL,$/;"	v	file:
 ldap_close_debug_fd	ldap.c	/^ldap_close_debug_fd()$/;"	f	file:
@@ -392,26 +559,29 @@ ldap_debug_file	ldap.c	/^            *ldap_debug_file = NULL;$/;"	v	file:
 ldap_dhcp_server_cn	ldap.c	/^            *ldap_dhcp_server_cn = NULL,$/;"	v	file:
 ldap_dn_node	ldap.c	/^typedef struct ldap_dn_node {$/;"	s	file:
 ldap_dn_node	ldap.c	/^} ldap_dn_node;$/;"	t	typeref:struct:ldap_dn_node	file:
-ldap_generate_config_string	ldap.c	/^ldap_generate_config_string (struct parse *cfile)$/;"	f	file:
-ldap_get_host_name	ldap.c	/^ldap_get_host_name (LDAPMessage * ent)$/;"	f	file:
+ldap_dn_node::dn	ldap.c	/^    char *dn;$/;"	m	struct:ldap_dn_node	file:	access:public
+ldap_dn_node::next	ldap.c	/^    struct ldap_dn_node *next;$/;"	m	struct:ldap_dn_node	typeref:struct:ldap_dn_node::ldap_dn_node	file:	access:public
+ldap_dn_node::refs	ldap.c	/^    size_t refs;$/;"	m	struct:ldap_dn_node	file:	access:public
+ldap_generate_config_string	ldap.c	/^ldap_generate_config_string (struct parse *cfile)$/;"	f	file:	signature:(struct parse *cfile)
+ldap_get_host_name	ldap.c	/^ldap_get_host_name (LDAPMessage * ent)$/;"	f	file:	signature:(LDAPMessage * ent)
 ldap_method	ldap.c	/^           ldap_method = LDAP_METHOD_DYNAMIC,$/;"	v	file:
 ldap_methods	stables.c	/^struct enumeration ldap_methods = {$/;"	v	typeref:struct:enumeration
-ldap_parse_class	ldap.c	/^ldap_parse_class (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_entry_options	ldap.c	/^ldap_parse_entry_options (LDAPMessage *ent, char *buffer, size_t size,$/;"	f	file:
-ldap_parse_group	ldap.c	/^ldap_parse_group (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_host	ldap.c	/^ldap_parse_host (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_key	ldap.c	/^ldap_parse_key (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_options	ldap.c	/^ldap_parse_options (LDAPMessage * ent, struct group *group,$/;"	f	file:
-ldap_parse_pool	ldap.c	/^ldap_parse_pool (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_shared_network	ldap.c	/^ldap_parse_shared_network (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_subclass	ldap.c	/^ldap_parse_subclass (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_subnet	ldap.c	/^ldap_parse_subnet (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
-ldap_parse_zone	ldap.c	/^ldap_parse_zone (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:
+ldap_parse_class	ldap.c	/^ldap_parse_class (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_entry_options	ldap.c	/^ldap_parse_entry_options (LDAPMessage *ent, char *buffer, size_t size,$/;"	f	file:	signature:(LDAPMessage *ent, char *buffer, size_t size, int *lease_limit)
+ldap_parse_group	ldap.c	/^ldap_parse_group (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_host	ldap.c	/^ldap_parse_host (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_key	ldap.c	/^ldap_parse_key (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_options	ldap.c	/^ldap_parse_options (LDAPMessage * ent, struct group *group,$/;"	f	file:	signature:(LDAPMessage * ent, struct group *group, int type, struct host_decl *host, struct class **class)
+ldap_parse_pool	ldap.c	/^ldap_parse_pool (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_shared_network	ldap.c	/^ldap_parse_shared_network (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_subclass	ldap.c	/^ldap_parse_subclass (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_subnet	ldap.c	/^ldap_parse_subnet (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
+ldap_parse_zone	ldap.c	/^ldap_parse_zone (struct ldap_config_stack *item, struct parse *cfile)$/;"	f	file:	signature:(struct ldap_config_stack *item, struct parse *cfile)
 ldap_password	ldap.c	/^            *ldap_password = NULL,$/;"	v	file:
 ldap_port	ldap.c	/^static int ldap_port = LDAP_PORT,$/;"	v	file:
-ldap_read_config	ldap.c	/^ldap_read_config (void)$/;"	f
-ldap_read_function	ldap.c	/^ldap_read_function (struct parse *cfile)$/;"	f	file:
-ldap_rebind_cb	ldap.c	/^ldap_rebind_cb (LDAP *ld, LDAP_CONST char *url, ber_tag_t request, ber_int_t msgid, void *parms)$/;"	f
+ldap_read_config	ldap.c	/^ldap_read_config (void)$/;"	f	signature:(void)
+ldap_read_function	ldap.c	/^ldap_read_function (struct parse *cfile)$/;"	f	file:	signature:(struct parse *cfile)
+ldap_rebind_cb	ldap.c	/^ldap_rebind_cb (LDAP *ld, LDAP_CONST char *url, ber_tag_t request, ber_int_t msgid, void *parms)$/;"	f	signature:(LDAP *ld, LDAP_CONST char *url, ber_tag_t request, ber_int_t msgid, void *parms)
 ldap_referrals	ldap.c	/^           ldap_referrals = -1,$/;"	v	file:
 ldap_server	ldap.c	/^static char *ldap_server = NULL, $/;"	v	file:
 ldap_service_dn_head	ldap.c	/^static ldap_dn_node *ldap_service_dn_head = NULL;$/;"	v	file:
@@ -419,7 +589,7 @@ ldap_service_dn_tail	ldap.c	/^static ldap_dn_node *ldap_service_dn_tail = NULL;$
 ldap_ssl_usage_enum	stables.c	/^struct enumeration ldap_ssl_usage_enum = {$/;"	v	typeref:struct:enumeration
 ldap_ssl_usage_values	stables.c	/^struct enumeration_value ldap_ssl_usage_values [] = {$/;"	v	typeref:struct:enumeration_value
 ldap_stack	ldap.c	/^static struct ldap_config_stack *ldap_stack = NULL;$/;"	v	typeref:struct:ldap_config_stack	file:
-ldap_start	ldap.c	/^ldap_start (void)$/;"	f	file:
+ldap_start	ldap.c	/^ldap_start (void)$/;"	f	file:	signature:(void)
 ldap_stop	ldap.c	/^ldap_stop()$/;"	f	file:
 ldap_tls_ca_dir	ldap.c	/^            *ldap_tls_ca_dir = NULL,$/;"	v	file:
 ldap_tls_ca_file	ldap.c	/^static char *ldap_tls_ca_file = NULL,$/;"	v	file:
@@ -436,56 +606,85 @@ ldap_tls_reqcert_values	stables.c	/^struct enumeration_value ldap_tls_reqcert_va
 ldap_use_ssl	ldap.c	/^static int ldap_use_ssl = -1,        \/* try TLS if possible *\/$/;"	v	file:
 ldap_username	ldap.c	/^            *ldap_username = NULL, $/;"	v	file:
 ldap_values	stables.c	/^struct enumeration_value ldap_values [] = {$/;"	v	typeref:struct:enumeration_value
-ldap_write_debug	ldap.c	/^ldap_write_debug (const void *buff, size_t size)$/;"	f	file:
-lease	dhcpv6.c	/^	struct iasubopt *lease;$/;"	m	struct:reply_state	typeref:struct:reply_state::iasubopt	file:
-lease6_exists	mdb6.c	/^lease6_exists(const struct ipv6_pool *pool, const struct in6_addr *addr) {$/;"	f
-lease_compare	dhcpv6.c	/^lease_compare(struct iasubopt *alpha, struct iasubopt *beta) {$/;"	f	file:
-lease_copy	mdb.c	/^int lease_copy (struct lease **lp,$/;"	f
-lease_enqueue	mdb.c	/^int lease_enqueue (struct lease *comp)$/;"	f
+ldap_write_debug	ldap.c	/^ldap_write_debug (const void *buff, size_t size)$/;"	f	file:	signature:(const void *buff, size_t size)
+lease	dhcpv6.c	/^	struct iasubopt *lease;$/;"	m	struct:reply_state	typeref:struct:reply_state::iasubopt	file:	access:public
+lease6_exists	mdb6.c	/^lease6_exists(const struct ipv6_pool *pool, const struct in6_addr *addr) {$/;"	f	signature:(const struct ipv6_pool *pool, const struct in6_addr *addr)
+lease_compare	dhcpv6.c	/^lease_compare(struct iasubopt *alpha, struct iasubopt *beta) {$/;"	f	file:	signature:(struct iasubopt *alpha, struct iasubopt *beta)
+lease_compare	dhcpv6.c	/^static struct iasubopt *lease_compare(struct iasubopt *alpha,$/;"	p	file:	signature:(struct iasubopt *alpha, struct iasubopt *beta)
+lease_copy	mdb.c	/^int lease_copy (struct lease **lp,$/;"	f	signature:(struct lease **lp, struct lease *lease, const char *file, int line)
+lease_enqueue	mdb.c	/^int lease_enqueue (struct lease *comp)$/;"	f	signature:(struct lease *comp)
 lease_file_is_corrupt	db.c	/^int lease_file_is_corrupt = 0;$/;"	v
-lease_file_subparse	confpars.c	/^isc_result_t lease_file_subparse (struct parse *cfile)$/;"	f
+lease_file_subparse	confpars.c	/^isc_result_t lease_file_subparse (struct parse *cfile)$/;"	f	signature:(struct parse *cfile)
 lease_hunks	salloc.c	/^struct lease *lease_hunks;$/;"	v	typeref:struct:lease
 lease_hw_addr_hash	mdb.c	/^lease_id_hash_t *lease_hw_addr_hash;$/;"	v
-lease_index_changed	mdb6.c	/^lease_index_changed(void *iasubopt, unsigned int new_heap_index) {$/;"	f	file:
-lease_instantiate	mdb.c	/^lease_instantiate(const void *key, unsigned len, void *object)$/;"	f
+lease_index_changed	mdb6.c	/^lease_index_changed(void *iasubopt, unsigned int new_heap_index) {$/;"	f	file:	signature:(void *iasubopt, unsigned int new_heap_index)
+lease_instantiate	mdb.c	/^lease_instantiate(const void *key, unsigned len, void *object)$/;"	f	signature:(const void *key, unsigned len, void *object)
 lease_ip_addr_hash	mdb.c	/^lease_ip_hash_t *lease_ip_addr_hash;$/;"	v
-lease_mine_to_reallocate	failover.c	/^int lease_mine_to_reallocate (struct lease *lease)$/;"	f
-lease_older	mdb6.c	/^lease_older(void *a, void *b) {$/;"	f	file:
+lease_ip_pset_hash	mdb.c	/^lease_ip_hash_t *lease_ip_pset_hash;\/\/[pset]$/;"	v
+lease_mine_to_reallocate	failover.c	/^int lease_mine_to_reallocate (struct lease *lease)$/;"	f	signature:(struct lease *lease)
+lease_older	mdb6.c	/^lease_older(void *a, void *b) {$/;"	f	file:	signature:(void *a, void *b)
 lease_ping_timeout	dhcpd.c	/^void lease_ping_timeout (vlp)$/;"	f
 lease_pinged	dhcpd.c	/^void lease_pinged (from, packet, length)$/;"	f
-lease_timeout_support	mdb6.c	/^lease_timeout_support(void *vpool) {$/;"	f	file:
-lease_to_client	dhcpv6.c	/^lease_to_client(struct data_string *reply_ret,$/;"	f	file:
+lease_timeout_support	mdb6.c	/^lease_timeout_support(void *vpool) {$/;"	f	file:	signature:(void *vpool)
+lease_to_client	dhcpv6.c	/^lease_to_client(struct data_string *reply_ret,$/;"	f	file:	signature:(struct data_string *reply_ret, struct packet *packet, const struct data_string *client_id, const struct data_string *server_id)
 lease_uid_hash	mdb.c	/^lease_id_hash_t *lease_uid_hash;$/;"	v
-link_addr	dhcpleasequery.c	/^	struct in6_addr link_addr;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::in6_addr	file:
-load_balance_mine	failover.c	/^int load_balance_mine (struct packet *packet, dhcp_failover_state_t *state)$/;"	f
-load_casa	ldap_casa.c	/^load_casa (void)$/;"	f
-load_uname_pwd_from_miCASA	ldap_casa.c	/^load_uname_pwd_from_miCASA (char **ldap_username, char **ldap_password)$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+link_addr	dhcpleasequery.c	/^	struct in6_addr link_addr;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::in6_addr	file:	access:public
+load_balance_mine	failover.c	/^int load_balance_mine (struct packet *packet, dhcp_failover_state_t *state)$/;"	f	signature:(struct packet *packet, dhcp_failover_state_t *state)
+load_casa	ldap_casa.c	/^load_casa (void)$/;"	f	signature:(void)
+load_uname_pwd_from_miCASA	ldap_casa.c	/^load_uname_pwd_from_miCASA (char **ldap_username, char **ldap_password)$/;"	f	signature:(char **ldap_username, char **ldap_password)
 loadb_mx_tbl	failover.c	/^unsigned char loadb_mx_tbl[256] = {$/;"	v
-loadb_p_hash	failover.c	/^static unsigned char loadb_p_hash (const unsigned char *key, unsigned len)$/;"	f	file:
+loadb_p_hash	failover.c	/^static unsigned char loadb_p_hash (const unsigned char *, unsigned);$/;"	p	file:	signature:(const unsigned char *, unsigned)
+loadb_p_hash	failover.c	/^static unsigned char loadb_p_hash (const unsigned char *key, unsigned len)$/;"	f	file:	signature:(const unsigned char *key, unsigned len)
+local6	ioctl.h	/^   struct in6_addr remote6,local6;$/;"	m	struct:ecitem	typeref:struct:ecitem::	access:public
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = \/var$/;"	m
 locate_network	dhcp.c	/^int locate_network (packet)$/;"	f
-log_packet_in	dhcpv6.c	/^log_packet_in(const struct packet *packet) {$/;"	f	file:
-lowest_site_code	dhcp.c	/^lowest_site_code(const void *key, unsigned len, void *object)$/;"	f	file:
+log_packet_in	dhcpv6.c	/^log_packet_in(const struct packet *packet) {$/;"	f	file:	signature:(const struct packet *packet)
+lowest_site_code	dhcp.c	/^lowest_site_code(const void *key, unsigned len, void *object)$/;"	f	file:	signature:(const void *key, unsigned len, void *object)
+lowest_site_code	dhcp.c	/^static isc_result_t lowest_site_code(const void *, unsigned, void *);$/;"	p	file:	signature:(const void *, unsigned, void *)
 lq6_state	dhcpleasequery.c	/^struct lq6_state {$/;"	s	file:
-lq_query	dhcpleasequery.c	/^	struct data_string lq_query;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:
-main	dhcpd.c	/^main(int argc, char **argv) {$/;"	f
-main	mdb6.c	/^main(int argc, char *argv[]) {$/;"	f
-make_binding_state_transition	mdb.c	/^void make_binding_state_transition (struct lease *lease)$/;"	f
-mark_hosts_unavailable	mdb6.c	/^mark_hosts_unavailable(void) {$/;"	f
-mark_hosts_unavailable_support	mdb6.c	/^mark_hosts_unavailable_support(const void *name, unsigned len, void *value) {$/;"	f	file:
-mark_interfaces_unavailable	mdb6.c	/^mark_interfaces_unavailable(void) {$/;"	f
-mark_lease_unavailable	mdb6.c	/^mark_lease_unavailable(struct ipv6_pool *pool, const struct in6_addr *addr) {$/;"	f
-mark_phosts_unavailable	mdb6.c	/^mark_phosts_unavailable(void) {$/;"	f
-mark_phosts_unavailable_support	mdb6.c	/^mark_phosts_unavailable_support(const void *name, unsigned len, void *value) {$/;"	f	file:
+lq6_state::buf	dhcpleasequery.c	/^	} buf;$/;"	m	struct:lq6_state	typeref:union:lq6_state::reply_buffer	file:	access:public
+lq6_state::client_id	dhcpleasequery.c	/^	struct data_string client_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
+lq6_state::cursor	dhcpleasequery.c	/^	unsigned cursor;$/;"	m	struct:lq6_state	file:	access:public
+lq6_state::link_addr	dhcpleasequery.c	/^	struct in6_addr link_addr;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::in6_addr	file:	access:public
+lq6_state::lq_query	dhcpleasequery.c	/^	struct data_string lq_query;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
+lq6_state::packet	dhcpleasequery.c	/^	struct packet *packet;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::packet	file:	access:public
+lq6_state::query_opts	dhcpleasequery.c	/^	struct option_state *query_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:	access:public
+lq6_state::query_type	dhcpleasequery.c	/^	uint8_t query_type;$/;"	m	struct:lq6_state	file:	access:public
+lq6_state::reply_buffer	dhcpleasequery.c	/^	union reply_buffer {$/;"	u	struct:lq6_state	file:	access:public
+lq6_state::reply_buffer::data	dhcpleasequery.c	/^		unsigned char data[65536];$/;"	m	union:lq6_state::reply_buffer	file:	access:public
+lq6_state::reply_buffer::reply	dhcpleasequery.c	/^		struct dhcpv6_packet reply;$/;"	m	union:lq6_state::reply_buffer	typeref:struct:lq6_state::reply_buffer::dhcpv6_packet	file:	access:public
+lq6_state::reply_opts	dhcpleasequery.c	/^	struct option_state *reply_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:	access:public
+lq6_state::server_id	dhcpleasequery.c	/^	struct data_string server_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
+lq_query	dhcpleasequery.c	/^	struct data_string lq_query;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
+main	dhcpd.c	/^main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	mdb6.c	/^main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+make_binding_state_transition	mdb.c	/^void make_binding_state_transition (struct lease *lease)$/;"	f	signature:(struct lease *lease)
+man5dir	Makefile	/^man5dir = $(mandir)\/man5$/;"	m
+man8dir	Makefile	/^man8dir = $(mandir)\/man8$/;"	m
+man_MANS	Makefile	/^man_MANS = dhcpd.8 dhcpd.conf.5 dhcpd.leases.5$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mark_hosts_unavailable	mdb6.c	/^mark_hosts_unavailable(void) {$/;"	f	signature:(void)
+mark_hosts_unavailable_support	mdb6.c	/^mark_hosts_unavailable_support(const void *name, unsigned len, void *value) {$/;"	f	file:	signature:(const void *name, unsigned len, void *value)
+mark_interfaces_unavailable	mdb6.c	/^mark_interfaces_unavailable(void) {$/;"	f	signature:(void)
+mark_lease_unavailable	mdb6.c	/^mark_lease_unavailable(struct ipv6_pool *pool, const struct in6_addr *addr) {$/;"	f	signature:(struct ipv6_pool *pool, const struct in6_addr *addr)
+mark_phosts_unavailable	mdb6.c	/^mark_phosts_unavailable(void) {$/;"	f	signature:(void)
+mark_phosts_unavailable_support	mdb6.c	/^mark_phosts_unavailable_support(const void *name, unsigned len, void *value) {$/;"	f	file:	signature:(const void *name, unsigned len, void *value)
 max_ack_delay_secs	dhcp.c	/^int max_ack_delay_secs = DEFAULT_ACK_DELAY_SECS;$/;"	v
 max_ack_delay_usecs	dhcp.c	/^int max_ack_delay_usecs = DEFAULT_ACK_DELAY_USECS;$/;"	v
 max_fsync	dhcp.c	/^static struct timeval max_fsync;$/;"	v	typeref:struct:timeval	file:
 max_outstanding_acks	dhcp.c	/^int max_outstanding_acks = DEFAULT_DELAYED_ACK;$/;"	v
-maybe_return_agent_options	dhcp.c	/^maybe_return_agent_options(struct packet *packet, struct option_state *options)$/;"	f	file:
+maybe_return_agent_options	dhcp.c	/^maybe_return_agent_options(struct packet *packet, struct option_state *options)$/;"	f	file:	signature:(struct packet *packet, struct option_state *options)
+maybe_return_agent_options	dhcp.c	/^static void maybe_return_agent_options(struct packet *packet,$/;"	p	file:	signature:(struct packet *packet, struct option_state *options)
 message	dhcpd.c	/^static const char message [] = "Internet Systems Consortium DHCP Server";$/;"	v	file:
 min_ack_delay_usecs	dhcp.c	/^int min_ack_delay_usecs = DEFAULT_MIN_ACK_DELAY_USECS;$/;"	v
-mockup_lease	dhcp.c	/^int mockup_lease (struct lease **lp, struct packet *packet,$/;"	f
-move_lease_to_active	mdb6.c	/^move_lease_to_active(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f	file:
-move_lease_to_inactive	mdb6.c	/^move_lease_to_inactive(struct ipv6_pool *pool, struct iasubopt *lease, $/;"	f	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mockup_lease	dhcp.c	/^int mockup_lease (struct lease **lp, struct packet *packet,$/;"	f	signature:(struct lease **lp, struct packet *packet, struct shared_network *share, struct host_decl *hp)
+move_lease_to_active	mdb6.c	/^move_lease_to_active(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f	file:	signature:(struct ipv6_pool *pool, struct iasubopt *lease)
+move_lease_to_inactive	mdb6.c	/^move_lease_to_inactive(struct ipv6_pool *pool, struct iasubopt *lease, $/;"	f	file:	signature:(struct ipv6_pool *pool, struct iasubopt *lease, binding_state_t state)
 nak_lease	dhcp.c	/^void nak_lease (packet, cip)$/;"	f
 new_address_range	mdb.c	/^void new_address_range (cfile, low, high, subnet, pool, lpchain)$/;"	f
 new_lease_file	db.c	/^int new_lease_file ()$/;"	f
@@ -493,110 +692,169 @@ new_lease_state	salloc.c	/^struct lease_state *new_lease_state (file, line)$/;"	
 new_leases	salloc.c	/^struct lease *new_leases (n, file, line)$/;"	f
 new_permit	salloc.c	/^struct permit *new_permit (file, line)$/;"	f
 new_shared_network_interface	mdb.c	/^void new_shared_network_interface (cfile, share, name)$/;"	f
-next	ldap.c	/^    struct ldap_dn_node *next;$/;"	m	struct:ldap_dn_node	typeref:struct:ldap_dn_node::ldap_dn_node	file:
-next	mdb.c	/^	struct host_id_info *next;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::host_id_info	file:
-next_hw	dhcpleasequery.c	/^next_hw(const struct lease *lease) {$/;"	f	file:
-next_ldap_entry	ldap.c	/^next_ldap_entry (struct parse *cfile)$/;"	f	file:
-next_uid	dhcpleasequery.c	/^next_uid(const struct lease *lease) {$/;"	f	file:
+next	ioctl.h	/^   struct ecitem *next; $/;"	m	struct:ecitem	typeref:struct:ecitem::ecitem	access:public
+next	ldap.c	/^    struct ldap_dn_node *next;$/;"	m	struct:ldap_dn_node	typeref:struct:ldap_dn_node::ldap_dn_node	file:	access:public
+next	mdb.c	/^	struct host_id_info *next;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::host_id_info	file:	access:public
+next_hw	dhcpleasequery.c	/^next_hw(const struct lease *lease) {$/;"	f	file:	signature:(const struct lease *lease)
+next_ldap_entry	ldap.c	/^next_ldap_entry (struct parse *cfile)$/;"	f	file:	signature:(struct parse *cfile)
+next_uid	dhcpleasequery.c	/^next_uid(const struct lease *lease) {$/;"	f	file:	signature:(const struct lease *lease)
 no_pid_file	dhcpd.c	/^isc_boolean_t no_pid_file = ISC_FALSE;$/;"	v
-normal_binding_state_transition_check	failover.c	/^normal_binding_state_transition_check (struct lease *lease,$/;"	f
+normal_binding_state_transition_check	failover.c	/^normal_binding_state_transition_check (struct lease *lease,$/;"	f	signature:(struct lease *lease, dhcp_failover_state_t *state, binding_state_t binding_state, u_int32_t tsfp)
 null_failover_option	stables.c	/^failover_option_t null_failover_option = { 0, 0 };$/;"	v
 num_pools	mdb6.c	/^int num_pools;$/;"	v
 numclasseswritten	mdb.c	/^int numclasseswritten;$/;"	v
-old_ia	dhcpv6.c	/^	struct ia_xx *old_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:
+old_ia	dhcpv6.c	/^	struct ia_xx *old_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:	access:public
 old_nsupdate	dhcpd.c	/^char old_nsupdate [] = "						    \\n\\$/;"	v
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
 omapi_connection_count	dhcpd.c	/^static int omapi_connection_count;$/;"	v	file:
 omapi_key	dhcpd.c	/^static omapi_auth_key_t *omapi_key = (omapi_auth_key_t *)0;$/;"	v	file:
-omapi_listener_start	dhcpd.c	/^static void omapi_listener_start (void *foo)$/;"	f	file:
+omapi_listener_start	dhcpd.c	/^static void omapi_listener_start (void *foo)$/;"	f	file:	signature:(void *foo)
 omapi_port	dhcpd.c	/^int omapi_port;$/;"	v
-opt_state	dhcpv6.c	/^	struct option_state *opt_state;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:
-option	mdb.c	/^	struct option *option;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::option	file:
+opt_state	dhcpv6.c	/^	struct option_state *opt_state;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:	access:public
+option	mdb.c	/^	struct option *option;$/;"	m	struct:host_id_info	typeref:struct:host_id_info::option	file:	access:public
+out_pkts	ioctl.h	/^   long long out_pkts,outbound_bytes;$/;"	m	struct:ecitem	access:public
+outbound_bytes	ioctl.h	/^   long long out_pkts,outbound_bytes;$/;"	m	struct:ecitem	access:public
 outstanding_acks	dhcp.c	/^int outstanding_acks;$/;"	v
 outstanding_pings	dhcp.c	/^int outstanding_pings;$/;"	v
-packet	dhcpleasequery.c	/^	struct packet *packet;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::packet	file:
-packet	dhcpv6.c	/^	struct packet *packet;$/;"	m	struct:reply_state	typeref:struct:reply_state::packet	file:
+packet	dhcpleasequery.c	/^	struct packet *packet;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::packet	file:	access:public
+packet	dhcpv6.c	/^	struct packet *packet;$/;"	m	struct:reply_state	typeref:struct:reply_state::packet	file:	access:public
 parse_address_range	confpars.c	/^void parse_address_range (cfile, group, type, inpool, lpchain)$/;"	f
-parse_address_range6	confpars.c	/^parse_address_range6(struct parse *cfile, struct group *group) {$/;"	f
+parse_address_range6	confpars.c	/^parse_address_range6(struct parse *cfile, struct group *group) {$/;"	f	signature:(struct parse *cfile, struct group *group)
 parse_allow_deny	confpars.c	/^int parse_allow_deny (oc, cfile, flag)$/;"	f
-parse_binding_value	confpars.c	/^parse_binding_value(struct parse *cfile, struct binding_value *value)$/;"	f	file:
+parse_binding_value	confpars.c	/^parse_binding_value(struct parse *cfile, struct binding_value *value)$/;"	f	file:	signature:(struct parse *cfile, struct binding_value *value)
+parse_binding_value	confpars.c	/^static int parse_binding_value(struct parse *cfile,$/;"	p	file:	signature:(struct parse *cfile, struct binding_value *value)
 parse_class_declaration	confpars.c	/^int parse_class_declaration (cp, cfile, group, type)$/;"	f
-parse_external_dns	ldap.c	/^parse_external_dns (LDAPMessage * ent)$/;"	f	file:
+parse_external_dns	ldap.c	/^parse_external_dns (LDAPMessage * ent)$/;"	f	file:	signature:(LDAPMessage * ent)
 parse_failover_peer	confpars.c	/^void parse_failover_peer (cfile, group, type)$/;"	f
 parse_failover_state	confpars.c	/^void parse_failover_state (cfile, state, stos)$/;"	f
-parse_failover_state_declaration	confpars.c	/^void parse_failover_state_declaration (struct parse *cfile,$/;"	f
-parse_fixed_addr_param	confpars.c	/^parse_fixed_addr_param(struct option_cache **oc, $/;"	f
-parse_fixed_prefix6	confpars.c	/^parse_fixed_prefix6(struct parse *cfile, struct host_decl *host_decl) {$/;"	f
+parse_failover_state_declaration	confpars.c	/^void parse_failover_state_declaration (struct parse *cfile,$/;"	f	signature:(struct parse *cfile, dhcp_failover_state_t *peer)
+parse_fixed_addr_param	confpars.c	/^parse_fixed_addr_param(struct option_cache **oc, $/;"	f	signature:(struct option_cache **oc, struct parse *cfile, enum dhcp_token type)
+parse_fixed_prefix6	confpars.c	/^parse_fixed_prefix6(struct parse *cfile, struct host_decl *host_decl) {$/;"	f	signature:(struct parse *cfile, struct host_decl *host_decl)
 parse_group_declaration	confpars.c	/^void parse_group_declaration (cfile, group)$/;"	f
 parse_host_declaration	confpars.c	/^void parse_host_declaration (cfile, group)$/;"	f
-parse_ia_na_declaration	confpars.c	/^parse_ia_na_declaration(struct parse *cfile) {$/;"	f
-parse_ia_pd_declaration	confpars.c	/^parse_ia_pd_declaration(struct parse *cfile) {$/;"	f
-parse_ia_ta_declaration	confpars.c	/^parse_ia_ta_declaration(struct parse *cfile) {$/;"	f
+parse_ia_na_declaration	confpars.c	/^parse_ia_na_declaration(struct parse *cfile) {$/;"	f	signature:(struct parse *cfile)
+parse_ia_pd_declaration	confpars.c	/^parse_ia_pd_declaration(struct parse *cfile) {$/;"	f	signature:(struct parse *cfile)
+parse_ia_ta_declaration	confpars.c	/^parse_ia_ta_declaration(struct parse *cfile) {$/;"	f	signature:(struct parse *cfile)
 parse_lbrace	confpars.c	/^int parse_lbrace (cfile)$/;"	f
-parse_lease_declaration	confpars.c	/^int parse_lease_declaration (struct lease **lp, struct parse *cfile)$/;"	f
-parse_netmask	ldap.c	/^parse_netmask (int netmask, char *netmaskbuf)$/;"	f	file:
+parse_lease_declaration	confpars.c	/^int parse_lease_declaration (struct lease **lp, struct parse *cfile)$/;"	f	signature:(struct lease **lp, struct parse *cfile)
+parse_netmask	ldap.c	/^parse_netmask (int netmask, char *netmaskbuf)$/;"	f	file:	signature:(int netmask, char *netmaskbuf)
 parse_pool_statement	confpars.c	/^void parse_pool_statement (cfile, group, type)$/;"	f
-parse_prefix6	confpars.c	/^parse_prefix6(struct parse *cfile, struct group *group) {$/;"	f
-parse_server_duid	confpars.c	/^parse_server_duid(struct parse *cfile) {$/;"	f
-parse_server_duid_conf	confpars.c	/^parse_server_duid_conf(struct parse *cfile) {$/;"	f
+parse_prefix6	confpars.c	/^parse_prefix6(struct parse *cfile, struct group *group) {$/;"	f	signature:(struct parse *cfile, struct group *group)
+parse_server_duid	confpars.c	/^parse_server_duid(struct parse *cfile) {$/;"	f	signature:(struct parse *cfile)
+parse_server_duid_conf	confpars.c	/^parse_server_duid_conf(struct parse *cfile) {$/;"	f	signature:(struct parse *cfile)
 parse_shared_net_declaration	confpars.c	/^void parse_shared_net_declaration (cfile, group)$/;"	f
 parse_statement	confpars.c	/^int parse_statement (cfile, group, type, host_decl, declaration)$/;"	f
-parse_subnet6_declaration	confpars.c	/^parse_subnet6_declaration(struct parse *cfile, struct shared_network *share) {$/;"	f
+parse_subnet6_declaration	confpars.c	/^parse_subnet6_declaration(struct parse *cfile, struct shared_network *share) {$/;"	f	signature:(struct parse *cfile, struct shared_network *share)
 parse_subnet_declaration	confpars.c	/^void parse_subnet_declaration (cfile, share)$/;"	f
 parse_trace_setup	confpars.c	/^void parse_trace_setup ()$/;"	f
 path_dhcpd_conf	dhcpd.c	/^const char *path_dhcpd_conf = _PATH_DHCPD_CONF;$/;"	v
 path_dhcpd_db	dhcpd.c	/^const char *path_dhcpd_db = _PATH_DHCPD_DB;$/;"	v
 path_dhcpd_pid	dhcpd.c	/^const char *path_dhcpd_pid = _PATH_DHCPD_PID;$/;"	v
-pd_count	dhcpv6.c	/^	unsigned pd_count;$/;"	m	struct:reply_state	file:
-peer_wants_lease	failover.c	/^peer_wants_lease(struct lease *lp)$/;"	f
-permit_list_match	confpars.c	/^int permit_list_match (struct permit *lhs, struct permit *rhs)$/;"	f
+pd_count	dhcpv6.c	/^	unsigned pd_count;$/;"	m	struct:reply_state	file:	access:public
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+peer_wants_lease	failover.c	/^peer_wants_lease(struct lease *lp)$/;"	f	signature:(struct lease *lp)
+permit_list_match	confpars.c	/^int permit_list_match (struct permit *lhs, struct permit *rhs)$/;"	f	signature:(struct permit *lhs, struct permit *rhs)
 permitted	dhcp.c	/^int permitted (packet, permit_list)$/;"	f
-pick_v6_address	dhcpv6.c	/^pick_v6_address(struct iasubopt **addr, struct shared_network *shared_network,$/;"	f	file:
-pick_v6_prefix	dhcpv6.c	/^pick_v6_prefix(struct iasubopt **pref, int plen,$/;"	f	file:
+pick_v6_address	dhcpv6.c	/^pick_v6_address(struct iasubopt **addr, struct shared_network *shared_network,$/;"	f	file:	signature:(struct iasubopt **addr, struct shared_network *shared_network, const struct data_string *client_id)
+pick_v6_prefix	dhcpv6.c	/^pick_v6_prefix(struct iasubopt **pref, int plen,$/;"	f	file:	signature:(struct iasubopt **pref, int plen, struct shared_network *shared_network, const struct data_string *client_id)
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/dhcp$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/dhcp$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/dhcp$/;"	m
 pool_timer	mdb.c	/^void pool_timer (vpool)$/;"	f
 pools	mdb6.c	/^struct ipv6_pool **pools;$/;"	v	typeref:struct:ipv6_pool
-postconf_initialization	dhcpd.c	/^void postconf_initialization (int quiet)$/;"	f
-postdb_startup	dhcpd.c	/^void postdb_startup (void)$/;"	f
-prefer	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:
-prefix6_exists	mdb6.c	/^prefix6_exists(const struct ipv6_pool *pool,$/;"	f
-prefix_compare	dhcpv6.c	/^prefix_compare(struct reply_state *reply,$/;"	f	file:
-prefix_is_owned	dhcpv6.c	/^prefix_is_owned(struct reply_state *reply, struct iaddrcidrnet *pref) {$/;"	f	file:
-preflen	dhcpv6.c	/^	int preflen;$/;"	m	struct:reply_state	file:
-print_hash_string	db.c	/^static int print_hash_string(FILE *fp, struct class *class)$/;"	f	file:
-process_lq_by_address	dhcpleasequery.c	/^process_lq_by_address(struct lq6_state *lq) {$/;"	f	file:
-query_opts	dhcpleasequery.c	/^	struct option_state *query_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:
-query_type	dhcpleasequery.c	/^	uint8_t query_type;$/;"	m	struct:lq6_state	file:
-read_conf_file	confpars.c	/^isc_result_t read_conf_file (const char *filename, struct group *group,$/;"	f
+postconf_initialization	dhcpd.c	/^void postconf_initialization (int quiet)$/;"	f	signature:(int quiet)
+postdb_startup	dhcpd.c	/^void postdb_startup (void)$/;"	f	signature:(void)
+prefer	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix6_exists	mdb6.c	/^prefix6_exists(const struct ipv6_pool *pool,$/;"	f	signature:(const struct ipv6_pool *pool, const struct in6_addr *pref, u_int8_t plen)
+prefix_compare	dhcpv6.c	/^prefix_compare(struct reply_state *reply,$/;"	f	file:	signature:(struct reply_state *reply, struct iasubopt *alpha, struct iasubopt *beta)
+prefix_compare	dhcpv6.c	/^static struct iasubopt *prefix_compare(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iasubopt *alpha, struct iasubopt *beta)
+prefix_is_owned	dhcpv6.c	/^prefix_is_owned(struct reply_state *reply, struct iaddrcidrnet *pref) {$/;"	f	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
+prefix_is_owned	dhcpv6.c	/^static isc_boolean_t prefix_is_owned(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
+preflen	dhcpv6.c	/^	int preflen;$/;"	m	struct:reply_state	file:	access:public
+print_hash_string	db.c	/^static int print_hash_string(FILE *fp, struct class *class)$/;"	f	file:	signature:(FILE *fp, struct class *class)
+process_lq_by_address	dhcpleasequery.c	/^process_lq_by_address(struct lq6_state *lq) {$/;"	f	file:	signature:(struct lq6_state *lq)
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+query_opts	dhcpleasequery.c	/^	struct option_state *query_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:	access:public
+query_type	dhcpleasequery.c	/^	uint8_t query_type;$/;"	m	struct:lq6_state	file:	access:public
+ratio1	mdb.c	/^unsigned ratio1 = 4; \/\/pset$/;"	v
+read_conf_file	confpars.c	/^isc_result_t read_conf_file (const char *filename, struct group *group,$/;"	f	signature:(const char *filename, struct group *group, int group_type, int leasep)
 readconf	confpars.c	/^isc_result_t readconf ()$/;"	f
-rebind	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:
-refs	ldap.c	/^    size_t refs;$/;"	m	struct:ldap_dn_node	file:
-release_casa	ldap_casa.c	/^release_casa(void)$/;"	f	file:
+rebind	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+refs	ldap.c	/^    size_t refs;$/;"	m	struct:ldap_dn_node	file:	access:public
+release_casa	ldap_casa.c	/^release_casa(void)$/;"	f	file:	signature:(void)
 release_lease	mdb.c	/^void release_lease (lease, packet)$/;"	f
-release_lease6	mdb6.c	/^release_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f
-release_leases	mdb6.c	/^release_leases(struct ia_xx *ia) {$/;"	f
-relinquish_ackqueue	dhcp.c	/^relinquish_ackqueue(void)$/;"	f
+release_lease6	mdb6.c	/^release_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt *lease)
+release_leases	mdb6.c	/^release_leases(struct ia_xx *ia) {$/;"	f	signature:(struct ia_xx *ia)
+relinquish_ackqueue	dhcp.c	/^relinquish_ackqueue(void)$/;"	f	signature:(void)
 relinquish_free_lease_states	salloc.c	/^void relinquish_free_lease_states ()$/;"	f
 relinquish_lease_hunks	salloc.c	/^void relinquish_lease_hunks ()$/;"	f
-renew	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:
-renew_lease6	mdb6.c	/^renew_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f
-renew_leases	mdb6.c	/^renew_leases(struct ia_xx *ia) {$/;"	f
-reply	dhcpleasequery.c	/^		struct dhcpv6_packet reply;$/;"	m	union:lq6_state::reply_buffer	typeref:struct:lq6_state::reply_buffer::dhcpv6_packet	file:
-reply	dhcpv6.c	/^		struct dhcpv6_packet reply;$/;"	m	union:reply_state::reply_buffer	typeref:struct:reply_state::reply_buffer::dhcpv6_packet	file:
-reply_buffer	dhcpleasequery.c	/^	union reply_buffer {$/;"	u	struct:lq6_state	file:
-reply_buffer	dhcpv6.c	/^	union reply_buffer {$/;"	u	struct:reply_state	file:
-reply_ia	dhcpv6.c	/^	struct option_state *reply_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:
-reply_opts	dhcpleasequery.c	/^	struct option_state *reply_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:
-reply_process_addr	dhcpv6.c	/^reply_process_addr(struct reply_state *reply, struct option_cache *addr) {$/;"	f	file:
-reply_process_ia_na	dhcpv6.c	/^reply_process_ia_na(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:
-reply_process_ia_pd	dhcpv6.c	/^reply_process_ia_pd(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:
-reply_process_ia_ta	dhcpv6.c	/^reply_process_ia_ta(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:
-reply_process_is_addressed	dhcpv6.c	/^reply_process_is_addressed(struct reply_state *reply,$/;"	f	file:
-reply_process_is_prefixed	dhcpv6.c	/^reply_process_is_prefixed(struct reply_state *reply,$/;"	f	file:
-reply_process_prefix	dhcpv6.c	/^reply_process_prefix(struct reply_state *reply, struct option_cache *pref) {$/;"	f	file:
-reply_process_send_addr	dhcpv6.c	/^reply_process_send_addr(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:
-reply_process_send_prefix	dhcpv6.c	/^reply_process_send_prefix(struct reply_state *reply,$/;"	f	file:
-reply_process_try_addr	dhcpv6.c	/^reply_process_try_addr(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:
-reply_process_try_prefix	dhcpv6.c	/^reply_process_try_prefix(struct reply_state *reply,$/;"	f	file:
+remote	ioctl.h	/^   struct in_addr remote;$/;"	m	struct:ecitem	typeref:struct:ecitem::in_addr	access:public
+remote6	ioctl.h	/^   struct in6_addr remote6,local6;$/;"	m	struct:ecitem	typeref:struct:ecitem::in6_addr	access:public
+renew	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+renew_lease6	mdb6.c	/^renew_lease6(struct ipv6_pool *pool, struct iasubopt *lease) {$/;"	f	signature:(struct ipv6_pool *pool, struct iasubopt *lease)
+renew_leases	mdb6.c	/^renew_leases(struct ia_xx *ia) {$/;"	f	signature:(struct ia_xx *ia)
+reply	dhcpleasequery.c	/^		struct dhcpv6_packet reply;$/;"	m	union:lq6_state::reply_buffer	typeref:struct:lq6_state::reply_buffer::dhcpv6_packet	file:	access:public
+reply	dhcpv6.c	/^		struct dhcpv6_packet reply;$/;"	m	union:reply_state::reply_buffer	typeref:struct:reply_state::reply_buffer::dhcpv6_packet	file:	access:public
+reply_buffer	dhcpleasequery.c	/^	union reply_buffer {$/;"	u	struct:lq6_state	file:	access:public
+reply_buffer	dhcpv6.c	/^	union reply_buffer {$/;"	u	struct:reply_state	file:	access:public
+reply_ia	dhcpv6.c	/^	struct option_state *reply_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:	access:public
+reply_opts	dhcpleasequery.c	/^	struct option_state *reply_opts;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::option_state	file:	access:public
+reply_process_addr	dhcpv6.c	/^reply_process_addr(struct reply_state *reply, struct option_cache *addr) {$/;"	f	file:	signature:(struct reply_state *reply, struct option_cache *addr)
+reply_process_addr	dhcpv6.c	/^static isc_result_t reply_process_addr(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct option_cache *addr)
+reply_process_ia_na	dhcpv6.c	/^reply_process_ia_na(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:	signature:(struct reply_state *reply, struct option_cache *ia)
+reply_process_ia_na	dhcpv6.c	/^static isc_result_t reply_process_ia_na(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct option_cache *ia)
+reply_process_ia_pd	dhcpv6.c	/^reply_process_ia_pd(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:	signature:(struct reply_state *reply, struct option_cache *ia)
+reply_process_ia_pd	dhcpv6.c	/^static isc_result_t reply_process_ia_pd(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct option_cache *ia_pd)
+reply_process_ia_ta	dhcpv6.c	/^reply_process_ia_ta(struct reply_state *reply, struct option_cache *ia) {$/;"	f	file:	signature:(struct reply_state *reply, struct option_cache *ia)
+reply_process_ia_ta	dhcpv6.c	/^static isc_result_t reply_process_ia_ta(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct option_cache *ia)
+reply_process_is_addressed	dhcpv6.c	/^reply_process_is_addressed(struct reply_state *reply,$/;"	f	file:	signature:(struct reply_state *reply, struct binding_scope **scope, struct group *group)
+reply_process_is_addressed	dhcpv6.c	/^static isc_result_t reply_process_is_addressed(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct binding_scope **scope, struct group *group)
+reply_process_is_prefixed	dhcpv6.c	/^reply_process_is_prefixed(struct reply_state *reply,$/;"	f	file:	signature:(struct reply_state *reply, struct binding_scope **scope, struct group *group)
+reply_process_is_prefixed	dhcpv6.c	/^static isc_result_t reply_process_is_prefixed(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct binding_scope **scope, struct group *group)
+reply_process_prefix	dhcpv6.c	/^reply_process_prefix(struct reply_state *reply, struct option_cache *pref) {$/;"	f	file:	signature:(struct reply_state *reply, struct option_cache *pref)
+reply_process_prefix	dhcpv6.c	/^static isc_result_t reply_process_prefix(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct option_cache *pref)
+reply_process_send_addr	dhcpv6.c	/^reply_process_send_addr(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+reply_process_send_addr	dhcpv6.c	/^static isc_result_t reply_process_send_addr(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+reply_process_send_prefix	dhcpv6.c	/^reply_process_send_prefix(struct reply_state *reply,$/;"	f	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
+reply_process_send_prefix	dhcpv6.c	/^static isc_result_t reply_process_send_prefix(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
+reply_process_try_addr	dhcpv6.c	/^reply_process_try_addr(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+reply_process_try_addr	dhcpv6.c	/^static isc_result_t reply_process_try_addr(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+reply_process_try_prefix	dhcpv6.c	/^reply_process_try_prefix(struct reply_state *reply,$/;"	f	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
+reply_process_try_prefix	dhcpv6.c	/^static isc_result_t reply_process_try_prefix(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddrcidrnet *pref)
 reply_state	dhcpv6.c	/^struct reply_state {$/;"	s	file:
+reply_state::buf	dhcpv6.c	/^	} buf;$/;"	m	struct:reply_state	typeref:union:reply_state::reply_buffer	file:	access:public
+reply_state::client_id	dhcpv6.c	/^	struct data_string client_id;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:	access:public
+reply_state::client_prefer	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:	access:public
+reply_state::client_resources	dhcpv6.c	/^	unsigned client_resources;$/;"	m	struct:reply_state	file:	access:public
+reply_state::client_valid	dhcpv6.c	/^	u_int32_t client_valid, client_prefer;$/;"	m	struct:reply_state	file:	access:public
+reply_state::cursor	dhcpv6.c	/^	unsigned cursor;$/;"	m	struct:reply_state	file:	access:public
+reply_state::fixed	dhcpv6.c	/^	struct data_string fixed;$/;"	m	struct:reply_state	typeref:struct:reply_state::data_string	file:	access:public
+reply_state::host	dhcpv6.c	/^	struct host_decl *host;$/;"	m	struct:reply_state	typeref:struct:reply_state::host_decl	file:	access:public
+reply_state::ia	dhcpv6.c	/^	struct ia_xx *ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:	access:public
+reply_state::ia_count	dhcpv6.c	/^	unsigned ia_count;$/;"	m	struct:reply_state	file:	access:public
+reply_state::lease	dhcpv6.c	/^	struct iasubopt *lease;$/;"	m	struct:reply_state	typeref:struct:reply_state::iasubopt	file:	access:public
+reply_state::old_ia	dhcpv6.c	/^	struct ia_xx *old_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::ia_xx	file:	access:public
+reply_state::opt_state	dhcpv6.c	/^	struct option_state *opt_state;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:	access:public
+reply_state::packet	dhcpv6.c	/^	struct packet *packet;$/;"	m	struct:reply_state	typeref:struct:reply_state::packet	file:	access:public
+reply_state::pd_count	dhcpv6.c	/^	unsigned pd_count;$/;"	m	struct:reply_state	file:	access:public
+reply_state::prefer	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+reply_state::preflen	dhcpv6.c	/^	int preflen;$/;"	m	struct:reply_state	file:	access:public
+reply_state::rebind	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+reply_state::renew	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+reply_state::reply_buffer	dhcpv6.c	/^	union reply_buffer {$/;"	u	struct:reply_state	file:	access:public
+reply_state::reply_buffer::data	dhcpv6.c	/^		unsigned char data[65536];$/;"	m	union:reply_state::reply_buffer	file:	access:public
+reply_state::reply_buffer::reply	dhcpv6.c	/^		struct dhcpv6_packet reply;$/;"	m	union:reply_state::reply_buffer	typeref:struct:reply_state::reply_buffer::dhcpv6_packet	file:	access:public
+reply_state::reply_ia	dhcpv6.c	/^	struct option_state *reply_ia;$/;"	m	struct:reply_state	typeref:struct:reply_state::option_state	file:	access:public
+reply_state::resources_included	dhcpv6.c	/^	isc_boolean_t resources_included;$/;"	m	struct:reply_state	file:	access:public
+reply_state::send_prefer	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:	access:public
+reply_state::send_valid	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:	access:public
+reply_state::shared	dhcpv6.c	/^	struct shared_network *shared;$/;"	m	struct:reply_state	typeref:struct:reply_state::shared_network	file:	access:public
+reply_state::static_lease	dhcpv6.c	/^	isc_boolean_t static_lease;$/;"	m	struct:reply_state	file:	access:public
+reply_state::static_prefixes	dhcpv6.c	/^	unsigned static_prefixes;$/;"	m	struct:reply_state	file:	access:public
+reply_state::subnet	dhcpv6.c	/^	struct subnet *subnet; \/* Used to match fixed-addrs to subnet scopes. *\/$/;"	m	struct:reply_state	typeref:struct:reply_state::subnet	file:	access:public
+reply_state::valid	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
 required_opt_CLIENT_DATA	dhcpleasequery.c	/^static const int required_opt_CLIENT_DATA[] = {$/;"	v	file:
 required_opts	dhcpv6.c	/^static const int required_opts[] = {$/;"	v	file:
 required_opts_IA	dhcpv6.c	/^static const int required_opts_IA[] = {$/;"	v	file:
@@ -607,90 +865,112 @@ required_opts_agent	dhcpv6.c	/^static const int required_opts_agent[] = {$/;"	v	
 required_opts_lq	dhcpleasequery.c	/^static const int required_opts_lq[] = {$/;"	v	file:
 required_opts_solicit	dhcpv6.c	/^static const int required_opts_solicit[] = {$/;"	v	file:
 resany	mdb6.c	/^static struct in6_addr resany;$/;"	v	typeref:struct:in6_addr	file:
-resources_included	dhcpv6.c	/^	isc_boolean_t resources_included;$/;"	m	struct:reply_state	file:
+resources_included	dhcpv6.c	/^	isc_boolean_t resources_included;$/;"	m	struct:reply_state	file:	access:public
 rtany	mdb6.c	/^static struct in6_addr rtany;$/;"	v	typeref:struct:in6_addr	file:
-safe_lease6_update	ddns.c	/^safe_lease6_update(struct iasubopt *lease6,$/;"	f
-safe_lease_update	ddns.c	/^safe_lease_update(struct lease *lease,$/;"	f
-schedule_all_ipv6_lease_timeouts	mdb6.c	/^schedule_all_ipv6_lease_timeouts(void) {$/;"	f
-schedule_lease_timeout	mdb6.c	/^schedule_lease_timeout(struct ipv6_pool *pool) {$/;"	f
-secondary_not_hoarding	failover.c	/^secondary_not_hoarding(dhcp_failover_state_t *state, struct pool *p) {$/;"	f	file:
-seek_shared_host	dhcpv6.c	/^seek_shared_host(struct host_decl **hp, struct shared_network *shared) {$/;"	f	file:
+safe_lease6_update	ddns.c	/^safe_lease6_update(struct iasubopt *lease6,$/;"	f	signature:(struct iasubopt *lease6, dhcp_ddns_cb_t *oldcb, dhcp_ddns_cb_t *newcb, const char *file, int line)
+safe_lease_update	ddns.c	/^safe_lease_update(struct lease *lease,$/;"	f	signature:(struct lease *lease, dhcp_ddns_cb_t *oldcb, dhcp_ddns_cb_t *newcb, const char *file, int line)
+sbinPROGRAMS_INSTALL	Makefile	/^sbinPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+sbin_PROGRAMS	Makefile	/^sbin_PROGRAMS = dhcpd$(EXEEXT)$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+schedule_all_ipv6_lease_timeouts	mdb6.c	/^schedule_all_ipv6_lease_timeouts(void) {$/;"	f	signature:(void)
+schedule_lease_timeout	mdb6.c	/^schedule_lease_timeout(struct ipv6_pool *pool) {$/;"	f	signature:(struct ipv6_pool *pool)
+secondary_not_hoarding	failover.c	/^secondary_not_hoarding(dhcp_failover_state_t *state, struct pool *p) {$/;"	f	file:	signature:(dhcp_failover_state_t *state, struct pool *p)
+secondary_not_hoarding	failover.c	/^static inline int secondary_not_hoarding(dhcp_failover_state_t *state,$/;"	p	file:	signature:(dhcp_failover_state_t *state, struct pool *p)
+seconds	ioctl.h	/^   int seconds;\/\/lease time limit$/;"	m	struct:ecitem	access:public
+seek_shared_host	dhcpv6.c	/^seek_shared_host(struct host_decl **hp, struct shared_network *shared) {$/;"	f	file:	signature:(struct host_decl **hp, struct shared_network *shared)
+seek_shared_host	dhcpv6.c	/^static void seek_shared_host(struct host_decl **hp,$/;"	p	file:	signature:(struct host_decl **hp, struct shared_network *shared)
 send_packet	bootp.c	39;"	d	file:
-send_packet	dhcp.c	80;"	d	file:
-send_prefer	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:
-send_valid	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:
+send_packet	dhcp.c	81;"	d	file:
+send_prefer	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:	access:public
+send_valid	dhcpv6.c	/^	u_int32_t send_valid, send_prefer;$/;"	m	struct:reply_state	file:	access:public
 server_duid	dhcpv6.c	/^static struct data_string server_duid;$/;"	v	typeref:struct:data_string	file:
-server_duid_isset	dhcpv6.c	/^server_duid_isset(void) {$/;"	f
+server_duid_isset	dhcpv6.c	/^server_duid_isset(void) {$/;"	f	signature:(void)
 server_duid_type	dhcpv6.c	/^static int server_duid_type = DUID_LLT;$/;"	v	file:
-server_id	dhcpleasequery.c	/^	struct data_string server_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:
+server_id	dhcpleasequery.c	/^	struct data_string server_id;$/;"	m	struct:lq6_state	typeref:struct:lq6_state::data_string	file:	access:public
 server_identifier	dhcpd.c	/^struct iaddr server_identifier;$/;"	v	typeref:struct:iaddr
 server_identifier_matched	dhcpd.c	/^int server_identifier_matched;$/;"	v
 server_options	stables.c	/^static struct option server_options[] = {$/;"	v	typeref:struct:option	file:
 server_starting	mdb.c	/^static int server_starting = 0;$/;"	v	file:
 server_universe	stables.c	/^struct universe server_universe;$/;"	v	typeref:struct:universe
-set_error	dhcpleasequery.c	/^set_error(struct lq6_state *lq, u_int16_t code, const char *message) {$/;"	f	file:
-set_server_duid	dhcpv6.c	/^set_server_duid(struct data_string *new_duid) {$/;"	f
-set_server_duid_from_option	dhcpv6.c	/^set_server_duid_from_option(void) {$/;"	f
-set_server_duid_type	dhcpv6.c	/^set_server_duid_type(int type) {$/;"	f
-set_status_code	dhcpv6.c	/^set_status_code(u_int16_t status_code, const char *status_message,$/;"	f	file:
-setup_chroot	dhcpd.c	/^static void setup_chroot (char *chroot_dir) {$/;"	f	file:
-shared	dhcpv6.c	/^	struct shared_network *shared;$/;"	m	struct:reply_state	typeref:struct:reply_state::shared_network	file:
-shared_network_from_packet6	dhcpv6.c	/^shared_network_from_packet6(struct shared_network **shared,$/;"	f	file:
+set_error	dhcpleasequery.c	/^set_error(struct lq6_state *lq, u_int16_t code, const char *message) {$/;"	f	file:	signature:(struct lq6_state *lq, u_int16_t code, const char *message)
+set_mapping	ioctl.h	/^void set_mapping(struct in_addr remote,struct in6_addr remote6)$/;"	f	signature:(struct in_addr remote,struct in6_addr remote6)
+set_server_duid	dhcpv6.c	/^set_server_duid(struct data_string *new_duid) {$/;"	f	signature:(struct data_string *new_duid)
+set_server_duid_from_option	dhcpv6.c	/^set_server_duid_from_option(void) {$/;"	f	signature:(void)
+set_server_duid_type	dhcpv6.c	/^set_server_duid_type(int type) {$/;"	f	signature:(int type)
+set_status_code	dhcpv6.c	/^set_status_code(u_int16_t status_code, const char *status_message,$/;"	f	file:	signature:(u_int16_t status_code, const char *status_message, struct option_state *opt_state)
+setup_chroot	dhcpd.c	/^static void setup_chroot (char *chroot_dir) {$/;"	f	file:	signature:(char *chroot_dir)
+shared	dhcpv6.c	/^	struct shared_network *shared;$/;"	m	struct:reply_state	typeref:struct:reply_state::shared_network	file:	access:public
+shared_network_from_packet6	dhcpv6.c	/^shared_network_from_packet6(struct shared_network **shared,$/;"	f	file:	signature:(struct shared_network **shared, struct packet *packet)
+shared_network_from_packet6	dhcpv6.c	/^static isc_result_t shared_network_from_packet6(struct shared_network **shared,$/;"	p	file:	signature:(struct shared_network **shared, struct packet *packet)
 shared_networks	mdb.c	/^struct shared_network *shared_networks;$/;"	v	typeref:struct:shared_network
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
 shutdown_state	dhcpd.c	/^enum dhcp_shutdown_state shutdown_state;$/;"	v	typeref:enum:dhcp_shutdown_state
 shutdown_time	dhcpd.c	/^static TIME shutdown_time;$/;"	v	file:
 site_code_min	dhcp.c	/^static int site_code_min;$/;"	v	file:
 skip_failover_option	stables.c	/^failover_option_t skip_failover_option = { 0, 0 };$/;"	v
-start_reply	dhcpv6.c	/^start_reply(struct packet *packet,$/;"	f	file:
-static_lease	dhcpv6.c	/^	isc_boolean_t static_lease;$/;"	m	struct:reply_state	file:
-static_prefixes	dhcpv6.c	/^	unsigned static_prefixes;$/;"	m	struct:reply_state	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+start_reply	dhcpv6.c	/^start_reply(struct packet *packet,$/;"	f	file:	signature:(struct packet *packet, const struct data_string *client_id, const struct data_string *server_id, struct option_state **opt_state, struct dhcpv6_packet *reply)
+start_time	ioctl.h	/^   struct timeval start_time;$/;"	m	struct:ecitem	typeref:struct:ecitem::timeval	access:public
+static_lease	dhcpv6.c	/^	isc_boolean_t static_lease;$/;"	m	struct:reply_state	file:	access:public
+static_prefixes	dhcpv6.c	/^	unsigned static_prefixes;$/;"	m	struct:reply_state	file:	access:public
 std_nsupdate	dhcpd.c	/^char std_nsupdate [] = "						    \\n\\$/;"	v
-subnet	dhcpv6.c	/^	struct subnet *subnet; \/* Used to match fixed-addrs to subnet scopes. *\/$/;"	m	struct:reply_state	typeref:struct:reply_state::subnet	file:
-subnet_inner_than	mdb.c	/^subnet_inner_than(const struct subnet *subnet, $/;"	f
+subdir	Makefile	/^subdir = server$/;"	m
+subnet	dhcpv6.c	/^	struct subnet *subnet; \/* Used to match fixed-addrs to subnet scopes. *\/$/;"	m	struct:reply_state	typeref:struct:reply_state::subnet	file:	access:public
+subnet_inner_than	mdb.c	/^subnet_inner_than(const struct subnet *subnet, $/;"	f	signature:(const struct subnet *subnet, const struct subnet *scan, int warnp)
 subnets	mdb.c	/^struct subnet *subnets;$/;"	v	typeref:struct:subnet
 supersede_lease	mdb.c	/^int supersede_lease (comp, lease, commit, propogate, pimmediate)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 syslog_enum	stables.c	/^struct enumeration syslog_enum = {$/;"	v	typeref:struct:enumeration
 syslog_values	stables.c	/^struct enumeration_value syslog_values [] = {$/;"	v	typeref:struct:enumeration_value
-temporary_is_available	dhcpv6.c	/^temporary_is_available(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:
-trace_conf_input	confpars.c	/^void trace_conf_input (trace_type_t *ttype, unsigned len, char *data)$/;"	f
-trace_conf_stop	confpars.c	/^void trace_conf_stop (trace_type_t *ttype) { }$/;"	f
+tag	ioctl.h	/^   int tag;\/\/if tag==1,then this is manual,if tag==2,then this is auto.$/;"	m	struct:ecitem	access:public
+target_alias	Makefile	/^target_alias = $/;"	m
+temporary_is_available	dhcpv6.c	/^static isc_boolean_t temporary_is_available(struct reply_state *reply,$/;"	p	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+temporary_is_available	dhcpv6.c	/^temporary_is_available(struct reply_state *reply, struct iaddr *addr) {$/;"	f	file:	signature:(struct reply_state *reply, struct iaddr *addr)
+top_build_prefix	Makefile	/^top_build_prefix = @top_build_prefix@$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+trace_conf_input	confpars.c	/^void trace_conf_input (trace_type_t *ttype, unsigned len, char *data)$/;"	f	signature:(trace_type_t *ttype, unsigned len, char *data)
+trace_conf_stop	confpars.c	/^void trace_conf_stop (trace_type_t *ttype) { }$/;"	f	signature:(trace_type_t *ttype)
 trace_readconf_type	confpars.c	/^trace_type_t *trace_readconf_type;$/;"	v
 trace_readleases_type	confpars.c	/^trace_type_t *trace_readleases_type;$/;"	v
 trace_srandom	dhcpd.c	/^trace_type_t *trace_srandom;$/;"	v
-try_client_v6_address	dhcpv6.c	/^try_client_v6_address(struct iasubopt **addr,$/;"	f	file:
-try_client_v6_prefix	dhcpv6.c	/^try_client_v6_prefix(struct iasubopt **pref,$/;"	f	file:
-uid_hash_add	mdb.c	/^uid_hash_add(struct lease *lease)$/;"	f
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+try_client_v6_address	dhcpv6.c	/^try_client_v6_address(struct iasubopt **addr,$/;"	f	file:	signature:(struct iasubopt **addr, struct ipv6_pool *pool, const struct data_string *requested_addr)
+try_client_v6_prefix	dhcpv6.c	/^try_client_v6_prefix(struct iasubopt **pref,$/;"	f	file:	signature:(struct iasubopt **pref, struct ipv6_pool *pool, const struct data_string *requested_pref)
+uid_hash_add	mdb.c	/^uid_hash_add(struct lease *lease)$/;"	f	signature:(struct lease *lease)
 uid_hash_delete	mdb.c	/^void uid_hash_delete (lease)$/;"	f
 unbill_class	class.c	/^int unbill_class (lease, class)$/;"	f
 universe_count	mdb.c	/^int universe_count, universe_max;$/;"	v
 universe_hash	mdb.c	/^struct hash_table *universe_hash;$/;"	v	typeref:struct:hash_table
 universe_max	mdb.c	/^int universe_count, universe_max;$/;"	v
 universes	mdb.c	/^struct universe **universes;$/;"	v	typeref:struct:universe
-unlink_class	class.c	/^isc_result_t unlink_class(struct class **class) {$/;"	f
-update_lease_failed	ddns.c	/^update_lease_failed(struct lease *lease,$/;"	f
+unlink_class	class.c	/^isc_result_t unlink_class(struct class **class) {$/;"	f	signature:(struct class **class)
+update_lease_failed	ddns.c	/^update_lease_failed(struct lease *lease,$/;"	f	signature:(struct lease *lease, struct iasubopt *lease6, dhcp_ddns_cb_t *ddns_cb, dhcp_ddns_cb_t *ddns_cb_set, const char * file, int line)
 url	dhcpd.c	/^static const char url [] =$/;"	v	file:
-usage	dhcpd.c	/^usage(void) {$/;"	f	file:
-valid	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:
-valid_client_info_req	dhcpv6.c	/^valid_client_info_req(struct packet *packet, struct data_string *server_id) {$/;"	f
-valid_client_msg	dhcpv6.c	/^valid_client_msg(struct packet *packet, struct data_string *client_id) {$/;"	f
-valid_client_resp	dhcpv6.c	/^valid_client_resp(struct packet *packet,$/;"	f
-valid_query_msg	dhcpleasequery.c	/^valid_query_msg(struct lq6_state *lq) {$/;"	f	file:
-values_hash	mdb.c	/^	host_hash_t *values_hash;$/;"	m	struct:host_id_info	file:
-verify_addr	dhcpd.c	/^static isc_result_t verify_addr (omapi_object_t *l, omapi_addr_t *addr) {$/;"	f	file:
-verify_auth	dhcpd.c	/^static isc_result_t verify_auth (omapi_object_t *p, omapi_auth_key_t *a) {$/;"	f	file:
+usage	dhcpd.c	/^static void usage(void);$/;"	p	file:	signature:(void)
+usage	dhcpd.c	/^usage(void) {$/;"	f	file:	signature:(void)
+valid	dhcpv6.c	/^	u_int32_t renew, rebind, prefer, valid;$/;"	m	struct:reply_state	file:	access:public
+valid_client_info_req	dhcpv6.c	/^valid_client_info_req(struct packet *packet, struct data_string *server_id) {$/;"	f	signature:(struct packet *packet, struct data_string *server_id)
+valid_client_msg	dhcpv6.c	/^valid_client_msg(struct packet *packet, struct data_string *client_id) {$/;"	f	signature:(struct packet *packet, struct data_string *client_id)
+valid_client_resp	dhcpv6.c	/^valid_client_resp(struct packet *packet,$/;"	f	signature:(struct packet *packet, struct data_string *client_id, struct data_string *server_id)
+valid_query_msg	dhcpleasequery.c	/^valid_query_msg(struct lq6_state *lq) {$/;"	f	file:	signature:(struct lq6_state *lq)
+values_hash	mdb.c	/^	host_hash_t *values_hash;$/;"	m	struct:host_id_info	file:	access:public
+verify_addr	dhcpd.c	/^static isc_result_t verify_addr (omapi_object_t *l, omapi_addr_t *addr) {$/;"	f	file:	signature:(omapi_object_t *l, omapi_addr_t *addr)
+verify_auth	dhcpd.c	/^static isc_result_t verify_auth (omapi_object_t *p, omapi_auth_key_t *a) {$/;"	f	file:	signature:(omapi_object_t *p, omapi_auth_key_t *a)
 write_billing_class	db.c	/^int write_billing_class (class)$/;"	f
 write_billing_classes	db.c	/^void write_billing_classes ()$/;"	f
-write_binding_scope	db.c	/^write_binding_scope(FILE *db_file, struct binding *bnd, char *prepend) {$/;"	f	file:
+write_binding_scope	db.c	/^static isc_result_t write_binding_scope(FILE *db_file, struct binding *bnd,$/;"	p	file:	signature:(FILE *db_file, struct binding *bnd, char *prepend)
+write_binding_scope	db.c	/^write_binding_scope(FILE *db_file, struct binding *bnd, char *prepend) {$/;"	f	file:	signature:(FILE *db_file, struct binding *bnd, char *prepend)
 write_error	mdb6.c	/^static int write_error;$/;"	v	file:
-write_failover_state	db.c	/^int write_failover_state (dhcp_failover_state_t *state)$/;"	f
+write_failover_state	db.c	/^int write_failover_state (dhcp_failover_state_t *state)$/;"	f	signature:(dhcp_failover_state_t *state)
 write_group	db.c	/^int write_group (group)$/;"	f
 write_host	db.c	/^int write_host (host)$/;"	f
-write_ia	db.c	/^write_ia(const struct ia_xx *ia) {$/;"	f
-write_ia_leases	mdb6.c	/^write_ia_leases(const void *name, unsigned len, void *value) {$/;"	f	file:
+write_ia	db.c	/^write_ia(const struct ia_xx *ia) {$/;"	f	signature:(const struct ia_xx *ia)
+write_ia_leases	mdb6.c	/^write_ia_leases(const void *name, unsigned len, void *value) {$/;"	f	file:	signature:(const void *name, unsigned len, void *value)
 write_lease	db.c	/^int write_lease (lease)$/;"	f
 write_leases	mdb.c	/^int write_leases ()$/;"	f
-write_leases6	mdb6.c	/^write_leases6(void) {$/;"	f
-write_named_billing_class	db.c	/^write_named_billing_class(const void *key, unsigned len, void *object)$/;"	f
-write_server_duid	db.c	/^write_server_duid(void) {$/;"	f
+write_leases6	mdb6.c	/^write_leases6(void) {$/;"	f	signature:(void)
+write_named_billing_class	db.c	/^write_named_billing_class(const void *key, unsigned len, void *object)$/;"	f	signature:(const void *key, unsigned len, void *object)
+write_server_duid	db.c	/^write_server_duid(void) {$/;"	f	signature:(void)
 write_time	db.c	/^TIME write_time;$/;"	v
-x_strncat	ldap.c	/^x_strncat(char *dst, const char *src, size_t dst_size)$/;"	f	file:
+x_strncat	ldap.c	/^x_strncat(char *dst, const char *src, size_t dst_size)$/;"	f	file:	signature:(char *dst, const char *src, size_t dst_size)
