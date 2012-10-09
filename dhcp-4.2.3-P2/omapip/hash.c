@@ -337,7 +337,7 @@ do_number_hash(const void *key, unsigned len, unsigned size)
 
 unsigned
 do_ip4_hash(const void *key, unsigned len, unsigned size)
-{
+{//printf("do_ip4_hash!\n");
 	u_int32_t number;
 
 	memcpy(&number, key, 4);
@@ -381,7 +381,7 @@ int mask_bits_pset(u_int16_t mask)//[pset] added by Liu Cong
 
 unsigned
 do_ip4_pset_hash(const void *key, unsigned len, unsigned size)//[pset] added by Liu Cong
-{
+{//printf("do_ip4_pset_hash!\n");
 	struct iaddr_pset* ip_pset = (struct iaddr_pset*) key;
 	u_int32_t number = do_ip4_hash(ip_pset->ip_addr.iabuf, len, size);
 	int bits = mask_bits_pset(ip_pset->pset_mask);

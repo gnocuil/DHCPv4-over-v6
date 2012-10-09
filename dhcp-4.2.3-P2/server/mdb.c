@@ -715,7 +715,18 @@ int find_host_for_network (struct subnet **sp, struct host_decl **host,
 	return 0;
 }
 
-
+void print_shared_network(struct shared_network *sn)
+{
+	printf("---------------print_shared_network : 0x%x---------------\n", (int)sn);
+	struct pool *pool = sn->pools;
+	for (; pool; pool = pool->next) {
+		printf("pool=%x\n", (int)pool);
+		printf("\tpool->lease_count=%d\n", pool->lease_count);
+		printf("\tpool->free_leases=%d\n", pool->free_leases);
+		printf("\tpool->free=%x\n", (int)pool->free);
+	}
+	printf("---------------print_shared_network over---------------\n");
+}
 
 void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	struct parse *cfile;
@@ -723,7 +734,9 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	struct subnet *subnet;
 	struct pool *pool;
 	struct lease **lpchain;
-{
+{printf("new_address_range: subnet=%x, subnet->shared_network=%x\n", (int)subnet, (int)subnet->shared_network);
+	printf("subnet->shared_network->pools=%x pool=%x\n", (int)subnet->shared_network->pools, (int)pool);
+
 #if defined(COMPACT_LEASES)
 	struct lease *address_range;
 	struct lease *address_port_range;//[pset]	
@@ -847,6 +860,10 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 		lp->next_binding_state = FTS_FREE;
 		lp->rewind_binding_state = FTS_FREE;
 		lp->flags = 0;
+		lp->ip_pset.ip_addr = lp->ip_addr;//[pset]
+		lp->ip_pset.pset_index = 0;//[pset]remember the portset index	
+		lp->ip_pset.pset_mask = 0;
+
 //printf("i=%d ip=%s\n", i, piaddr (lp -> ip_addr));
 		/* Remember the lease in the IP address hash. */
 		if (find_lease_by_ip_addr (&lt, lp -> ip_addr, MDL)) {
@@ -947,8 +964,10 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 		lease_dereference (&lp, MDL);
 	    }
 	}
+	
+	print_shared_network(subnet->shared_network);
 
-
+	printf("subnet->shared_network->pools=%x pool=%x\n", (int)subnet->shared_network->pools, (int)pool);
 }
 
 int find_subnet (struct subnet **sp,
