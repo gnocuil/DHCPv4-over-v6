@@ -780,19 +780,28 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	}
 	
 	/* Check if the subnet has a port set option, [pset] added by Liu Cong */
-	printf("**************check for pset option!******************\n");
+	printf("**************check pset option!******************\n");
 	u_int16_t pset_mask;
 	struct executable_statement *ep;
+	pool->port_set = 0;
 	ratio1 = 0;
 	for (ep = subnet -> group -> statements; ep; ep = ep -> next) {
 		if (ep -> op == supersede_option_statement) {
 			if (ep -> data.option -> option -> code == DHO_PORT_SET) {
-				printf("pset found!!!\n");
-				printf("%d\n", ep -> data.option -> expression -> op);
-				pset_mask = ntohs(*(u_int16_t*)(ep -> data.option -> expression -> data.const_data.buffer -> data));
-				printf("%x\n", pset_mask);
+				printf("\tpset found!!!\n");
+				printf("\top=%d\n", ep -> data.option -> expression -> op);
+				
+				struct expression *exp = ep -> data.option -> expression -> data.concat[1];
+				printf("\texp->op=%d\n", exp->op);
+				printf("\texp->data.const_data.len=%d\n", exp->data.const_data.len);
+				printf("\texp->data.const_data.buffer=%x\n", *(u_int16_t*)(exp->data.const_data.buffer->data));
+				
+				//pset_mask = ntohs(*(u_int16_t*)(ep -> data.option -> expression -> data.const_data.buffer -> data));
+				pset_mask = ntohs(*(u_int16_t*)(exp -> data.const_data.buffer -> data));
+				printf("\tmask=%04x\n", pset_mask);
 				ratio1 = 1 << mask_bits_pset(pset_mask);
-				printf("ratio1=%d\n", ratio1);
+				printf("\tratio1=%d\n", ratio1);
+				pool->port_set = 1;
 				break;
 			}
 		}
@@ -905,7 +914,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 
 	/* Fill out the lease structures with some minimal information. */
 	for (i = 0; ratio1 > 0 && i < max - min + 1; i++) {//printf("i=%d\n", i);
-	    for (j = 0; j < ratio1; j++){
+	    for (j = 1; j < ratio1; j++){
 		struct lease *lp = (struct lease *)0;
 
 #if defined (COMPACT_LEASES)
@@ -951,7 +960,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 			lease_dereference (&lt, MDL);
 		}else
 			lease_ip_pset_hash_add(lease_ip_pset_hash,
-					  (const unsigned char*) &(lp->ip_pset), lp->ip_pset.ip_addr.len,
+					  &(lp->ip_pset), lp->ip_pset.ip_addr.len,
 					  lp, MDL);//[pset] modified by Liu Cong
 		/* Put the lease on the chain for the caller. */
 		if (lpchain) {
@@ -2081,7 +2090,7 @@ int find_lease_by_ip_addr (struct lease **lp, struct iaddr addr,
 int find_lease_by_ip_pset (struct lease **lp, struct iaddr_pset pset,
 			   const char *file, int line)
 {
-	return lease_ip_pset_hash_lookup(lp, lease_ip_pset_hash, (const unsigned char*) &pset,
+	return lease_ip_pset_hash_lookup(lp, lease_ip_pset_hash, &pset,
 				    pset.ip_addr.len, file, line);//[pset] modified by Liu Cong
 }
 /********************************************************************/
@@ -2667,8 +2676,12 @@ lease_instantiate(const void *key, unsigned len, void *object)
 	   XXX orphan, which we *should* keep around until it expires,
 	   XXX but which right now we just forget. */
 	if (!lease -> pool) {
-		lease_ip_hash_delete(lease_ip_addr_hash, lease->ip_addr.iabuf,
-				     lease->ip_addr.len, MDL);
+		if (lease -> ip_pset.pset_mask == 0)//[pset]
+			lease_ip_hash_delete(lease_ip_addr_hash, lease->ip_addr.iabuf,
+					     lease->ip_addr.len, MDL);
+		else
+			lease_ip_pset_hash_delete(lease_ip_pset_hash, &lease->ip_pset,
+					     lease->ip_addr.len, MDL);
 		return ISC_R_SUCCESS;
 	}
 		
@@ -2727,6 +2740,7 @@ void expire_all_pools ()
 	/* First, go over the hash list and actually put all the leases
 	   on the appropriate lists. */
 	lease_ip_hash_foreach(lease_ip_addr_hash, lease_instantiate);
+	lease_ip_pset_hash_foreach(lease_ip_pset_hash, lease_instantiate);//[pset] added by Liu Cong
 
 	/* Loop through each pool in each shared network and call the
 	 * expiry routine on the pool.  It is no longer safe to follow
@@ -2822,7 +2836,7 @@ void dump_subnets ()
 
 HASH_FUNCTIONS(lease_ip, const unsigned char *, struct lease, lease_ip_hash_t,
 	       lease_reference, lease_dereference, do_ip4_hash)
-HASH_FUNCTIONS(lease_ip_pset, const unsigned char *, struct lease, lease_ip_hash_t,//[pset]added by Liu Cong
+HASH_FUNCTIONS(lease_ip_pset, struct iaddr_pset *, struct lease, lease_ip_hash_t,//[pset]added by Liu Cong
 	       lease_reference, lease_dereference, do_ip4_pset_hash)
 HASH_FUNCTIONS(lease_id, const unsigned char *, struct lease, lease_id_hash_t,
 	       lease_reference, lease_dereference, do_id_hash)

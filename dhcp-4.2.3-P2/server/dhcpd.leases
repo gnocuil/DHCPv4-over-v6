@@ -1,5 +1,15 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 # This lease file was written by isc-dhcp-4.2.3-P2
 
-server-duid "\000\001\000\001\030\0060E\010\000'\366\002\307";
+server-duid "\000\001\000\001\030\006iq\010\000'\366\002\307";
 
+lease 192.168.2.151 {
+  starts 2 2012/10/09 04:50:19;
+  ends 2 2012/10/09 05:00:19;
+  cltt 2 2012/10/09 04:50:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+  client-hostname "thuos-VirtualBox";
+}

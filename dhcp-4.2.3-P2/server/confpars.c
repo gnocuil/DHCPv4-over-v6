@@ -1407,7 +1407,7 @@ int permit_list_match (struct permit *lhs, struct permit *rhs)
 	}
 	return 1;
 }
-extern void print_shared_network(struct shared_network *sn);
+
 void parse_pool_statement (cfile, group, type)
 	struct parse *cfile;
 	struct group *group;
@@ -1514,13 +1514,9 @@ void parse_pool_statement (cfile, group, type)
 #endif
 
 		      case RANGE:
-printf("before parse_address_range...\n");
-print_shared_network(group->shared_network);
 			next_token (&val, (unsigned *)0, cfile);
 			parse_address_range (cfile, group, type,
 					     pool, &lpchain);
-printf("after parse_address_range...\n");
-print_shared_network(group->shared_network);	
 			break;
 		      case ALLOW:
 			permit_head = &pool -> permit_list;
@@ -1683,8 +1679,9 @@ print_shared_network(group->shared_network);
 		    !permit_list_match (pool -> prohibit_list,
 					pp -> prohibit_list))
 			continue;
-printf("*******************************merge!!!***********************\n");
-printf("pp->free=%x frees=%d\n", (int)pp->free, pp->free_leases);
+		if (pp -> port_set != pool -> port_set)//[pset]added by Liu Cong
+			continue;
+
 		/* Okay, we can merge these two pools.    All we have to
 		   do is fix up the leases, which all point to their pool. */
 		for (lp = lpchain; lp; lp = lp -> next) {
@@ -1702,7 +1699,7 @@ printf("pp->free=%x frees=%d\n", (int)pp->free, pp->free_leases);
 			;
 		pool_reference (p, pool, MDL);
 	}
-
+if (!debug_pool) debug_pool = pool -> shared_network -> pools;//[pset]
 	/* Don't allow a pool declaration with no addresses, since it is
 	   probably a configuration error. */
 	if (!lpchain) {

@@ -929,7 +929,8 @@ struct pool {
 	int index;
 	TIME valid_from;        /* deny pool use before this date */
 	TIME valid_until;       /* deny pool use after this date */
-
+	int port_set;           /* [pset] is the leases in this pool contains port set? */
+	
 #if defined (FAILOVER_PROTOCOL)
 	dhcp_failover_state_t *failover_peer;
 #endif
@@ -1637,7 +1638,7 @@ HASH_FUNCTIONS_DECL (option_code, const unsigned *, struct option,
 HASH_FUNCTIONS_DECL (dns_zone, const char *, struct dns_zone, dns_zone_hash_t)
 HASH_FUNCTIONS_DECL(lease_ip, const unsigned char *, struct lease,
 		    lease_ip_hash_t)
-HASH_FUNCTIONS_DECL(lease_ip_pset, const unsigned char *, struct lease,
+HASH_FUNCTIONS_DECL(lease_ip_pset, struct iaddr_pset *, struct lease,
 		    lease_ip_hash_t)//[pset] added by Liu Cong
 HASH_FUNCTIONS_DECL(lease_id, const unsigned char *, struct lease,
 		    lease_id_hash_t)

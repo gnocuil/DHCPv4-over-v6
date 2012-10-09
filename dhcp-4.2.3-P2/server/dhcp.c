@@ -2716,10 +2716,10 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 
 	/*add the DHO_PORT_SET option
 	 * mim
-	 */
+	 */printf("before DHP_PORT_SET: mask=%04x index=%04x\n", lease->ip_pset.pset_mask, lease->ip_pset.pset_index);
 	i = DHO_PORT_SET;
-	if( !lookup_option(&dhcp_universe, state->options,i)){
-		oc = (struct option_cache *) 0;
+	if( !(oc=lookup_option(&dhcp_universe, state->options,i))){
+		/*oc = (struct option_cache *) 0;
 		if(option_cache_allocate(&oc, MDL)){
 			u_int32_t tmp = htons((lease->ip_pset.pset_index) << 16) + htons(lease->ip_pset.pset_mask);
 			if(make_const_data( &oc->expression,
@@ -2732,7 +2732,13 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 						state->options,oc);
 			}
 			option_cache_dereference(&oc, MDL);
-		}
+		}*/
+	} else {
+		printf("else: op=%d\n", oc->expression->op);
+		struct expression *exp = oc -> expression -> data.concat[0];
+		*(u_int16_t*)(exp -> data.const_data.buffer -> data) = ntohs(lease->ip_pset.pset_index);
+		exp = oc -> expression -> data.concat[1];
+		*(u_int16_t*)(exp -> data.const_data.buffer -> data) = ntohs(lease->ip_pset.pset_mask);
 	}
 
 	/* Use the subnet mask from the subnet declaration if no other
@@ -4153,11 +4159,14 @@ int allocate_lease (struct lease **lp, struct packet *packet,
 	struct lease *candl = (struct lease *)0;
 
 	for (; pool ; pool = pool -> next) {printf("allocate_lease : pool=%x\n", (int)pool);
-		printf("pool=%x\n", (int)pool);
-		printf("pool->lease_count=%d\n", pool->lease_count);
-		printf("pool->free_leases=%d\n", pool->free_leases);
-		printf("pool->free=%x\n", (int)pool->free);
-		printf("pool->next=%x\n", (int)pool->next);
+		printf("\tpool=%x\n", (int)pool);
+		printf("\tpool->lease_count=%d\n", pool->lease_count);
+		printf("\tpool->free_leases=%d\n", pool->free_leases);
+		printf("\tpool->free=%x\n", (int)pool->free);
+		printf("\tpool->next=%x\n", (int)pool->next);
+		
+		if (pool->port_set != checkPortsetInOption55(packet))//[pset]
+			continue;
 		if ((pool -> prohibit_list &&
 		     permitted (packet, pool -> prohibit_list)) ||
 		    (pool -> permit_list &&
