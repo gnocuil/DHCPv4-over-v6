@@ -1699,7 +1699,7 @@ void parse_pool_statement (cfile, group, type)
 			;
 		pool_reference (p, pool, MDL);
 	}
-if (!debug_pool) debug_pool = pool -> shared_network -> pools;//[pset]
+
 	/* Don't allow a pool declaration with no addresses, since it is
 	   probably a configuration error. */
 	if (!lpchain) {

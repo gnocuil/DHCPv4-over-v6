@@ -793,10 +793,10 @@ void dhcprelease (packet, ms_nulltp)
 				   (struct client_state *)0,
 				   packet -> options, (struct option_state *)0,
 				   &global_scope, oc, MDL)) {
-			memcpy(&cipset.index, data.data, 2);
-			cipset.index = ntohs(cipset.index);
-			memcpy(&cipset,mask, data.data + 2, 2);
-			cipset.mask = ntohs(cipset.mask);
+			memcpy(&cipset.pset_index, data.data, 2);
+			cipset.pset_index = ntohs(cipset.pset_index);
+			memcpy(&cipset.pset_mask, data.data + 2, 2);
+			cipset.pset_mask = ntohs(cipset.pset_mask);
 			data_string_forget (&data, MDL);
 		}else{
 			log_info ("there is no information about pset in the packet!!\n");
