@@ -800,7 +800,7 @@ void dhcprelease (packet, ms_nulltp)
 			data_string_forget (&data, MDL);
 		}else{
 			log_info ("there is no information about pset in the packet!!\n");
-			return;// there is no information about pset in the packet,error
+			return;
 		}
 
 		while (lease) {
@@ -810,7 +810,7 @@ void dhcprelease (packet, ms_nulltp)
 				     lease -> ip_addr.iabuf, 4)) {
 				break;
 			}*/
-			if(!memcmp (&cipset, &leasei -> ip_pset,
+			if(!memcmp (&cipset, &lease -> ip_pset,
 						sizeof(struct iaddr_pset))){ //cmp pset
 				break;
 			}
