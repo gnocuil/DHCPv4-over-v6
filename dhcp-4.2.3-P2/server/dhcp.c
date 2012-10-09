@@ -723,7 +723,8 @@ void dhcprelease (packet, ms_nulltp)
 	int ms_nulltp;
 {
 	struct lease *lease = (struct lease *)0, *next = (struct lease *)0;
-	struct iaddr cip;
+	//struct iaddr cip;
+	struct iaddr_pset cipset;//pset for client
 	struct option_cache *oc;
 	struct data_string data;
 	const char *s;
@@ -754,11 +755,36 @@ void dhcprelease (packet, ms_nulltp)
 
 		/* See if we can find a lease that matches the IP address
 		   the client is claiming. */
+		cipset.ip_addr.len = 4;
+		memcpy(cipset.ip_addr.iabuf, &packet -> raw -> ciaddr, 4);
+		
+		oc = lookup_option (&dhcp_universe, packet -> options,
+			    DHO_PORT_SET);
+		memset (&data, 0, sizeof data);
+		if (oc &&
+			evaluate_option_cache (&data, packet, (struct lease *)0,
+				   (struct client_state *)0,
+				   packet -> options, (struct option_state *)0,
+				   &global_scope, oc, MDL)) {
+			memcpy(&cipset.index, data.data, 2);
+			cipset.index = ntohs(cipset.index);
+			memcpy(&cipset,mask, data.data + 2, 2);
+			cipset.mask = ntohs(cipset.mask);
+			data_string_forget (&data, MDL);
+		}else{
+			log_info ("there is no information about pset in the packet!!\n");
+			return;// there is no information about pset in the packet,error
+		}
+
 		while (lease) {
 			if (lease -> n_uid)
 				lease_reference (&next, lease -> n_uid, MDL);
-			if (!memcmp (&packet -> raw -> ciaddr,
+			/*if (!memcmp (&packet -> raw -> ciaddr,
 				     lease -> ip_addr.iabuf, 4)) {
+				break;
+			}*/
+			if(!memcmp (&cipset, &leasei -> ip_pset,
+						sizeof(struct iaddr_pset))){ //cmp pset
 				break;
 			}
 			lease_dereference (&lease, MDL);
@@ -775,9 +801,10 @@ void dhcprelease (packet, ms_nulltp)
 	   but the spec on this has changed historically, so try the
 	   IP address in ciaddr if the client-identifier fails. */
 	if (!lease) {
-		cip.len = 4;
-		memcpy (cip.iabuf, &packet -> raw -> ciaddr, 4);
-		find_lease_by_ip_addr (&lease, cip, MDL);
+		//cip.len = 4;
+		//memcpy (cip.iabuf, &packet -> raw -> ciaddr, 4);
+		//find_lease_by_ip_addr (&lease, cip, MDL);
+		find_lease_by_ip_pset(&lease, cipset, MDL);
 	}
 
 
