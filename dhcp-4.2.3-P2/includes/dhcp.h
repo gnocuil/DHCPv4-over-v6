@@ -161,7 +161,7 @@ struct dhcp_packet {
 #define DHO_VIVCO_SUBOPTIONS			124
 #define DHO_VIVSO_SUBOPTIONS			125
 
-#define DHO_PORT_SET                            198 /*pset option, added*/
+#define DHO_PORT_SET                            224 /*pset option, added*/
 
 #define DHO_END					255
 

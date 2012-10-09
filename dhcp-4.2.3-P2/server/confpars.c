@@ -1407,7 +1407,7 @@ int permit_list_match (struct permit *lhs, struct permit *rhs)
 	}
 	return 1;
 }
-
+extern void print_shared_network(struct shared_network *sn);
 void parse_pool_statement (cfile, group, type)
 	struct parse *cfile;
 	struct group *group;
@@ -1514,9 +1514,13 @@ void parse_pool_statement (cfile, group, type)
 #endif
 
 		      case RANGE:
+printf("before parse_address_range...\n");
+print_shared_network(group->shared_network);
 			next_token (&val, (unsigned *)0, cfile);
 			parse_address_range (cfile, group, type,
 					     pool, &lpchain);
+printf("after parse_address_range...\n");
+print_shared_network(group->shared_network);	
 			break;
 		      case ALLOW:
 			permit_head = &pool -> permit_list;
@@ -1679,7 +1683,8 @@ void parse_pool_statement (cfile, group, type)
 		    !permit_list_match (pool -> prohibit_list,
 					pp -> prohibit_list))
 			continue;
-
+printf("*******************************merge!!!***********************\n");
+printf("pp->free=%x frees=%d\n", (int)pp->free, pp->free_leases);
 		/* Okay, we can merge these two pools.    All we have to
 		   do is fix up the leases, which all point to their pool. */
 		for (lp = lpchain; lp; lp = lp -> next) {

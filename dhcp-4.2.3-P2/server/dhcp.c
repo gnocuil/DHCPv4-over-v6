@@ -81,6 +81,27 @@ const int dhcp_type_name_max = ((sizeof dhcp_type_names) / sizeof (char *));
 # define send_packet trace_packet_send
 #endif
 
+static int
+checkPortsetInOption55(struct packet *packet) {
+	struct option_cache *oc;
+	oc = lookup_option (&dhcp_universe, packet -> options,
+					DHO_DHCP_PARAMETER_REQUEST_LIST);
+	if (oc) {
+
+		int i;
+		for (i = 0; i < oc->data.len; ++i) {
+			//printf("%d ", (unsigned int)oc->data.data[i]);
+			if (oc->data.data[i] == DHO_PORT_SET) {//found 224 in option 55!
+				printf("found 224 in option 55!\n");
+				return 1;
+			}
+		}
+		//printf("\n");
+	}
+	printf("didn't find 224 in option 55...\n");
+	return 0;
+}
+
 void
 dhcp (struct packet *packet) {
 	int ms_nulltp = 0;
@@ -148,7 +169,7 @@ dhcp (struct packet *packet) {
 	{
 		struct iaddr cip;
 		struct iaddr_pset ipset;//get pset-option from request packet. sunqi
-
+		printf("*************************dhcp.c,line 151***************\n");
 		/********if pset option exists, get it; else use original method. sunqi*******/
 
 		ipset.ip_addr.len = sizeof packet -> raw -> ciaddr;
@@ -158,7 +179,7 @@ dhcp (struct packet *packet) {
 					DHO_PORT_SET);
 		memset (&data, 0, sizeof data);
 		if (oc && 
-   		    evaluate_option_cache (&data, packet, (struct lease)0,
+   		    evaluate_option_cache (&data, packet, (struct lease*)0,
 					   (struct client_state *)0,
 					   packet -> options, (struct option_state*)0,
 					   &global_scope, oc, MDL)){
@@ -251,7 +272,10 @@ dhcp (struct packet *packet) {
 
 	/* Classify the client. */
 	classify_client (packet);
-
+	
+	/* [pset] check whether option 55 contains port set option */
+	//checkPortsetInOption55(packet);
+	
 	switch (packet -> packet_type) {
 	      case DHCPDISCOVER:
 		dhcpdiscover (packet, ms_nulltp);
@@ -307,9 +331,12 @@ void dhcpdiscover (packet, ms_nulltp)
 	dhcp_failover_state_t *peer;
 #endif
 
+	/* [pset] check whether option 55 contains port set option */
+	checkPortsetInOption55(packet);
+	
 	find_lease (&lease, packet, packet -> shared_network,
 		    0, &peer_has_leases, (struct lease *)0, MDL);
-
+	printf("dhcpdiscover: lease=%x mask=%x\n", (int)lease, lease?lease->ip_pset.pset_mask:0);//[pset]temp
 	if (lease && lease -> client_hostname) {
 		if ((strlen (lease -> client_hostname) <= 64) &&
 		    db_printable((unsigned char *)lease->client_hostname))
@@ -375,10 +402,10 @@ void dhcpdiscover (packet, ms_nulltp)
 #endif
 
 	/* If we didn't find a lease, try to allocate one... */
-	if (!lease) {
+	if (!lease) {printf("before allocate_lease : shared_network=%x\n", (int)packet->shared_network);
 		if (!allocate_lease (&lease, packet,
 				     packet -> shared_network -> pools, 
-				     &peer_has_leases)) {
+				     &peer_has_leases)) {printf("cannot allocate a lease!\n");
 			if (peer_has_leases)
 				log_error ("%s: peer holds all free leases",
 					   msgbuf);
@@ -389,7 +416,7 @@ void dhcpdiscover (packet, ms_nulltp)
 			return;
 		}
 	}
-
+printf("allocated ip=%s\n", piaddr(lease->ip_pset.ip_addr));
 #if defined (FAILOVER_PROTOCOL)
 	if (lease && lease -> pool && lease -> pool -> failover_peer) {
 		peer = lease -> pool -> failover_peer;
@@ -437,7 +464,7 @@ void dhcprequest (packet, ms_nulltp, ip_lease)
 	struct packet *packet;
 	int ms_nulltp;
 	struct lease *ip_lease;
-{
+{printf("dhcprequest!\n");
 	struct lease *lease;
 	struct iaddr cip;
 	struct iaddr sip;
@@ -2721,9 +2748,9 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 	if( !lookup_option(&dhcp_universe, state->options,i)){
 		oc = (struct option_cache *) 0;
 		if(option_cache_allocate(&oc, MDL)){
-			u_int32_t tmp = htons(lease->ip_pset.pset_index) << 16 + htons(lease->ip_pset.pset_mask);
+			u_int32_t tmp = htons((lease->ip_pset.pset_index) << 16) + htons(lease->ip_pset.pset_mask);
 			if(make_const_data( &oc->expression,
-						&tmp, 4,
+						(const unsigned char *)&tmp, 4,
 						0, 0, MDL)){
 				option_code_hash_lookup( &oc->option,
 					dhcp_universe.code_hash,
@@ -4152,7 +4179,12 @@ int allocate_lease (struct lease **lp, struct packet *packet,
 	struct lease *lease = (struct lease *)0;
 	struct lease *candl = (struct lease *)0;
 
-	for (; pool ; pool = pool -> next) {
+	for (; pool ; pool = pool -> next) {printf("allocate_lease : pool=%x\n", (int)pool);
+		printf("pool=%x\n", (int)pool);
+		printf("pool->lease_count=%d\n", pool->lease_count);
+		printf("pool->free_leases=%d\n", pool->free_leases);
+		printf("pool->free=%x\n", (int)pool->free);
+		printf("pool->next=%x\n", (int)pool->next);
 		if ((pool -> prohibit_list &&
 		     permitted (packet, pool -> prohibit_list)) ||
 		    (pool -> permit_list &&
@@ -4222,7 +4254,7 @@ int allocate_lease (struct lease **lp, struct packet *packet,
 			if (pool -> free)
 				candl = pool -> free;
 			else
-				candl = pool -> abandoned;
+				candl = pool -> abandoned;//printf("ip=%s\n", piaddr (candl->ip_pset.ip_addr));
 		}
 
 		/*
