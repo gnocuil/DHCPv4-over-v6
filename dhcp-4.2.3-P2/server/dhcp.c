@@ -82,7 +82,7 @@ const int dhcp_type_name_max = ((sizeof dhcp_type_names) / sizeof (char *));
 #endif
 
 static int
-checkPortsetInOption55(struct packet *packet) {
+findPsetInOption55(struct packet *packet) {
 	struct option_cache *oc;
 	oc = lookup_option (&dhcp_universe, packet -> options,
 					DHO_DHCP_PARAMETER_REQUEST_LIST);
@@ -274,7 +274,7 @@ dhcp (struct packet *packet) {
 	classify_client (packet);
 	
 	/* [pset] check whether option 55 contains port set option */
-	//checkPortsetInOption55(packet);
+	//findPsetInOption55(packet);
 	
 	switch (packet -> packet_type) {
 	      case DHCPDISCOVER:
@@ -332,11 +332,11 @@ void dhcpdiscover (packet, ms_nulltp)
 #endif
 
 	/* [pset] check whether option 55 contains port set option */
-	checkPortsetInOption55(packet);
+	findPsetInOption55(packet);
 	
 	find_lease (&lease, packet, packet -> shared_network,
 		    0, &peer_has_leases, (struct lease *)0, MDL);
-	printf("dhcpdiscover: lease=%x mask=%x\n", (int)lease, lease?lease->ip_pset.pset_mask:0);//[pset]temp
+	printf("dhcpdiscover after find_lease: lease=%x mask=%x\n", (int)lease, lease?lease->ip_pset.pset_mask:0);//[pset]temp
 	if (lease && lease -> client_hostname) {
 		if ((strlen (lease -> client_hostname) <= 64) &&
 		    db_printable((unsigned char *)lease->client_hostname))
@@ -416,7 +416,7 @@ void dhcpdiscover (packet, ms_nulltp)
 			return;
 		}
 	}
-printf("allocated ip=%s\n", piaddr(lease->ip_pset.ip_addr));
+printf("allocated lease=%x ip=%s\n", (int)lease, piaddr(lease->ip_pset.ip_addr));
 #if defined (FAILOVER_PROTOCOL)
 	if (lease && lease -> pool && lease -> pool -> failover_peer) {
 		peer = lease -> pool -> failover_peer;
@@ -464,7 +464,8 @@ void dhcprequest (packet, ms_nulltp, ip_lease)
 	struct packet *packet;
 	int ms_nulltp;
 	struct lease *ip_lease;
-{printf("dhcprequest!\n");
+{//printf("dhcprequest! ip_lease=%x ip=%s\n", (int)ip_lease, ip_lease?piaddr(ip_lease->ip_addr):"");//return;
+printf("dhcprequest! ip_lease=%x\n", (int)ip_lease);//return;
 	struct lease *lease;
 	struct iaddr cip;
 	struct iaddr sip;
@@ -507,7 +508,7 @@ void dhcprequest (packet, ms_nulltp, ip_lease)
 	if (find_subnet (&subnet, cip, MDL))
 		find_lease (&lease, packet,
 			    subnet -> shared_network, &ours, 0, ip_lease, MDL);
-
+printf("request: lease=%x\n", (int)lease);
 	if (lease && lease -> client_hostname) {
 		if ((strlen (lease -> client_hostname) <= 64) &&
 		    db_printable((unsigned char *)lease->client_hostname))
@@ -2743,7 +2744,7 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 
 	/*add the DHO_PORT_SET option
 	 * mim
-	 */printf("before DHP_PORT_SET: mask=%04x index=%04x\n", lease->ip_pset.pset_mask, lease->ip_pset.pset_index);
+	 */
 	i = DHO_PORT_SET;
 	if( !(oc=lookup_option(&dhcp_universe, state->options,i))){
 		/*oc = (struct option_cache *) 0;
@@ -3394,6 +3395,7 @@ int find_lease (struct lease **lp,
 	int have_client_identifier = 0;
 	struct data_string client_identifier;
 	struct hardware h;
+	struct iaddr_pset cip_pset;//[pset]
 
 #if defined(FAILOVER_PROTOCOL)
 	/* Quick check to see if the peer has leases. */
@@ -3421,7 +3423,7 @@ int find_lease (struct lease **lp,
 		oc = lookup_option (&dhcp_universe, packet -> options,
 				    DHO_DHCP_REQUESTED_ADDRESS);
 		memset (&d1, 0, sizeof d1);
-		if (oc &&
+		if (oc && packet -> packet_type != DHCPDISCOVER && //TODO
 		    evaluate_option_cache (&d1, packet, (struct lease *)0,
 					   (struct client_state *)0,
 					   packet -> options,
@@ -3431,10 +3433,32 @@ int find_lease (struct lease **lp,
 			cip.len = 4;
 			memcpy (cip.iabuf, d1.data, cip.len);
 			data_string_forget (&d1, MDL);
+			
+
 		} else 
 			cip.len = 0;
 	}
-
+	
+	if (cip.len > 0 && (oc = lookup_option (&dhcp_universe, packet -> options,
+				    DHO_PORT_SET))) {//[pset]
+		cip_pset.ip_addr.len = 4;
+		memcpy (cip_pset.ip_addr.iabuf, cip.iabuf, 4);
+		struct data_string d2;
+		memset(&d2, 0, sizeof d2);
+		evaluate_option_cache (&d2, packet, (struct lease *)0,
+			   (struct client_state *)0,
+			   packet -> options,
+			   (struct option_state *)0,
+			   &global_scope, oc, MDL);
+		memcpy(&cip_pset.pset_index, d2.data, 2);
+		memcpy(&cip_pset.pset_mask, (void*)d2.data + 2, 2);
+		cip_pset.pset_index = ntohs(cip_pset.pset_index);
+		cip_pset.pset_mask = ntohs(cip_pset.pset_mask);
+		printf("cip pset index=%x mask=%x\n", cip_pset.pset_index, cip_pset.pset_mask);
+	} else {
+		cip_pset.pset_mask = 0;
+	}
+			
 	/* Try to find a host or lease that's been assigned to the
 	   specified unique client identifier. */
 	oc = lookup_option (&dhcp_universe, packet -> options,
@@ -3521,7 +3545,9 @@ int find_lease (struct lease **lp,
 	if (packet -> packet_type == DHCPREQUEST && fixed_lease &&
 	    (fixed_lease -> ip_addr.len != cip.len ||
 	     memcmp (fixed_lease -> ip_addr.iabuf,
-		     cip.iabuf, cip.len))) {
+		     cip.iabuf, cip.len) ||
+		 (findPsetInOption55(packet) && fixed_lease->ip_pset.pset_mask == 0)//[pset]
+		     )) {
 		if (ours)
 			*ours = 1;
 		strcpy (dhcp_message, "requested address is incorrect");
@@ -3605,7 +3631,7 @@ int find_lease (struct lease **lp,
 		log_info ("Found lease for client id: %s.",
 		      piaddr (uid_lease -> ip_addr));
 #endif
-
+printf("find_lease: uid_lease=%x\n", (int)uid_lease);
 	/* Find a lease whose hardware address matches, whose client
 	 * identifier matches (or equally doesn't have one), that's
 	 * permitted, and that's on the correct subnet.
@@ -3616,7 +3642,7 @@ int find_lease (struct lease **lp,
 	h.hlen = packet -> raw -> hlen + 1;
 	h.hbuf [0] = packet -> raw -> htype;
 	memcpy (&h.hbuf [1], packet -> raw -> chaddr, packet -> raw -> hlen);
-	find_lease_by_hw_addr (&hw_lease, h.hbuf, h.hlen, MDL);
+	find_lease_by_hw_addr (&hw_lease, h.hbuf, h.hlen, MDL);printf("find_lease: hw_lease=%x ", (int)hw_lease);if(hw_lease)printf("ip=%s", piaddr(hw_lease->ip_addr));printf("\n");
 	while (hw_lease) {
 #if defined (DEBUG_FIND_LEASE)
 		log_info ("trying next lease matching hw addr: %s",
@@ -3642,7 +3668,15 @@ int find_lease (struct lease **lp,
 			goto n_hw;
 		}
 #endif
-
+		
+		if (findPsetInOption55(packet)) {
+			if (hw_lease->ip_pset.pset_mask == 0)
+				goto n_hw;
+		} else {
+			if (hw_lease->ip_pset.pset_mask != 0)
+				goto n_hw;
+		}
+		
 		/*
 		 * This conditional skips "potentially active" leases (leases
 		 * we think are expired may be extended by the peer, etc) that
@@ -3701,8 +3735,12 @@ int find_lease (struct lease **lp,
 	   IP address. */
 	if (ip_lease_in)
 		lease_reference (&ip_lease, ip_lease_in, MDL);
-	else if (cip.len)
-		find_lease_by_ip_addr (&ip_lease, cip, MDL);
+	else if (cip.len) {
+		if (cip_pset.pset_mask == 0)
+			find_lease_by_ip_addr (&ip_lease, cip, MDL);
+		else
+			find_lease_by_ip_pset (&ip_lease, cip_pset, MDL);
+	}printf("ip_lease=%x ", (int)ip_lease);if (ip_lease) printf("ip=%s", piaddr(ip_lease->ip_addr));printf("\n");
 
 #if defined (DEBUG_FIND_LEASE)
 	if (ip_lease)
@@ -4164,6 +4202,7 @@ int mockup_lease (struct lease **lp, struct packet *packet,
 	lease -> starts = lease -> cltt = lease -> ends = MIN_TIME;
 	lease -> flags = STATIC_LEASE;
 	lease -> binding_state = FTS_FREE;
+	lease -> ip_pset.pset_mask = 0;//[pset] TODO
 
 	lease_reference (lp, lease, MDL);
 
@@ -4185,14 +4224,15 @@ int allocate_lease (struct lease **lp, struct packet *packet,
 	struct lease *lease = (struct lease *)0;
 	struct lease *candl = (struct lease *)0;
 
-	for (; pool ; pool = pool -> next) {printf("allocate_lease : pool=%x\n", (int)pool);
+	for (; pool ; pool = pool -> next) {
+		/*printf("allocate_lease : pool=%x\n", (int)pool);
 		printf("\tpool=%x\n", (int)pool);
 		printf("\tpool->lease_count=%d\n", pool->lease_count);
 		printf("\tpool->free_leases=%d\n", pool->free_leases);
 		printf("\tpool->free=%x\n", (int)pool->free);
 		printf("\tpool->next=%x\n", (int)pool->next);
-		
-		if (pool->port_set != checkPortsetInOption55(packet))//[pset]
+		*/
+		if (pool->port_set != findPsetInOption55(packet))//[pset]
 			continue;
 		if ((pool -> prohibit_list &&
 		     permitted (packet, pool -> prohibit_list)) ||

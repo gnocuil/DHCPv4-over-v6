@@ -1,15 +1,104 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 # This lease file was written by isc-dhcp-4.2.3-P2
 
-server-duid "\000\001\000\001\030\006n$\010\000'\366\002\307";
+server-duid "\000\001\000\001\030\010TZ\010\000'\366\002\307";
 
-lease 192.168.2.151 {
-  starts 2 2012/10/09 05:10:05;
-  ends 2 2012/10/09 05:20:05;
-  cltt 2 2012/10/09 05:10:05;
+lease 192.168.1.10 {
+  starts 3 2012/10/10 15:44:44;
+  ends 3 2012/10/10 15:54:44;
+  cltt 3 2012/10/10 15:44:44;
   binding state active;
   next binding state free;
   rewind binding state free;
   hardware ethernet 08:00:27:f3:0f:45;
-  client-hostname "thuos-VirtualBox";
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 15:49:49;
+  ends 3 2012/10/10 15:59:49;
+  cltt 3 2012/10/10 15:49:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 15:54:49;
+  ends 3 2012/10/10 16:04:49;
+  cltt 3 2012/10/10 15:54:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 15:59:49;
+  ends 3 2012/10/10 16:09:49;
+  cltt 3 2012/10/10 15:59:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:04:49;
+  ends 3 2012/10/10 16:14:49;
+  cltt 3 2012/10/10 16:04:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:09:49;
+  ends 3 2012/10/10 16:19:49;
+  cltt 3 2012/10/10 16:09:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:14:49;
+  ends 3 2012/10/10 16:24:49;
+  cltt 3 2012/10/10 16:14:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:19:49;
+  ends 3 2012/10/10 16:29:49;
+  cltt 3 2012/10/10 16:19:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:24:49;
+  ends 3 2012/10/10 16:34:49;
+  cltt 3 2012/10/10 16:24:49;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:29:19;
+  ends 3 2012/10/10 16:39:19;
+  cltt 3 2012/10/10 16:29:19;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+}
+lease 192.168.1.10 {
+  starts 3 2012/10/10 16:29:51;
+  ends 3 2012/10/10 16:39:51;
+  cltt 3 2012/10/10 16:29:51;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
 }
