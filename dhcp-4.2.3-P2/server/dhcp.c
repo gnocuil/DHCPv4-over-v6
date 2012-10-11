@@ -167,45 +167,37 @@ dhcp (struct packet *packet) {
 	    (packet->options->universe_count <= agent_universe.index ||
 	     packet->options->universes[agent_universe.index] == NULL))
 	{
-		struct iaddr cip;
-		struct iaddr_pset ipset;//get pset-option from request packet. sunqi
-		printf("*************************dhcp.c,line 151***************\n");
-		/********if pset option exists, get it; else use original method. sunqi*******/
+		struct iaddr_pset cip_pset;
+		if ((oc = lookup_option (&dhcp_universe, packet -> options,
+					    DHO_PORT_SET))) {//[pset]
+			struct data_string d2;
+			memset(&d2, 0, sizeof d2);
+			evaluate_option_cache (&d2, packet, (struct lease *)0,
+				   (struct client_state *)0,
+				   packet -> options,
+				   (struct option_state *)0,
+				   &global_scope, oc, MDL);
+			memcpy(&cip_pset.pset_index, d2.data, 2);
+			memcpy(&cip_pset.pset_mask, (void*)d2.data + 2, 2);
+			cip_pset.pset_index = ntohs(cip_pset.pset_index);
+			cip_pset.pset_mask = ntohs(cip_pset.pset_mask);
+			cip_pset.ip_addr.len = sizeof packet -> raw -> ciaddr;
+			memcpy (cip_pset.ip_addr.iabuf, &packet -> raw -> ciaddr,
+				sizeof packet -> raw -> ciaddr);
+			if (!find_lease_by_ip_pset (&lease, cip_pset, MDL))
+				goto nolease;
+		} else {
+			struct iaddr cip;
 
-		ipset.ip_addr.len = sizeof packet -> raw -> ciaddr;
-                memcpy (ipset.ip_addr.iabuf, &packet -> raw -> ciaddr,
-                        sizeof packet -> raw -> ciaddr);
-		oc = lookup_option (&dhcp_universe, packet -> options,
-					DHO_PORT_SET);
-		memset (&data, 0, sizeof data);
-		if (oc && 
-   		    evaluate_option_cache (&data, packet, (struct lease*)0,
-					   (struct client_state *)0,
-					   packet -> options, (struct option_state*)0,
-					   &global_scope, oc, MDL)){
-			if (data.len == 4) {
-				u_int32_t tmp = getULong (data.data);
-				ipset.pset_index = tmp >> 16;
-				ipset.pset_mask = tmp;	
-			} else {
-				printf("no port-set option found.");
-
-				}
-			
-			data_string_forget (&data, MDL);
-		 
-		
-                	if (!find_lease_by_ip_pset (&lease, ipset,  MDL))
-                         	goto nolease;
-
-		} else {/******************/
-
-		cip.len = sizeof packet -> raw -> ciaddr;
-		memcpy (cip.iabuf, &packet -> raw -> ciaddr,
-			sizeof packet -> raw -> ciaddr);
-		if (!find_lease_by_ip_addr (&lease, cip, MDL))
-			goto nolease;
+			cip.len = sizeof packet -> raw -> ciaddr;
+			memcpy (cip.iabuf, &packet -> raw -> ciaddr,
+				sizeof packet -> raw -> ciaddr);
+			if (!find_lease_by_ip_addr (&lease, cip, MDL))
+				goto nolease;
 		}
+		if (!lease)
+			goto nolease;
+
 		/* If there are no agent options on the lease, it's not
 		   interesting. */
 		if (!lease -> agent_options)
@@ -272,9 +264,6 @@ dhcp (struct packet *packet) {
 
 	/* Classify the client. */
 	classify_client (packet);
-	
-	/* [pset] check whether option 55 contains port set option */
-	//findPsetInOption55(packet);
 	
 	switch (packet -> packet_type) {
 	      case DHCPDISCOVER:

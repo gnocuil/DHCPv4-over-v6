@@ -1,5 +1,25 @@
 # The format of this file is documented in the dhcpd.leases(5) manual page.
 # This lease file was written by isc-dhcp-4.2.3-P2
 
-server-duid "\000\001\000\001\030\010\370\365\010\000'\366\002\307";
+server-duid "\000\001\000\001\030\011 \213\010\000'\366\002\307";
 
+lease 192.168.1.10 {
+  starts 4 2012/10/11 06:15:45;
+  ends 4 2012/10/11 06:16:57;
+  cltt 4 2012/10/11 06:15:45;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+  port-set 0x0800 0xf800;
+}
+lease 192.168.1.10 {
+  starts 4 2012/10/11 06:16:27;
+  ends 4 2012/10/11 06:17:39;
+  cltt 4 2012/10/11 06:16:27;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 08:00:27:f3:0f:45;
+  port-set 0x0800 0xf800;
+}
