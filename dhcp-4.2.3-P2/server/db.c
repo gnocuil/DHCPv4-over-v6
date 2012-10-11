@@ -189,7 +189,7 @@ int write_lease (lease)
 	if (lease->flags & BOOTP_LEASE)
 		if (fprintf(db_file, "\n  dynamic-bootp;") < 0)
                         ++errors;
-
+                        
 	/* If this lease is billed to a class and is still valid,
 	   write it out. */
 	if (lease -> billing_class && lease -> ends > cur_time) {
@@ -263,6 +263,12 @@ int write_lease (lease)
 		} else
 			++errors;
 	}
+	
+	if (lease->ip_pset.pset_mask != 0)//[pset]
+		if (fprintf(db_file, "\n  port-set 0x%04x 0x%04x;", 
+		    lease->ip_pset.pset_index, lease->ip_pset.pset_mask) < 0)
+			    ++errors;
+	
 	if (lease -> on_expiry) {
 		errno = 0;
 		fprintf (db_file, "\n  on expiry%s {",

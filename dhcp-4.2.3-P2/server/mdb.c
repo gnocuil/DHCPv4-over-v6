@@ -1747,6 +1747,7 @@ int lease_copy (struct lease **lp,
 		return 0;
 
 	lt -> ip_addr = lease -> ip_addr;
+	lt -> ip_pset = lease -> ip_pset;//[pset]
 	lt -> starts = lease -> starts;
 	lt -> ends = lease -> ends;
 	lt -> uid_len = lease -> uid_len;

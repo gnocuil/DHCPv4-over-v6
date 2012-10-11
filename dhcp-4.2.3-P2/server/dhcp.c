@@ -751,13 +751,29 @@ void dhcprelease (packet, ms_nulltp)
 	int ms_nulltp;
 {
 	struct lease *lease = (struct lease *)0, *next = (struct lease *)0;
-	//struct iaddr cip;
-	struct iaddr_pset cipset;//pset for client
+	struct iaddr cip;
+	struct iaddr_pset cip_pset;
 	struct option_cache *oc;
 	struct data_string data;
 	const char *s;
 	char msgbuf [1024], cstr[16]; /* XXX */
 
+	if ((oc = lookup_option (&dhcp_universe, packet -> options,
+				    DHO_PORT_SET))) {//[pset]
+		struct data_string d2;
+		memset(&d2, 0, sizeof d2);
+		evaluate_option_cache (&d2, packet, (struct lease *)0,
+			   (struct client_state *)0,
+			   packet -> options,
+			   (struct option_state *)0,
+			   &global_scope, oc, MDL);
+		memcpy(&cip_pset.pset_index, d2.data, 2);
+		memcpy(&cip_pset.pset_mask, (void*)d2.data + 2, 2);
+		cip_pset.pset_index = ntohs(cip_pset.pset_index);
+		cip_pset.pset_mask = ntohs(cip_pset.pset_mask);
+	} else {
+		cip_pset.pset_mask = 0;
+	}
 
 	/* DHCPRELEASE must not specify address in requested-address
 	   option, but old protocol specs weren't explicit about this,
@@ -783,38 +799,23 @@ void dhcprelease (packet, ms_nulltp)
 
 		/* See if we can find a lease that matches the IP address
 		   the client is claiming. */
-		cipset.ip_addr.len = 4;
-		memcpy(cipset.ip_addr.iabuf, &packet -> raw -> ciaddr, 4);
-		
-		oc = lookup_option (&dhcp_universe, packet -> options,
-			    DHO_PORT_SET);
-		memset (&data, 0, sizeof data);
-		if (oc &&
-			evaluate_option_cache (&data, packet, (struct lease *)0,
-				   (struct client_state *)0,
-				   packet -> options, (struct option_state *)0,
-				   &global_scope, oc, MDL)) {
-			memcpy(&cipset.pset_index, data.data, 2);
-			cipset.pset_index = ntohs(cipset.pset_index);
-			memcpy(&cipset.pset_mask, data.data + 2, 2);
-			cipset.pset_mask = ntohs(cipset.pset_mask);
-			data_string_forget (&data, MDL);
-		}else{
-			log_info ("there is no information about pset in the packet!!\n");
-			return;
-		}
-
 		while (lease) {
 			if (lease -> n_uid)
 				lease_reference (&next, lease -> n_uid, MDL);
-			/*if (!memcmp (&packet -> raw -> ciaddr,
+			if (!memcmp (&packet -> raw -> ciaddr,
 				     lease -> ip_addr.iabuf, 4)) {
 				break;
-			}*/
-			if(!memcmp (&cipset, &lease -> ip_pset,
-						sizeof(struct iaddr_pset))){ //cmp pset
-				break;
 			}
+			if (cip_pset.pset_mask != 0 &&
+			   (cip_pset.pset_mask != lease->ip_pset.pset_mask
+			    || cip_pset.pset_index != lease->ip_pset.pset_index)) {//[pset]
+			    break;
+			}
+			if (cip_pset.pset_mask == 0 &&
+			    lease->ip_pset.pset_mask != 0) {//[pset]
+			    break;
+			}
+			
 			lease_dereference (&lease, MDL);
 			if (next) {
 				lease_reference (&lease, next, MDL);
@@ -829,10 +830,15 @@ void dhcprelease (packet, ms_nulltp)
 	   but the spec on this has changed historically, so try the
 	   IP address in ciaddr if the client-identifier fails. */
 	if (!lease) {
-		//cip.len = 4;
-		//memcpy (cip.iabuf, &packet -> raw -> ciaddr, 4);
-		//find_lease_by_ip_addr (&lease, cip, MDL);
-		find_lease_by_ip_pset(&lease, cipset, MDL);
+		if (cip_pset.pset_mask == 0) {
+			cip.len = 4;
+			memcpy (cip.iabuf, &packet -> raw -> ciaddr, 4);
+			find_lease_by_ip_addr (&lease, cip, MDL);
+		} else {
+			cip_pset.ip_addr.len = 4;
+			memcpy (cip_pset.ip_addr.iabuf, &packet -> raw -> ciaddr, 4);
+			find_lease_by_ip_pset (&lease, cip_pset, MDL);
+		}
 	}
 
 
@@ -2022,6 +2028,7 @@ void ack_lease (packet, lease, offer, when, msg, ms_nulltp, hp)
 	/* Use the ip address of the lease that we finally found in
 	   the database. */
 	lt -> ip_addr = lease -> ip_addr;
+	lt -> ip_pset = lease -> ip_pset;//[pset]
 
 	/* Start now. */
 	lt -> starts = cur_time;
@@ -3595,6 +3602,14 @@ int find_lease (struct lease **lp,
 		}
 #endif
 
+		if (findPsetInOption55(packet)) {//[pset]
+			if (uid_lease->ip_pset.pset_mask == 0)
+				goto n_uid;
+		} else {
+			if (uid_lease->ip_pset.pset_mask != 0)
+				goto n_uid;
+		}
+		
 		if (uid_lease -> subnet -> shared_network != share) {
 #if defined (DEBUG_FIND_LEASE)
 			log_info ("wrong network segment: %s",
@@ -3669,7 +3684,7 @@ printf("find_lease: uid_lease=%x\n", (int)uid_lease);
 		}
 #endif
 		
-		if (findPsetInOption55(packet)) {
+		if (findPsetInOption55(packet)) {//[pset]
 			if (hw_lease->ip_pset.pset_mask == 0)
 				goto n_hw;
 		} else {
