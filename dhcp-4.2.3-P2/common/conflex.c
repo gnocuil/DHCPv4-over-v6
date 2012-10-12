@@ -1245,6 +1245,8 @@ intern(char *atom, enum dhcp_token dfv) {
 			return PICK;
 		if (!strcasecmp (atom + 1, "aused"))
 			return PAUSED;
+		if (!strcasecmp (atom + 1, "ort-set"))// add [pset]
+			return PORTSET;
 		break;
 	      case 'r':
 		if (!strcasecmp(atom + 1, "ange"))

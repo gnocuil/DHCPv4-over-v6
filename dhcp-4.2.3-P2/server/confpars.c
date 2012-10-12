@@ -2983,7 +2983,34 @@ int parse_lease_declaration (struct lease **lp, struct parse *cfile)
 			break;
 
 			/* Colon-separated hexadecimal octets... */
-		      case UID:
+			case PORTSET:
+			seenbit = 32;
+			token = next_token(&val, &len, cfile);
+			/*if(token == NUMBER && len != 0){
+				lease -> ip_pset.pset_index = (u_int16_t) len;
+				printf("index 0x%04x  ",lease -> ip_pset.pset_index);
+				token = next_token(&val, &len, cfile);
+				if(token == NUMBER && len != 0){
+					lease -> ip_pset.pset_mask = (u_int16_t) len;
+					printf("mask 0x%04x \n", lease -> ip_pset.pset_mask);
+				}else 
+					log_fatal("pset_mask information error !!!!\n");
+			}else log_fatal("pset_index information error!!!\n");
+			*/
+			if(token == NUMBER_OR_NAME && len >= 0){
+				lease -> ip_pset.pset_index = (u_int16_t) strtoul( val, 0, 16);
+				//printf("index 0x%04x  ",lease -> ip_pset.pset_index);
+				token = next_token(&val, &len, cfile);
+				if(token == NUMBER_OR_NAME && len >= 0){
+					lease -> ip_pset.pset_mask = (u_int16_t) strtoul( val, 0, 16);
+					//printf("mask 0x%04x \n", lease -> ip_pset.pset_mask);
+				}else 
+					log_fatal("pset_mask information error !!!!\n");
+			}else log_fatal("pset_index format error !!!\n");
+			parse_semi (cfile);
+			break;
+			
+			  case UID:
 			seenbit = 8;
 			token = peek_token (&val, (unsigned *)0, cfile);
 			if (token == STRING) {
