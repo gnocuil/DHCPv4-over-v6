@@ -734,9 +734,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	struct subnet *subnet;
 	struct pool *pool;
 	struct lease **lpchain;
-{printf("new_address_range: subnet=%x, subnet->shared_network=%x\n", (int)subnet, (int)subnet->shared_network);
-	printf("subnet->shared_network->pools=%x pool=%x\n", (int)subnet->shared_network->pools, (int)pool);
-
+{
 #if defined(COMPACT_LEASES)
 	struct lease *address_range;
 	struct lease *address_port_range;//[pset]	
@@ -780,7 +778,6 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	}
 	
 	/* Check if the subnet has a port set option, [pset] added by Liu Cong */
-	printf("**************check pset option!******************\n");
 	u_int16_t pset_mask;
 	struct executable_statement *ep;
 	pool->port_set = 0;
@@ -788,19 +785,9 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	for (ep = subnet -> group -> statements; ep; ep = ep -> next) {
 		if (ep -> op == supersede_option_statement) {
 			if (ep -> data.option -> option -> code == DHO_PORT_SET) {
-				printf("\tpset found!!!\n");
-				printf("\top=%d\n", ep -> data.option -> expression -> op);
-				
 				struct expression *exp = ep -> data.option -> expression -> data.concat[1];
-				printf("\texp->op=%d\n", exp->op);
-				printf("\texp->data.const_data.len=%d\n", exp->data.const_data.len);
-				printf("\texp->data.const_data.buffer=%x\n", *(u_int16_t*)(exp->data.const_data.buffer->data));
-				
-				//pset_mask = ntohs(*(u_int16_t*)(ep -> data.option -> expression -> data.const_data.buffer -> data));
 				pset_mask = ntohs(*(u_int16_t*)(exp -> data.const_data.buffer -> data));
-				printf("\tmask=%04x\n", pset_mask);
 				ratio1 = 1 << mask_bits_pset(pset_mask);
-				printf("\tratio1=%d\n", ratio1);
 				pool->port_set = 1;
 				break;
 			}
@@ -974,9 +961,7 @@ void new_address_range (cfile, low, high, subnet, pool, lpchain)
 	    }
 	}
 	
-	print_shared_network(subnet->shared_network);
-
-	printf("subnet->shared_network->pools=%x pool=%x\n", (int)subnet->shared_network->pools, (int)pool);
+	//print_shared_network(subnet->shared_network);
 }
 
 int find_subnet (struct subnet **sp,
@@ -1150,8 +1135,10 @@ void enter_lease (lease)
 	struct lease *lease;
 {
 	struct lease *comp = (struct lease *)0;
-
-	if (find_lease_by_ip_addr (&comp, lease -> ip_addr, MDL)) {
+	
+	int portset = (lease->ip_pset.pset_mask != 0);//[pset]
+	if ((!portset && find_lease_by_ip_addr (&comp, lease -> ip_addr, MDL))
+	    ||(portset && find_lease_by_ip_pset (&comp, lease -> ip_pset, MDL))) {
 		if (!comp -> pool) {
 			log_error ("undeclared lease found in database: %s",
 				   piaddr (lease -> ip_addr));
@@ -1161,9 +1148,15 @@ void enter_lease (lease)
 		if (comp -> subnet)
 			subnet_reference (&lease -> subnet,
 					  comp -> subnet, MDL);
-		lease_ip_hash_delete(lease_ip_addr_hash,
-				     lease->ip_addr.iabuf, lease->ip_addr.len,
-				     MDL);
+		if (!portset)
+			lease_ip_hash_delete(lease_ip_addr_hash,
+					     lease->ip_addr.iabuf, lease->ip_addr.len,
+					     MDL);
+		else//[pset]
+			lease_ip_pset_hash_delete(lease_ip_pset_hash,
+					     &(lease->ip_pset), lease->ip_addr.len,
+					     MDL);
+
 		lease_dereference (&comp, MDL);
 	}
 
@@ -1180,8 +1173,12 @@ void enter_lease (lease)
 		log_error ("lease %s: no subnet.", piaddr (lease -> ip_addr));
 		return;
 	}
-	lease_ip_hash_add(lease_ip_addr_hash, lease->ip_addr.iabuf,
-			  lease->ip_addr.len, lease, MDL);
+	if (!portset)
+		lease_ip_hash_add(lease_ip_addr_hash, lease->ip_addr.iabuf,
+				  lease->ip_addr.len, lease, MDL);
+	else//[pset]
+		lease_ip_pset_hash_add(lease_ip_pset_hash, &(lease->ip_pset),
+				  lease->ip_addr.len, lease, MDL);
 }
 
 /* Replace the data in an existing lease with the data in a new lease;
@@ -1747,7 +1744,7 @@ int lease_copy (struct lease **lp,
 		return 0;
 
 	lt -> ip_addr = lease -> ip_addr;
-	lt -> ip_pset = lease -> ip_pset;//[pset]
+	lt -> ip_pset = lease -> ip_pset;//[pset]e
 	lt -> starts = lease -> starts;
 	lt -> ends = lease -> ends;
 	lt -> uid_len = lease -> uid_len;

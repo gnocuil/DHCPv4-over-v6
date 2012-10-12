@@ -2918,6 +2918,7 @@ int parse_lease_declaration (struct lease **lp, struct parse *cfile)
 	}
 	memcpy (lease -> ip_addr.iabuf, addr, len);
 	lease -> ip_addr.len = len;
+	lease -> ip_pset.pset_mask = 0;//[pset]
 
 	if (!parse_lbrace (cfile)) {
 		lease_dereference (&lease, MDL);
@@ -2983,7 +2984,7 @@ int parse_lease_declaration (struct lease **lp, struct parse *cfile)
 			break;
 
 			/* Colon-separated hexadecimal octets... */
-			case PORTSET:
+			case PORTSET://[pset]
 			seenbit = 32;
 			token = next_token(&val, &len, cfile);
 			if(token == NUMBER_OR_NAME && len >= 0){
@@ -2993,9 +2994,13 @@ int parse_lease_declaration (struct lease **lp, struct parse *cfile)
 				if(token == NUMBER_OR_NAME && len >= 0){
 					lease -> ip_pset.pset_mask = (u_int16_t) strtoul( val, 0, 16);
 					//printf("mask 0x%04x \n", lease -> ip_pset.pset_mask);
-				}else 
+					//memcpy (lease -> ip_pset.ip_addr.iabuf, lease -> ip_pset.ip_addr.iabuf, lease -> ip_addr.len);
+					//lease -> ip_pset.ip_addr.len = lease -> ip_addr.len;
+					lease -> ip_pset.ip_addr = lease -> ip_addr;
+					//printf("load lease : ip=%s ip=%s index=%04x mask=%04x\n", piaddr(lease->ip_addr), piaddr(lease->ip_pset.ip_addr),lease -> ip_pset.pset_index,lease -> ip_pset.pset_mask);
+				} else 
 					log_fatal("pset_mask information error !!!!\n");
-			}else log_fatal("pset_index format error !!!\n");
+			} else log_fatal("pset_index format error !!!\n");
 			parse_semi (cfile);
 			break;
 			

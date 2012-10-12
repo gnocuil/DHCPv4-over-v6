@@ -760,7 +760,7 @@ isc_result_t dhcp_lease_lookup (omapi_object_t **lp,
 
 	/* Now look for an IP address. */
 	status = omapi_get_value_str (ref, id, "ip-address", &tv);
-	if (status == ISC_R_SUCCESS) {
+	if (status == ISC_R_SUCCESS) {printf("************omapi.c, line 763************\n");
 		lease = (struct lease *)0;
 		lease_ip_hash_lookup(&lease, lease_ip_addr_hash,
 				     tv->value->u.buffer.value,
@@ -1482,7 +1482,7 @@ isc_result_t dhcp_host_lookup (omapi_object_t **lp,
 
 	/* Now look for an ip address. */
 	status = omapi_get_value_str (ref, id, "ip-address", &tv);
-	if (status == ISC_R_SUCCESS) {
+	if (status == ISC_R_SUCCESS) {printf("************omapi.c, line 1485************\n");
 		struct lease *l;
 
 		/* first find the lease for this ip address */
