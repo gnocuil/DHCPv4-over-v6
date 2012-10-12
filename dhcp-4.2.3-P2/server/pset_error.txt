@@ -1,6 +1,0 @@
-binding to user-specified port 67
-Internet Systems Consortium DHCP Server 4.2.3-P2
-Copyright 2004-2012 Internet Systems Consortium.
-All rights reserved.
-For info, please visit https://www.isc.org/software/dhcp/
-./open.sh: line 2: 13244 段错误               ./dhcpd -p 67 -cf dhcpd.conf -lf dhcpd.leases
