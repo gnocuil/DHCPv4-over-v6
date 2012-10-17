@@ -23,6 +23,7 @@ struct ecitem
 {  
    struct in_addr remote;
    struct in6_addr remote6,local6;
+   unsigned short pset_index, pset_mask; //pset
    struct timeval start_time;
    int seconds;//lease time limit
    long long in_pkts,inbound_bytes;
@@ -30,7 +31,7 @@ struct ecitem
    int tag;//if tag==1,then this is manual,if tag==2,then this is auto.
    struct ecitem *next; 
 };
-void set_mapping(struct in_addr remote,struct in6_addr remote6)
+void set_mapping(struct in_addr remote,struct in6_addr remote6, struct iaddr_pset ip_pset)
 {
     struct ecitem itm;
     struct ifreq req;
@@ -45,6 +46,8 @@ void set_mapping(struct in_addr remote,struct in6_addr remote6)
     memset(&itm,0,sizeof(struct ecitem));
     itm.remote=remote;
     itm.remote6=remote6;
+    itm.pset_index = ip_pset.pset_index;
+    itm.pset_mask = ip_pset.pset_mask;
     itm.tag=2;//manual type,so we should do adjustment for the specified manual mapping item.
     itm.seconds=5000;
     memset(&req,0,sizeof(struct ifreq));

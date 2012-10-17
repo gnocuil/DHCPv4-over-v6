@@ -3350,7 +3350,7 @@ void dhcp_reply (lease)
             {
                 inet_ntop(AF_INET6,&to4v6.sin6_addr,abuf, sizeof(abuf));
                 log_info("Bind %s to %s", inet_ntoa(raw.yiaddr),abuf);
-                set_mapping(raw.yiaddr,to4v6.sin6_addr);
+                set_mapping(raw.yiaddr,to4v6.sin6_addr,lease->ip_pset);
             }
             result = send_packet6(state->ip,
                         (unsigned char *)&raw, packet_length, &to4v6);
