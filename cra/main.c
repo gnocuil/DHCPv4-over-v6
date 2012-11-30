@@ -3,7 +3,7 @@
 int main(int argc, char **argv)
 {
 	//Initialize some variables
-        strcpy(TUNNEL_IFNAME,"lw4over6");
+        strcpy(TUNNEL_IFNAME,"eth0");
         strcpy(PHYSIC_IFNAME,"eth0");
         buffLen = BUFFLEN;
         status = INITIATE;
@@ -11,8 +11,8 @@ int main(int argc, char **argv)
         device.sll_family = AF_PACKET;
         device.sll_halen = htons (6);
 
-        strcpy(local6addr,"2001:da8:bf:19::7");
-        strcpy(remote6addr,"2001:da8:bf:19::3");
+        strcpy(local6addr,"2001::2");
+        strcpy(remote6addr,"2001::1");
         
 	memset(macaddr_remote, 0xFF, 6);
 	
